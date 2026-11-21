@@ -1,0 +1,1221 @@
+Avg_Cards_Per_Match;id_joueur;Player;nom_equipe;id_equipe;id_ligue;nom_ligue;pays;Nation;Pos;Age;MP;Performance_Gls;Performance_1_Ast;Performance_6_CrdY;Performance_7_CrdR;Playing_Time_Starts;Expected_xG;Total_G_A;Avg_Performance_GA
+0.027027028;1;Aaron Ramsdale;Arsenal;2;2;Premier League;Angleterre;eng ENG;GK;23.0;37.0;0.0;0.0;1.0;0.0;37.0;0.0;0.0;0.0
+0.08108108;2;Ben White;Arsenal;2;2;Premier League;Angleterre;eng ENG;DF;23.0;37.0;0.0;0.0;3.0;0.0;37.0;1.0;0.0;0.0
+0.2631579;3;Gabriel Dos Santos;Arsenal;2;2;Premier League;Angleterre;br BRA;DF;23.0;38.0;5.0;0.0;9.0;1.0;37.0;3.2;5.0;0.13157895
+0.0;4;Kieran Tierney;Arsenal;2;2;Premier League;Angleterre;sct SCO;DF;24.0;25.0;1.0;3.0;0.0;0.0;24.0;0.6;4.0;0.16
+0.34615386;5;Thomas Partey;Arsenal;2;2;Premier League;Angleterre;gh GHA;MF;28.0;26.0;2.0;1.0;8.0;1.0;24.0;2.8;3.0;0.115384616
+0.027777778;6;Alexandre Lacazette;Arsenal;2;2;Premier League;Angleterre;fr FRA;FW;30.0;36.0;6.0;8.0;1.0;0.0;23.0;8.4;14.0;0.3888889
+0.15384616;7;Cédric Soares;Arsenal;2;2;Premier League;Angleterre;pt POR;DF;29.0;26.0;1.0;3.0;4.0;0.0;21.0;0.6;4.0;0.15384616
+0.13636364;8;Takehiro Tomiyasu;Arsenal;2;2;Premier League;Angleterre;jp JPN;DF;22.0;22.0;0.0;1.0;3.0;0.0;21.0;0.6;1.0;0.045454547
+0.20833333;9;Albert Sambi Lokonga;Arsenal;2;2;Premier League;Angleterre;be BEL;MF;21.0;24.0;0.0;0.0;5.0;0.0;16.0;0.6;0.0;0.0
+0.071428575;10;Nuno Tavares;Arsenal;2;2;Premier League;Angleterre;pt POR;DF;21.0;28.0;1.0;2.0;2.0;0.0;17.0;1.9;3.0;0.10714286
+0.2857143;11;Rob Holding;Arsenal;2;2;Premier League;Angleterre;eng ENG;DF;25.0;21.0;1.0;0.0;5.0;1.0;14.0;0.4;1.0;0.04761905
+0.11111111;12;Eddie Nketiah;Arsenal;2;2;Premier League;Angleterre;eng ENG;FW;22.0;27.0;10.0;1.0;3.0;0.0;13.0;4.4;11.0;0.4074074
+0.2;13;Pierre-Emerick Aubameyang;Arsenal;2;2;Premier League;Angleterre;ga GAB;FW;32.0;15.0;7.0;2.0;3.0;0.0;13.0;5.9;9.0;0.6
+0.05882353;14;Mohamed Elneny;Arsenal;2;2;Premier League;Angleterre;eg EGY;MF;29.0;17.0;0.0;2.0;1.0;0.0;11.0;0.2;2.0;0.11764706
+0.0;15;Bernd Leno;Arsenal;2;2;Premier League;Angleterre;de GER;GK;29.0;8.0;0.0;0.0;0.0;0.0;8.0;0.0;0.0;0.0
+0.0;16;Ainsley Maitland-Niles;Arsenal;2;2;Premier League;Angleterre;eng ENG;MF;23.0;11.0;0.0;1.0;0.0;0.0;4.0;0.1;1.0;0.09090909
+0.0;17;Calum Chambers;Arsenal;2;2;Premier League;Angleterre;eng ENG;DF;26.0;5.0;1.0;0.0;0.0;0.0;3.0;0.1;1.0;0.2
+0.4;18;Sead Kola¨inac;Arsenal;2;2;Premier League;Angleterre;ba BIH;DF;28.0;5.0;0.0;0.0;2.0;0.0;3.0;0.0;0.0;0.0
+0.33333334;19;Pablo Marí;Arsenal;2;2;Premier League;Angleterre;es ESP;DF;27.0;3.0;0.0;0.0;1.0;0.0;3.0;0.1;0.0;0.0
+0.25;20;Folarin Balogun;Arsenal;2;2;Premier League;Angleterre;us USA;FW;20.0;4.0;0.0;0.0;1.0;0.0;2.0;0.2;0.0;0.0
+0.0;21;Charlie Patino;Arsenal;2;2;Premier League;Angleterre;eng ENG;MF;17.0;2.0;1.0;0.0;0.0;0.0;1.0;;1.0;0.5
+0.0;22;Reiss Nelson;Arsenal;2;2;Premier League;Angleterre;eng ENG;FW;21.0;1.0;0.0;0.0;0.0;0.0;0.0;0.1;0.0;0.0
+0.2;23;Matty Cash;Aston Villa;3;2;Premier League;Angleterre;pl POL;DF;23.0;40.0;4.0;4.0;8.0;0.0;40.0;2.7;8.0;0.2
+0.10810811;24;Emiliano Martínez;Aston Villa;3;2;Premier League;Angleterre;ar ARG;GK;28.0;37.0;0.0;0.0;4.0;0.0;37.0;0.0;0.0;0.0
+0.2972973;25;Tyrone Mings;Aston Villa;3;2;Premier League;Angleterre;eng ENG;DF;28.0;37.0;1.0;3.0;11.0;0.0;36.0;1.6;4.0;0.10810811
+0.22222222;26;John McGinn;Aston Villa;3;2;Premier League;Angleterre;sct SCO;MF;26.0;36.0;3.0;4.0;8.0;0.0;36.0;1.5;7.0;0.19444445
+0.19444445;27;Ollie Watkins;Aston Villa;3;2;Premier League;Angleterre;eng ENG;FW;25.0;36.0;11.0;2.0;7.0;0.0;34.0;11.6;13.0;0.3611111
+0.2;28;Douglas Luiz;Aston Villa;3;2;Premier League;Angleterre;br BRA;MF;23.0;35.0;2.0;3.0;7.0;0.0;32.0;2.0;5.0;0.14285715
+0.2580645;29;Ezri Konsa;Aston Villa;3;2;Premier League;Angleterre;eng ENG;DF;23.0;31.0;2.0;0.0;6.0;2.0;30.0;1.6;2.0;0.06451613
+0.2;30;Jacob Ramsey;Aston Villa;3;2;Premier League;Angleterre;eng ENG;MF;20.0;35.0;6.0;1.0;7.0;0.0;30.0;4.0;7.0;0.2
+0.12903225;31;Danny Ings;Aston Villa;3;2;Premier League;Angleterre;eng ENG;FW;29.0;31.0;7.0;6.0;4.0;0.0;23.0;7.1;13.0;0.41935483
+0.10526316;32;Matt Targett;Aston Villa;3;2;Premier League;Angleterre;eng ENG;DF;25.0;19.0;1.0;1.0;2.0;0.0;19.0;0.5;2.0;0.10526316
+0.125;33;Lucas Digne;Aston Villa;3;2;Premier League;Angleterre;fr FRA;DF;28.0;16.0;0.0;4.0;2.0;0.0;16.0;0.5;4.0;0.25
+0.33333334;34;Marvelous Nakamba;Aston Villa;3;2;Premier League;Angleterre;zw ZIM;MF;27.0;18.0;0.0;0.0;6.0;0.0;12.0;0.0;0.0;0.0
+0.09090909;35;Calum Chambers;Aston Villa;3;2;Premier League;Angleterre;eng ENG;DF;26.0;11.0;1.0;0.0;1.0;0.0;9.0;0.2;1.0;0.09090909
+0.09090909;36;Axel Tuanzebe;Aston Villa;3;2;Premier League;Angleterre;eng ENG;DF;23.0;11.0;0.0;0.0;1.0;0.0;8.0;0.1;0.0;0.0
+0.0;37;Kortney Hause;Aston Villa;3;2;Premier League;Angleterre;eng ENG;DF;26.0;9.0;1.0;0.0;0.0;0.0;6.0;0.1;1.0;0.11111111
+0.0;38;Morgan Sanson;Aston Villa;3;2;Premier League;Angleterre;fr FRA;MF;26.0;11.0;0.0;0.0;0.0;0.0;4.0;0.0;0.0;0.0
+0.0;39;Jed Steer;Aston Villa;3;2;Premier League;Angleterre;eng ENG;GK;28.0;3.0;0.0;0.0;0.0;0.0;3.0;0.0;0.0;0.0
+0.0;40;Jaden Philogene Bidace;Aston Villa;3;2;Premier League;Angleterre;eng ENG;FW;19.0;4.0;0.0;1.0;0.0;0.0;1.0;0.0;1.0;0.25
+0.33333334;41;Tim Iroegbunam;Aston Villa;3;2;Premier League;Angleterre;eng ENG;MF;18.0;3.0;0.0;0.0;1.0;0.0;1.0;0.1;0.0;0.0
+0.0;42;Conor Hourihane;Aston Villa;3;2;Premier League;Angleterre;ie IRL;MF;30.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;43;Robin Olsen;Aston Villa;3;2;Premier League;Angleterre;se SWE;GK;31.0;1.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.0;44;Aaron Ramsey;Aston Villa;3;2;Premier League;Angleterre;eng ENG;MF;18.0;1.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.0;45;Caleb Chukwuemeka;Aston Villa;3;2;Premier League;Angleterre;eng ENG;FW;19.0;1.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.0;46;Keinan Davis;Aston Villa;3;2;Premier League;Angleterre;eng ENG;FW;23.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;47;Trézéguet;Aston Villa;3;2;Premier League;Angleterre;eg EGY;FW;26.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;48;Hayden Lindley;Aston Villa;3;2;Premier League;Angleterre;eng ENG;MF;18.0;1.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.0;49;Wesley Moraes;Aston Villa;3;2;Premier League;Angleterre;br BRA;FW;24.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.17948718;50;Pontus Jansson;Brentford;7;2;Premier League;Angleterre;se SWE;DF;30.0;39.0;3.0;1.0;7.0;0.0;39.0;3.0;4.0;0.102564104
+0.21052632;51;Christian Nørgaard;Brentford;7;2;Premier League;Angleterre;dk DEN;MF;27.0;38.0;3.0;4.0;8.0;0.0;36.0;3.8;7.0;0.18421052
+0.21621622;52;Ivan Toney;Brentford;7;2;Premier League;Angleterre;eng ENG;FW;25.0;37.0;14.0;6.0;8.0;0.0;34.0;11.4;20.0;0.5405405
+0.10526316;53;Bryan Mbeumo;Brentford;7;2;Premier League;Angleterre;cm CMR;FW;21.0;38.0;8.0;7.0;4.0;0.0;35.0;9.3;15.0;0.39473686
+0.028571429;54;Ethan Pinnock;Brentford;7;2;Premier League;Angleterre;jm JAM;DF;28.0;35.0;1.0;1.0;1.0;0.0;35.0;1.2;2.0;0.057142857
+0.054054055;55;Rico Henry;Brentford;7;2;Premier League;Angleterre;eng ENG;DF;24.0;37.0;3.0;0.0;2.0;0.0;35.0;1.5;3.0;0.08108108
+0.114285715;56;Vitaly Janelt;Brentford;7;2;Premier League;Angleterre;de GER;MF;23.0;35.0;4.0;1.0;4.0;0.0;31.0;2.4;5.0;0.14285715
+0.17857143;57;Kristoffer Ajer;Brentford;7;2;Premier League;Angleterre;no NOR;DF;23.0;28.0;1.0;3.0;5.0;0.0;26.0;0.8;4.0;0.14285715
+0.04;58;David Raya;Brentford;7;2;Premier League;Angleterre;es ESP;GK;25.0;25.0;0.0;0.0;1.0;0.0;25.0;0.0;0.0;0.0
+0.0;59;Mathias Jensen;Brentford;7;2;Premier League;Angleterre;dk DEN;MF;25.0;35.0;0.0;2.0;0.0;0.0;23.0;2.9;2.0;0.057142857
+0.0;60;Yoane Wissa;Brentford;7;2;Premier League;Angleterre;cd COD;FW;24.0;34.0;10.0;1.0;0.0;0.0;16.0;3.1;11.0;0.32352942
+0.07692308;61;Mads Roerslev;Brentford;7;2;Premier League;Angleterre;dk DEN;DF;22.0;26.0;1.0;2.0;2.0;0.0;16.0;0.4;3.0;0.115384616
+0.0;62;Álvaro Fernández;Brentford;7;2;Premier League;Angleterre;es ESP;GK;23.0;16.0;0.0;0.0;0.0;0.0;16.0;0.0;0.0;0.0
+0.16666667;63;Frank Onyeka;Brentford;7;2;Premier League;Angleterre;ng NGA;MF;23.0;24.0;0.0;0.0;4.0;0.0;13.0;0.8;0.0;0.0
+0.2;64;Mads Bech Sørensen;Brentford;7;2;Premier League;Angleterre;dk DEN;DF;22.0;15.0;0.0;0.0;3.0;0.0;13.0;0.1;0.0;0.0
+0.12;65;Shandon Baptiste;Brentford;7;2;Premier League;Angleterre;gd GRN;MF;23.0;25.0;1.0;0.0;2.0;1.0;10.0;0.7;1.0;0.04
+0.09090909;66;Christian Eriksen;Brentford;7;2;Premier League;Angleterre;dk DEN;MF;29.0;11.0;1.0;4.0;1.0;0.0;10.0;1.3;5.0;0.45454547
+0.2;67;Mathias Jørgensen;Brentford;7;2;Premier League;Angleterre;dk DEN;DF;31.0;10.0;1.0;0.0;2.0;0.0;8.0;0.1;1.0;0.1
+0.375;68;Charlie Goode;Brentford;7;2;Premier League;Angleterre;eng ENG;DF;25.0;8.0;0.0;0.0;3.0;0.0;6.0;0.1;0.0;0.0
+0.0;69;Dominic Thompson;Brentford;7;2;Premier League;Angleterre;eng ENG;DF;21.0;5.0;0.0;1.0;0.0;0.0;5.0;0.1;1.0;0.2
+0.0;70;Jonas Lössl;Brentford;7;2;Premier League;Angleterre;dk DEN;GK;32.0;3.0;0.0;0.0;0.0;0.0;3.0;0.0;0.0;0.0
+0.0;71;Mads Bidstrup;Brentford;7;2;Premier League;Angleterre;dk DEN;MF;20.0;8.0;0.0;2.0;0.0;0.0;3.0;0.0;2.0;0.25
+0.0;72;Finley Stevens;Brentford;7;2;Premier League;Angleterre;wls WAL;DF;18.0;4.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.0;73;Tariqe Fosu;Brentford;7;2;Premier League;Angleterre;gh GHA;DF;25.0;3.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.0;74;Halil Dervi?o?lu;Brentford;7;2;Premier League;Angleterre;tr TUR;FW;21.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;75;Myles Peart-Harris;Brentford;7;2;Premier League;Angleterre;eng ENG;MF;18.0;2.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.0;76;Nathan Young-Coombes;Brentford;7;2;Premier League;Angleterre;eng ENG;MF;18.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.10526316;77;Robert Sánchez;Brighton & Hove Albion;8;2;Premier League;Angleterre;es ESP;GK;23.0;38.0;0.0;0.0;3.0;1.0;38.0;0.0;0.0;0.0
+0.15789473;78;Marc Cucurella;Brighton & Hove Albion;8;2;Premier League;Angleterre;es ESP;DF;23.0;38.0;1.0;2.0;6.0;0.0;36.0;0.7;3.0;0.078947365
+0.1891892;79;Joël Veltman;Brighton & Hove Albion;8;2;Premier League;Angleterre;nl NED;DF;29.0;37.0;1.0;1.0;7.0;0.0;35.0;0.7;2.0;0.054054055
+0.12903225;80;Lewis Dunk;Brighton & Hove Albion;8;2;Premier League;Angleterre;eng ENG;DF;29.0;31.0;1.0;0.0;3.0;1.0;30.0;1.3;1.0;0.032258064
+0.2;81;Neal Maupay;Brighton & Hove Albion;8;2;Premier League;Angleterre;fr FRA;FW;24.0;35.0;9.0;2.0;7.0;0.0;27.0;8.7;11.0;0.31428573
+0.35714287;82;Yves Bissouma;Brighton & Hove Albion;8;2;Premier League;Angleterre;ml MLI;MF;24.0;28.0;2.0;2.0;10.0;0.0;26.0;0.9;4.0;0.14285715
+0.03125;83;Jakub Moder;Brighton & Hove Albion;8;2;Premier League;Angleterre;pl POL;MF;22.0;32.0;2.0;3.0;1.0;0.0;22.0;2.6;5.0;0.15625
+0.35;84;Shane Duffy;Brighton & Hove Albion;8;2;Premier League;Angleterre;ie IRL;DF;29.0;20.0;1.0;0.0;7.0;0.0;17.0;1.0;1.0;0.05
+0.16;85;Adam Lallana;Brighton & Hove Albion;8;2;Premier League;Angleterre;eng ENG;MF;33.0;25.0;0.0;1.0;4.0;0.0;19.0;1.1;1.0;0.04
+0.20833333;86;Adam Webster;Brighton & Hove Albion;8;2;Premier League;Angleterre;eng ENG;DF;26.0;24.0;3.0;0.0;5.0;0.0;18.0;0.9;3.0;0.125
+0.25;87;Dan Burn;Brighton & Hove Albion;8;2;Premier League;Angleterre;eng ENG;DF;29.0;16.0;1.0;0.0;4.0;0.0;15.0;1.6;1.0;0.0625
+0.0952381;88;Enock Mwepu;Brighton & Hove Albion;8;2;Premier League;Angleterre;zm ZAM;MF;23.0;21.0;3.0;5.0;2.0;0.0;14.0;2.1;8.0;0.3809524
+0.2;89;Moisés Caicedo;Brighton & Hove Albion;8;2;Premier League;Angleterre;ec ECU;MF;19.0;10.0;1.0;2.0;2.0;0.0;9.0;0.8;3.0;0.3
+0.0;90;Steven Alzate;Brighton & Hove Albion;8;2;Premier League;Angleterre;co COL;MF;22.0;12.0;0.0;0.0;0.0;0.0;8.0;0.1;0.0;0.0
+0.0;91;Jason Steele;Brighton & Hove Albion;8;2;Premier League;Angleterre;eng ENG;GK;30.0;4.0;0.0;0.0;0.0;0.0;4.0;0.0;0.0;0.0
+0.0;92;Haydon Roberts;Brighton & Hove Albion;8;2;Premier League;Angleterre;eng ENG;DF;19.0;3.0;0.0;0.0;0.0;0.0;3.0;;0.0;0.0
+0.0;93;Taylor Richards;Brighton & Hove Albion;8;2;Premier League;Angleterre;eng ENG;MF;20.0;4.0;0.0;0.0;0.0;0.0;2.0;0.0;0.0;0.0
+0.0;94;Marc Leonard;Brighton & Hove Albion;8;2;Premier League;Angleterre;sct SCO;MF;19.0;2.0;0.0;0.0;0.0;0.0;2.0;;0.0;0.0
+0.0;95;Kjell Scherpen;Brighton & Hove Albion;8;2;Premier League;Angleterre;nl NED;GK;21.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;96;Andi Zeqiri;Brighton & Hove Albion;8;2;Premier League;Angleterre;ch SUI;FW;22.0;1.0;1.0;0.0;0.0;0.0;1.0;;1.0;1.0
+0.0;97;Evan Ferguson;Brighton & Hove Albion;8;2;Premier League;Angleterre;ie IRL;MF;16.0;4.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;98;Ed Turns;Brighton & Hove Albion;8;2;Premier League;Angleterre;wls WAL;DF;18.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;99;Micha? Karbownik;Brighton & Hove Albion;8;2;Premier League;Angleterre;pl POL;DF;20.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;100;Antef Tsoungui;Brighton & Hove Albion;8;2;Premier League;Angleterre;be BEL;DF;18.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;101;Odeluga Offiah;Brighton & Hove Albion;8;2;Premier League;Angleterre;eng ENG;DF;18.0;2.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;102;Andrew Moran;Brighton & Hove Albion;8;2;Premier League;Angleterre;ie IRL;MF;17.0;1.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.025641026;103;Nick Pope;Burnley;9;2;Premier League;Angleterre;eng ENG;GK;29.0;39.0;0.0;0.0;1.0;0.0;39.0;0.0;0.0;0.0
+0.3243243;104;James Tarkowski;Burnley;9;2;Premier League;Angleterre;eng ENG;DF;28.0;37.0;1.0;2.0;12.0;0.0;37.0;2.5;3.0;0.08108108
+0.05;105;Dwight McNeil;Burnley;9;2;Premier League;Angleterre;eng ENG;MF;21.0;40.0;0.0;1.0;2.0;0.0;37.0;2.3;1.0;0.025
+0.2631579;106;Josh Brownhill;Burnley;9;2;Premier League;Angleterre;eng ENG;MF;25.0;38.0;2.0;3.0;10.0;0.0;35.0;1.4;5.0;0.13157895
+0.09375;107;Charlie Taylor;Burnley;9;2;Premier League;Angleterre;eng ENG;DF;27.0;32.0;0.0;3.0;3.0;0.0;30.0;0.2;3.0;0.09375
+0.2413793;108;Ashley Westwood;Burnley;9;2;Premier League;Angleterre;eng ENG;MF;31.0;29.0;0.0;5.0;7.0;0.0;28.0;0.6;5.0;0.1724138
+0.125;109;Ben Mee;Burnley;9;2;Premier League;Angleterre;eng ENG;DF;31.0;24.0;3.0;0.0;3.0;0.0;24.0;2.3;3.0;0.125
+0.16666667;110;Jack Cork;Burnley;9;2;Premier League;Angleterre;eng ENG;MF;32.0;24.0;1.0;0.0;4.0;0.0;23.0;0.7;1.0;0.041666668
+0.18181819;111;Nathan Collins;Burnley;9;2;Premier League;Angleterre;ie IRL;DF;20.0;22.0;2.0;0.0;3.0;1.0;21.0;1.5;2.0;0.09090909
+0.14814815;112;Matthew Lowton;Burnley;9;2;Premier League;Angleterre;eng ENG;DF;32.0;27.0;1.0;2.0;3.0;1.0;21.0;0.7;3.0;0.11111111
+0.13636364;113;Connor Roberts;Burnley;9;2;Premier League;Angleterre;wls WAL;DF;25.0;22.0;1.0;1.0;3.0;0.0;20.0;0.4;2.0;0.09090909
+0.09090909;114;Jay Rodriguez;Burnley;9;2;Premier League;Angleterre;eng ENG;FW;32.0;33.0;7.0;2.0;3.0;0.0;17.0;4.8;9.0;0.27272728
+0.04761905;115;Chris Wood;Burnley;9;2;Premier League;Angleterre;nz NZL;FW;29.0;21.0;3.0;0.0;1.0;0.0;19.0;4.2;3.0;0.14285715
+0.15;116;Wout Weghorst;Burnley;9;2;Premier League;Angleterre;nl NED;FW;28.0;20.0;2.0;3.0;3.0;0.0;17.0;4.8;5.0;0.25
+0.10526316;117;Jóhann Berg Guðmundsson;Burnley;9;2;Premier League;Angleterre;is ISL;MF;30.0;19.0;0.0;1.0;2.0;0.0;14.0;1.6;1.0;0.05263158
+0.06666667;118;Erik Pieters;Burnley;9;2;Premier League;Angleterre;nl NED;DF;32.0;15.0;0.0;1.0;1.0;0.0;11.0;0.2;1.0;0.06666667
+0.16;119;Ashley Barnes;Burnley;9;2;Premier League;Angleterre;eng ENG;FW;31.0;25.0;1.0;0.0;4.0;0.0;8.0;2.1;1.0;0.04
+0.041666668;120;Mat?j Vydra;Burnley;9;2;Premier League;Angleterre;cz CZE;FW;29.0;24.0;2.0;4.0;1.0;0.0;7.0;2.9;6.0;0.25
+0.16666667;121;Kevin Long;Burnley;9;2;Premier League;Angleterre;ie IRL;DF;30.0;6.0;0.0;0.0;1.0;0.0;4.0;0.2;0.0;0.0
+0.0;122;Wayne Hennessey;Burnley;9;2;Premier League;Angleterre;wls WAL;GK;34.0;3.0;0.0;0.0;0.0;0.0;3.0;0.0;0.0;0.0
+0.0;123;Phil Bardsley;Burnley;9;2;Premier League;Angleterre;sct SCO;DF;36.0;3.0;0.0;0.0;0.0;0.0;3.0;;0.0;0.0
+0.25;124;Dale Stephens;Burnley;9;2;Premier League;Angleterre;eng ENG;MF;32.0;4.0;0.0;0.0;1.0;0.0;2.0;0.0;0.0;0.0
+0.23076923;125;Antonio Rüdiger;Chelsea;12;2;Premier League;Angleterre;de GER;DF;28.0;52.0;5.0;0.0;12.0;0.0;52.0;2.7;5.0;0.09615385
+0.0625;126;Edouard Mendy;Chelsea;12;2;Premier League;Angleterre;sn SEN;GK;29.0;48.0;0.0;0.0;3.0;0.0;48.0;0.0;0.0;0.0
+0.06521739;127;Thiago Silva;Chelsea;12;2;Premier League;Angleterre;br BRA;DF;36.0;46.0;3.0;1.0;3.0;0.0;39.0;1.3;4.0;0.08695652
+0.078431375;128;Mason Mount;Chelsea;12;2;Premier League;Angleterre;eng ENG;MF;22.0;51.0;13.0;16.0;4.0;0.0;40.0;9.4;29.0;0.5686275
+0.13043478;129;Jorginho;Chelsea;12;2;Premier League;Angleterre;it ITA;MF;29.0;46.0;9.0;3.0;6.0;0.0;39.0;7.7;12.0;0.26086956
+0.11111111;130;César Azpilicueta;Chelsea;12;2;Premier League;Angleterre;es ESP;DF;31.0;45.0;3.0;3.0;5.0;0.0;39.0;1.2;6.0;0.13333334
+0.11904762;131;Mateo Kova?i?;Chelsea;12;2;Premier League;Angleterre;hr CRO;MF;27.0;42.0;2.0;5.0;5.0;0.0;31.0;1.7;7.0;0.16666667
+0.023809524;132;Romelu Lukaku;Chelsea;12;2;Premier League;Angleterre;be BEL;FW;28.0;42.0;13.0;0.0;1.0;0.0;27.0;8.6;13.0;0.30952382
+0.075;133;N'Golo Kanté;Chelsea;12;2;Premier League;Angleterre;fr FRA;MF;30.0;40.0;2.0;5.0;3.0;0.0;30.0;1.6;7.0;0.175
+0.0625;134;Andreas Christensen;Chelsea;12;2;Premier League;Angleterre;dk DEN;DF;25.0;32.0;2.0;1.0;2.0;0.0;29.0;0.7;3.0;0.09375
+0.1;135;Trevoh Chalobah;Chelsea;12;2;Premier League;Angleterre;eng ENG;DF;22.0;30.0;4.0;1.0;3.0;0.0;24.0;1.5;5.0;0.16666667
+0.21052632;136;Malang Sarr;Chelsea;12;2;Premier League;Angleterre;fr FRA;DF;22.0;19.0;0.0;0.0;4.0;0.0;16.0;0.0;0.0;0.0
+0.071428575;137;Kepa Arrizabalaga;Chelsea;12;2;Premier League;Angleterre;es ESP;GK;26.0;14.0;0.0;0.0;1.0;0.0;12.0;0.0;0.0;0.0
+0.0;138;Ben Chilwell;Chelsea;12;2;Premier League;Angleterre;eng ENG;DF;24.0;13.0;3.0;1.0;0.0;0.0;9.0;1.3;4.0;0.30769232
+0.0;139;Ross Barkley;Chelsea;12;2;Premier League;Angleterre;eng ENG;MF;27.0;14.0;1.0;0.0;0.0;0.0;4.0;1.1;1.0;0.071428575
+0.2;140;Harvey Vale;Chelsea;12;2;Premier League;Angleterre;eng ENG;MF;17.0;5.0;0.0;0.0;1.0;0.0;1.0;;0.0;0.0
+0.0;141;Lewis Hall;Chelsea;12;2;Premier League;Angleterre;eng ENG;MF;16.0;1.0;0.0;1.0;0.0;0.0;1.0;;1.0;1.0
+0.0;142;Marcus Bettinelli;Chelsea;12;2;Premier League;Angleterre;eng ENG;GK;29.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;143;Kurt Zouma;Chelsea;12;2;Premier League;Angleterre;fr FRA;DF;26.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;144;Xavier Simons;Chelsea;12;2;Premier League;Angleterre;eng ENG;MF;18.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;145;Jude Soonsup-Bell;Chelsea;12;2;Premier League;Angleterre;eng ENG;FW;17.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;146;Lewis Baker;Chelsea;12;2;Premier League;Angleterre;eng ENG;MF;26.0;1.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.0;147;Emerson Palmieri;Chelsea;12;2;Premier League;Angleterre;it ITA;DF;26.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0952381;148;Marc Guéhi;Crystal Palace;13;2;Premier League;Angleterre;eng ENG;DF;21.0;42.0;4.0;1.0;4.0;0.0;42.0;2.5;5.0;0.11904762
+0.024390243;149;Tyrick Mitchell;Crystal Palace;13;2;Premier League;Angleterre;eng ENG;DF;21.0;41.0;0.0;2.0;1.0;0.0;39.0;0.2;2.0;0.048780486
+0.102564104;150;Joachim Andersen;Crystal Palace;13;2;Premier League;Angleterre;dk DEN;DF;25.0;39.0;0.0;3.0;4.0;0.0;37.0;0.7;3.0;0.07692308
+0.30769232;151;Conor Gallagher;Crystal Palace;13;2;Premier League;Angleterre;eng ENG;MF;21.0;39.0;8.0;5.0;12.0;0.0;37.0;6.3;13.0;0.33333334
+0.1891892;152;Wilfried Zaha;Crystal Palace;13;2;Premier League;Angleterre;ci CIV;FW;28.0;37.0;15.0;2.0;6.0;1.0;35.0;9.5;17.0;0.45945945
+0.25;153;Joel Ward;Crystal Palace;13;2;Premier League;Angleterre;eng ENG;DF;31.0;32.0;0.0;0.0;8.0;0.0;31.0;0.3;0.0;0.0
+0.06666667;154;Vicente Guaita;Crystal Palace;13;2;Premier League;Angleterre;es ESP;GK;34.0;30.0;0.0;0.0;2.0;0.0;30.0;0.0;0.0;0.0
+0.09677419;155;Cheikhou Kouyaté;Crystal Palace;13;2;Premier League;Angleterre;sn SEN;MF;31.0;31.0;1.0;1.0;3.0;0.0;27.0;0.5;2.0;0.06451613
+0.05882353;156;Jordan Ayew;Crystal Palace;13;2;Premier League;Angleterre;gh GHA;FW;29.0;34.0;3.0;3.0;2.0;0.0;25.0;3.1;6.0;0.1764706
+0.12903225;157;Odsonne Édouard;Crystal Palace;13;2;Premier League;Angleterre;fr FRA;FW;23.0;31.0;6.0;3.0;4.0;0.0;18.0;6.4;9.0;0.29032257
+0.071428575;158;Jean-Philippe Mateta;Crystal Palace;13;2;Premier League;Angleterre;fr FRA;FW;24.0;28.0;7.0;1.0;2.0;0.0;19.0;5.8;8.0;0.2857143
+0.05;159;Nathaniel Clyne;Crystal Palace;13;2;Premier League;Angleterre;eng ENG;DF;30.0;20.0;0.0;1.0;1.0;0.0;17.0;0.1;1.0;0.05
+0.17391305;160;James McArthur;Crystal Palace;13;2;Premier League;Angleterre;sct SCO;MF;33.0;23.0;0.0;3.0;4.0;0.0;16.0;0.3;3.0;0.13043478
+0.06666667;161;Jack Butland;Crystal Palace;13;2;Premier League;Angleterre;eng ENG;GK;28.0;15.0;0.0;0.0;1.0;0.0;14.0;0.0;0.0;0.0
+0.09677419;162;Christian Benteke;Crystal Palace;13;2;Premier League;Angleterre;be BEL;FW;30.0;31.0;4.0;1.0;3.0;0.0;11.0;4.9;5.0;0.16129032
+0.3;163;Will Hughes;Crystal Palace;13;2;Premier League;Angleterre;eng ENG;MF;26.0;20.0;1.0;1.0;6.0;0.0;15.0;0.1;2.0;0.1
+0.05;164;Luka Milivojevi?;Crystal Palace;13;2;Premier League;Angleterre;rs SRB;MF;30.0;20.0;0.0;0.0;1.0;0.0;10.0;0.3;0.0;0.0
+0.22222222;165;James Tomkins;Crystal Palace;13;2;Premier League;Angleterre;eng ENG;DF;32.0;9.0;1.0;0.0;2.0;0.0;7.0;0.5;1.0;0.11111111
+0.0;166;Jaïro Riedewald;Crystal Palace;13;2;Premier League;Angleterre;nl NED;MF;24.0;5.0;1.0;0.0;0.0;0.0;1.0;0.0;1.0;0.2
+0.0;167;Tayo Adaramola;Crystal Palace;13;2;Premier League;Angleterre;ie IRL;DF;17.0;2.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;168;Nathan Ferguson;Crystal Palace;13;2;Premier League;Angleterre;eng ENG;DF;20.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.054054055;169;Jordan Pickford;Everton;17;2;Premier League;Angleterre;eng ENG;GK;27.0;37.0;0.0;0.0;2.0;0.0;37.0;0.0;0.0;0.0
+0.13157895;170;Michael Keane;Everton;17;2;Premier League;Angleterre;eng ENG;DF;28.0;38.0;3.0;2.0;4.0;1.0;36.0;1.2;5.0;0.13157895
+0.11764706;171;Séamus Coleman;Everton;17;2;Premier League;Angleterre;ie IRL;DF;32.0;34.0;1.0;0.0;4.0;0.0;33.0;1.2;1.0;0.029411765
+0.1764706;172;Abdoulaye Doucouré;Everton;17;2;Premier League;Angleterre;ml MLI;MF;28.0;34.0;2.0;4.0;6.0;0.0;31.0;2.2;6.0;0.1764706
+0.27272728;173;Richarlison;Everton;17;2;Premier League;Angleterre;br BRA;FW;24.0;33.0;11.0;5.0;9.0;0.0;30.0;9.2;16.0;0.4848485
+0.27586207;174;Mason Holgate;Everton;17;2;Premier League;Angleterre;eng ENG;DF;24.0;29.0;3.0;1.0;7.0;1.0;27.0;1.3;4.0;0.13793103
+0.2580645;175;Allan;Everton;17;2;Premier League;Angleterre;br BRA;MF;30.0;31.0;0.0;3.0;7.0;1.0;28.0;0.2;3.0;0.09677419
+0.25925925;176;Ben Godfrey;Everton;17;2;Premier League;Angleterre;eng ENG;DF;23.0;27.0;0.0;0.0;7.0;0.0;27.0;1.4;0.0;0.0
+0.1904762;177;Jonjoe Kenny;Everton;17;2;Premier League;Angleterre;eng ENG;DF;24.0;21.0;0.0;3.0;3.0;1.0;16.0;0.2;3.0;0.14285715
+0.11111111;178;Dominic Calvert-Lewin;Everton;17;2;Premier League;Angleterre;eng ENG;FW;24.0;18.0;5.0;2.0;2.0;0.0;15.0;6.5;7.0;0.3888889
+0.0625;179;Vitaliy Mykolenko;Everton;17;2;Premier League;Angleterre;ua UKR;DF;22.0;16.0;1.0;0.0;1.0;0.0;15.0;0.5;1.0;0.0625
+0.26666668;180;Lucas Digne;Everton;17;2;Premier League;Angleterre;fr FRA;DF;28.0;15.0;1.0;0.0;4.0;0.0;14.0;0.3;1.0;0.06666667
+0.17391305;181;Salomón Rondón;Everton;17;2;Premier League;Angleterre;ve VEN;FW;31.0;23.0;3.0;1.0;3.0;1.0;11.0;1.8;4.0;0.17391305
+0.31578946;182;André Gomes;Everton;17;2;Premier League;Angleterre;pt POR;MF;28.0;19.0;1.0;2.0;6.0;0.0;11.0;0.7;3.0;0.15789473
+0.21428572;183;Yerry Mina;Everton;17;2;Premier League;Angleterre;co COL;DF;26.0;14.0;1.0;0.0;3.0;0.0;11.0;0.3;1.0;0.071428575
+0.18181819;184;Fabian Delph;Everton;17;2;Premier League;Angleterre;eng ENG;MF;31.0;11.0;0.0;0.0;2.0;0.0;8.0;0.0;0.0;0.0
+0.0;185;Asmir Begovi?;Everton;17;2;Premier League;Angleterre;ba BIH;GK;34.0;7.0;0.0;0.0;0.0;0.0;7.0;0.0;0.0;0.0
+0.125;186;Jarrad Branthwaite;Everton;17;2;Premier League;Angleterre;eng ENG;DF;19.0;8.0;1.0;0.0;0.0;1.0;6.0;0.5;1.0;0.125
+0.14285715;187;Donny van de Beek;Everton;17;2;Premier League;Angleterre;nl NED;MF;24.0;7.0;1.0;0.0;1.0;0.0;5.0;1.1;1.0;0.14285715
+0.125;188;Tom Davies;Everton;17;2;Premier League;Angleterre;eng ENG;MF;23.0;8.0;1.0;1.0;1.0;0.0;4.0;0.8;2.0;0.25
+0.0;189;Jean-Philippe Gbamin;Everton;17;2;Premier League;Angleterre;ci CIV;MF;25.0;5.0;0.0;1.0;0.0;0.0;2.0;0.0;1.0;0.2
+0.0;190;Ellis Simms;Everton;17;2;Premier League;Angleterre;eng ENG;FW;20.0;1.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.5;191;Moise Kean;Everton;17;2;Premier League;Angleterre;it ITA;FW;21.0;2.0;0.0;0.0;0.0;1.0;1.0;0.0;0.0;0.0
+0.0;192;Nathan Patterson;Everton;17;2;Premier League;Angleterre;sct SCO;DF;19.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;193;Tyler Onyango;Everton;17;2;Premier League;Angleterre;eng ENG;MF;18.0;3.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;194;Isaac Price;Everton;17;2;Premier League;Angleterre;nir NIR;MF;17.0;2.0;0.0;0.0;0.0;0.0;0.0;0.1;0.0;0.0
+0.0;195;Cenk Tosun;Everton;17;2;Premier League;Angleterre;tr TUR;MF;30.0;3.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;196;Reece Welch;Everton;17;2;Premier League;Angleterre;eng ENG;DF;17.0;1.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.04761905;197;Illan Meslier;Leeds United;22;2;Premier League;Angleterre;fr FRA;GK;21.0;42.0;0.0;0.0;2.0;0.0;42.0;0.0;0.0;0.0
+0.22580644;198;Diego Llorente;Leeds United;22;2;Premier League;Angleterre;es ESP;DF;27.0;31.0;3.0;0.0;7.0;0.0;31.0;1.0;3.0;0.09677419
+0.17857143;199;Luke Ayling;Leeds United;22;2;Premier League;Angleterre;eng ENG;DF;29.0;28.0;2.0;2.0;4.0;1.0;27.0;1.2;4.0;0.14285715
+0.13513513;200;Mateusz Klich;Leeds United;22;2;Premier League;Angleterre;pl POL;MF;31.0;37.0;1.0;2.0;5.0;0.0;28.0;2.8;3.0;0.08108108
+0.17391305;201;Kalvin Phillips;Leeds United;22;2;Premier League;Angleterre;eng ENG;MF;25.0;23.0;1.0;1.0;4.0;0.0;21.0;0.7;2.0;0.08695652
+0.22727273;202;Liam Cooper;Leeds United;22;2;Premier League;Angleterre;sct SCO;DF;29.0;22.0;0.0;1.0;5.0;0.0;21.0;0.4;1.0;0.045454547
+0.1923077;203;Adam Forshaw;Leeds United;22;2;Premier League;Angleterre;eng ENG;MF;29.0;26.0;0.0;1.0;5.0;0.0;19.0;0.5;1.0;0.03846154
+0.2;204;Patrick Bamford;Leeds United;22;2;Premier League;Angleterre;eng ENG;FW;27.0;10.0;2.0;3.0;2.0;0.0;7.0;3.0;5.0;0.5
+0.16666667;205;Charlie Cresswell;Leeds United;22;2;Premier League;Angleterre;eng ENG;DF;18.0;6.0;0.0;0.0;1.0;0.0;2.0;0.1;0.0;0.0
+0.0;206;Lewis Bate;Leeds United;22;2;Premier League;Angleterre;eng ENG;MF;18.0;4.0;0.0;0.0;0.0;0.0;2.0;0.0;0.0;0.0
+0.0;207;Hélder Costa;Leeds United;22;2;Premier League;Angleterre;ao ANG;MF;27.0;2.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.0;208;Stuart McKinstry;Leeds United;22;2;Premier League;Angleterre;sct SCO;MF;18.0;2.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;209;Kristoffer Klaesson;Leeds United;22;2;Premier League;Angleterre;no NOR;GK;20.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;210;Liam McCarron;Leeds United;22;2;Premier League;Angleterre;sct SCO;FW;20.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.03773585;211;Kasper Schmeichel;Leicester City;23;2;Premier League;Angleterre;dk DEN;GK;34.0;53.0;0.0;0.0;2.0;0.0;53.0;0.0;0.0;0.0
+0.08;212;Youri Tielemans;Leicester City;23;2;Premier League;Angleterre;be BEL;MF;24.0;50.0;7.0;6.0;4.0;0.0;46.0;5.3;13.0;0.26
+0.14634146;213;Ça?lar Söyüncü;Leicester City;23;2;Premier League;Angleterre;tr TUR;DF;25.0;41.0;1.0;0.0;6.0;0.0;40.0;1.2;1.0;0.024390243
+0.13636364;214;Kiernan Dewsbury-Hall;Leicester City;23;2;Premier League;Angleterre;eng ENG;MF;22.0;44.0;3.0;2.0;6.0;0.0;35.0;3.3;5.0;0.11363637
+0.1;215;Daniel Amartey;Leicester City;23;2;Premier League;Angleterre;gh GHA;DF;26.0;40.0;1.0;0.0;4.0;0.0;34.0;1.4;1.0;0.025
+0.15151516;216;Luke Thomas;Leicester City;23;2;Premier League;Angleterre;eng ENG;DF;20.0;33.0;0.0;1.0;5.0;0.0;31.0;0.2;1.0;0.030303031
+0.055555556;217;Timothy Castagne;Leicester City;23;2;Premier League;Angleterre;be BEL;DF;25.0;36.0;1.0;0.0;2.0;0.0;30.0;1.7;1.0;0.027777778
+0.09090909;218;Jamie Vardy;Leicester City;23;2;Premier League;Angleterre;eng ENG;FW;34.0;33.0;17.0;2.0;3.0;0.0;25.0;11.9;19.0;0.57575756
+0.069767445;219;Kelechi Iheanacho;Leicester City;23;2;Premier League;Angleterre;ng NGA;FW;24.0;43.0;8.0;9.0;3.0;0.0;22.0;6.1;17.0;0.39534885
+0.11111111;220;Jonny Evans;Leicester City;23;2;Premier League;Angleterre;nir NIR;DF;33.0;27.0;2.0;1.0;3.0;0.0;25.0;1.0;3.0;0.11111111
+0.05263158;221;Patson Daka;Leicester City;23;2;Premier League;Angleterre;zm ZAM;FW;22.0;38.0;11.0;5.0;2.0;0.0;22.0;9.0;16.0;0.42105263
+0.06666667;222;Boubakary Soumaré;Leicester City;23;2;Premier League;Angleterre;fr FRA;MF;22.0;30.0;0.0;1.0;2.0;0.0;18.0;0.5;1.0;0.033333335
+0.16666667;223;Ricardo Pereira;Leicester City;23;2;Premier League;Angleterre;pt POR;DF;27.0;24.0;2.0;3.0;4.0;0.0;20.0;1.1;5.0;0.20833333
+0.0;224;James Justin;Leicester City;23;2;Premier League;Angleterre;eng ENG;DF;23.0;19.0;0.0;0.0;0.0;0.0;15.0;0.3;0.0;0.0
+0.2;225;Jannik Vestergaard;Leicester City;23;2;Premier League;Angleterre;dk DEN;DF;28.0;20.0;0.0;0.0;4.0;0.0;12.0;0.5;0.0;0.0
+0.25;226;Wesley Fofana;Leicester City;23;2;Premier League;Angleterre;fr FRA;DF;20.0;12.0;1.0;0.0;3.0;0.0;12.0;0.5;1.0;0.083333336
+0.26666668;227;Nampalys Mendy;Leicester City;23;2;Premier League;Angleterre;sn SEN;MF;29.0;15.0;0.0;0.0;4.0;0.0;12.0;0.0;0.0;0.0
+0.18181819;228;Ryan Bertrand;Leicester City;23;2;Premier League;Angleterre;eng ENG;DF;31.0;11.0;0.0;0.0;2.0;0.0;9.0;0.0;0.0;0.0
+0.0;229;Danny Ward;Leicester City;23;2;Premier League;Angleterre;wls WAL;GK;28.0;5.0;0.0;0.0;0.0;0.0;5.0;0.0;0.0;0.0
+0.5;230;Vontae Daley Campbell;Leicester City;23;2;Premier League;Angleterre;eng ENG;DF;20.0;2.0;0.0;0.0;1.0;0.0;2.0;;0.0;0.0
+0.0;231;Lewis Brunt;Leicester City;23;2;Premier League;Angleterre;eng ENG;MF;20.0;2.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.0;232;Wanya Marcal-Madivadua;Leicester City;23;2;Premier League;Angleterre;pt POR;MF;18.0;1.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.0;233;Kasey McAteer;Leicester City;23;2;Premier League;Angleterre;eng ENG;FW;19.0;2.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;234;Will Alves;Leicester City;23;2;Premier League;Angleterre;eng ENG;MF;16.0;1.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.0;235;Alisson;Liverpool;24;2;Premier League;Angleterre;br BRA;GK;28.0;54.0;0.0;1.0;0.0;0.0;54.0;0.0;1.0;0.018518519
+0.078431375;236;Virgil van Dijk;Liverpool;24;2;Premier League;Angleterre;nl NED;DF;30.0;51.0;3.0;2.0;4.0;0.0;51.0;2.4;5.0;0.09803922
+0.10638298;237;Trent Alexander-Arnold;Liverpool;24;2;Premier League;Angleterre;eng ENG;DF;22.0;47.0;2.0;18.0;5.0;0.0;47.0;2.9;20.0;0.42553192
+0.019607844;238;Mohamed Salah;Liverpool;24;2;Premier League;Angleterre;eg EGY;FW;29.0;51.0;31.0;15.0;1.0;0.0;45.0;31.6;46.0;0.9019608
+0.17021276;239;Andrew Robertson;Liverpool;24;2;Premier League;Angleterre;sct SCO;DF;27.0;47.0;3.0;14.0;7.0;1.0;44.0;1.6;17.0;0.3617021
+0.15686275;240;Sadio Mané;Liverpool;24;2;Premier League;Angleterre;sn SEN;FW;29.0;51.0;23.0;3.0;8.0;0.0;46.0;21.7;26.0;0.50980395
+0.07017544;241;Jordan Henderson;Liverpool;24;2;Premier League;Angleterre;eng ENG;MF;31.0;57.0;3.0;6.0;4.0;0.0;43.0;1.9;9.0;0.15789473
+0.069767445;242;Joël Matip;Liverpool;24;2;Premier League;Angleterre;cm CMR;DF;29.0;43.0;3.0;3.0;3.0;0.0;42.0;4.0;6.0;0.13953489
+0.1875;243;Fabinho;Liverpool;24;2;Premier League;Angleterre;br BRA;MF;27.0;48.0;8.0;1.0;9.0;0.0;41.0;4.2;9.0;0.1875
+0.10909091;244;Diogo Jota;Liverpool;24;2;Premier League;Angleterre;pt POR;FW;24.0;55.0;21.0;6.0;6.0;0.0;39.0;19.8;27.0;0.4909091
+0.13793103;245;Ibrahima Konaté;Liverpool;24;2;Premier League;Angleterre;fr FRA;DF;22.0;29.0;3.0;1.0;4.0;0.0;26.0;0.6;4.0;0.13793103
+0.07692308;246;Thiago Alcántara;Liverpool;24;2;Premier League;Angleterre;es ESP;MF;30.0;39.0;2.0;5.0;3.0;0.0;26.0;2.1;7.0;0.17948718
+0.1;247;Naby Keïta;Liverpool;24;2;Premier League;Angleterre;gn GUI;MF;26.0;40.0;4.0;3.0;4.0;0.0;25.0;3.4;7.0;0.175
+0.08571429;248;Roberto Firmino;Liverpool;24;2;Premier League;Angleterre;br BRA;FW;29.0;35.0;11.0;5.0;3.0;0.0;17.0;6.5;16.0;0.45714286
+0.115384616;249;Kostas Tsimikas;Liverpool;24;2;Premier League;Angleterre;gr GRE;DF;25.0;26.0;0.0;6.0;3.0;0.0;19.0;0.6;6.0;0.23076923
+0.0;250;Luis Díaz;Liverpool;24;2;Premier League;Angleterre;co COL;FW;24.0;26.0;6.0;4.0;0.0;0.0;18.0;6.1;10.0;0.3846154
+0.0;251;Alex Oxlade-Chamberlain;Liverpool;24;2;Premier League;Angleterre;eng ENG;MF;27.0;29.0;3.0;3.0;0.0;0.0;17.0;2.3;6.0;0.20689656
+0.14285715;252;Joe Gomez;Liverpool;24;2;Premier League;Angleterre;eng ENG;DF;24.0;21.0;0.0;1.0;3.0;0.0;11.0;0.1;1.0;0.04761905
+0.125;253;Caoimhín Kelleher;Liverpool;24;2;Premier League;Angleterre;ie IRL;GK;22.0;8.0;0.0;0.0;1.0;0.0;8.0;0.0;0.0;0.0
+0.0;254;Divock Origi;Liverpool;24;2;Premier League;Angleterre;be BEL;FW;26.0;18.0;6.0;3.0;0.0;0.0;5.0;2.3;9.0;0.5
+0.0;255;Harvey Elliott;Liverpool;24;2;Premier League;Angleterre;eng ENG;MF;18.0;11.0;1.0;0.0;0.0;0.0;6.0;0.8;1.0;0.09090909
+0.22222222;256;Tyler Morton;Liverpool;24;2;Premier League;Angleterre;eng ENG;MF;18.0;9.0;0.0;0.0;2.0;0.0;6.0;0.0;0.0;0.0
+0.0;257;Conor Bradley;Liverpool;24;2;Premier League;Angleterre;nir NIR;FW;18.0;5.0;0.0;1.0;0.0;0.0;3.0;0.0;1.0;0.2
+0.0;258;Kaide Gordon;Liverpool;24;2;Premier League;Angleterre;eng ENG;FW;16.0;4.0;1.0;0.0;0.0;0.0;3.0;0.4;1.0;0.25
+0.0;259;Nathaniel Phillips;Liverpool;24;2;Premier League;Angleterre;eng ENG;DF;24.0;3.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.0;260;Adrián;Liverpool;24;2;Premier League;Angleterre;es ESP;GK;34.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;261;Elijah Dixon-Bonner;Liverpool;24;2;Premier League;Angleterre;eng ENG;MF;20.0;2.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;262;Harvey Blair;Liverpool;24;2;Premier League;Angleterre;eng ENG;FW;17.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;263;Max Woltman;Liverpool;24;2;Premier League;Angleterre;eng ENG;FW;17.0;2.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.0;264;Billy Koumetio;Liverpool;24;2;Premier League;Angleterre;fr FRA;DF;18.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;265;Owen Beck;Liverpool;24;2;Premier League;Angleterre;wls WAL;DF;18.0;2.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.0;266;Melkamu Frauendorf;Liverpool;24;2;Premier League;Angleterre;de GER;MF;17.0;1.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.0;267;James Norris;Liverpool;24;2;Premier League;Angleterre;eng ENG;DF;18.0;1.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.0;268;David de Gea;Manchester United;26;2;Premier League;Angleterre;es ESP;GK;30.0;46.0;0.0;0.0;0.0;0.0;46.0;0.0;0.0;0.0
+0.2173913;269;Bruno Fernandes;Manchester United;26;2;Premier League;Angleterre;pt POR;MF;26.0;46.0;10.0;14.0;10.0;0.0;43.0;10.2;24.0;0.5217391
+0.23684211;270;Cristiano Ronaldo;Manchester United;26;2;Premier League;Angleterre;pt POR;FW;36.0;38.0;24.0;3.0;9.0;0.0;35.0;20.6;27.0;0.7105263
+0.27027026;271;Harry Maguire;Manchester United;26;2;Premier League;Angleterre;eng ENG;DF;28.0;37.0;2.0;0.0;9.0;1.0;35.0;2.3;2.0;0.054054055
+0.27027026;272;Scott McTominay;Manchester United;26;2;Premier League;Angleterre;sct SCO;MF;24.0;37.0;2.0;1.0;10.0;0.0;35.0;2.2;3.0;0.08108108
+0.14285715;273;Victor Lindelöf;Manchester United;26;2;Premier League;Angleterre;se SWE;DF;27.0;35.0;0.0;2.0;5.0;0.0;33.0;0.2;2.0;0.057142857
+0.22222222;274;Fred;Manchester United;26;2;Premier League;Angleterre;br BRA;MF;28.0;36.0;4.0;5.0;8.0;0.0;30.0;1.5;9.0;0.25
+0.0;275;Jadon Sancho;Manchester United;26;2;Premier League;Angleterre;eng ENG;FW;21.0;38.0;5.0;3.0;0.0;0.0;27.0;4.3;8.0;0.21052632
+0.03448276;276;Raphaël Varane;Manchester United;26;2;Premier League;Angleterre;fr FRA;DF;28.0;29.0;1.0;1.0;1.0;0.0;26.0;1.1;2.0;0.06896552
+0.2;277;Diogo Dalot;Manchester United;26;2;Premier League;Angleterre;pt POR;DF;22.0;30.0;0.0;0.0;6.0;0.0;24.0;0.7;0.0;0.0
+0.115384616;278;Aaron Wan-Bissaka;Manchester United;26;2;Premier League;Angleterre;eng ENG;DF;23.0;26.0;0.0;0.0;2.0;1.0;25.0;0.4;0.0;0.0
+0.4074074;279;Luke Shaw;Manchester United;26;2;Premier League;Angleterre;eng ENG;DF;26.0;27.0;0.0;5.0;11.0;0.0;26.0;0.2;5.0;0.18518518
+0.115384616;280;Alex Telles;Manchester United;26;2;Premier League;Angleterre;br BRA;DF;28.0;26.0;1.0;4.0;3.0;0.0;22.0;0.4;5.0;0.1923077
+0.083333336;281;Mason Greenwood;Manchester United;26;2;Premier League;Angleterre;eng ENG;FW;19.0;24.0;6.0;2.0;2.0;0.0;20.0;4.5;8.0;0.33333334
+0.05;282;Edinson Cavani;Manchester United;26;2;Premier League;Angleterre;uy URU;FW;34.0;20.0;2.0;1.0;1.0;0.0;8.0;3.8;3.0;0.15
+0.14285715;283;Eric Bailly;Manchester United;26;2;Premier League;Angleterre;ci CIV;DF;27.0;7.0;0.0;0.0;1.0;0.0;6.0;0.0;0.0;0.0
+0.0;284;Juan Mata;Manchester United;26;2;Premier League;Angleterre;es ESP;MF;33.0;12.0;0.0;0.0;0.0;0.0;4.0;0.8;0.0;0.0
+0.071428575;285;Donny van de Beek;Manchester United;26;2;Premier League;Angleterre;nl NED;MF;24.0;14.0;1.0;0.0;1.0;0.0;4.0;0.5;1.0;0.071428575
+0.0;286;Anthony Martial;Manchester United;26;2;Premier League;Angleterre;fr FRA;FW;25.0;11.0;1.0;0.0;0.0;0.0;4.0;0.7;1.0;0.09090909
+0.0;287;Dean Henderson;Manchester United;26;2;Premier League;Angleterre;eng ENG;GK;24.0;3.0;0.0;0.0;0.0;0.0;3.0;0.0;0.0;0.0
+0.0;288;Daniel James;Manchester United;26;2;Premier League;Angleterre;wls WAL;FW;23.0;2.0;0.0;0.0;0.0;0.0;2.0;0.2;0.0;0.0
+1.0;289;Hannibal Mejbri;Manchester United;26;2;Premier League;Angleterre;tn TUN;MF;18.0;2.0;0.0;0.0;2.0;0.0;1.0;0.1;0.0;0.0
+0.0;290;Amad Diallo;Manchester United;26;2;Premier League;Angleterre;ci CIV;MF;19.0;1.0;0.0;0.0;0.0;0.0;1.0;0.1;0.0;0.0
+0.5;291;Shola Shoretire;Manchester United;26;2;Premier League;Angleterre;eng ENG;MF;17.0;2.0;0.0;0.0;1.0;0.0;0.0;0.0;0.0;0.0
+0.0;292;Teden Mengi;Manchester United;26;2;Premier League;Angleterre;eng ENG;DF;19.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;293;Tom Heaton;Manchester United;26;2;Premier League;Angleterre;eng ENG;GK;35.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;294;Charlie Savage;Manchester United;26;2;Premier League;Angleterre;wls WAL;MF;18.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;295;Zidane Iqbal;Manchester United;26;2;Premier League;Angleterre;iq IRQ;MF;18.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.037037037;296;Martin Dúbravka;Newcastle United;29;2;Premier League;Angleterre;sk SVK;GK;32.0;27.0;0.0;0.0;1.0;0.0;27.0;0.0;0.0;0.0
+0.15384616;297;Fabian Schär;Newcastle United;29;2;Premier League;Angleterre;ch SUI;DF;29.0;26.0;2.0;2.0;4.0;0.0;26.0;1.2;4.0;0.15384616
+0.18518518;298;Jamaal Lascelles;Newcastle United;29;2;Premier League;Angleterre;eng ENG;DF;27.0;27.0;1.0;0.0;5.0;0.0;23.0;0.9;1.0;0.037037037
+0.0;299;Joe Willock;Newcastle United;29;2;Premier League;Angleterre;eng ENG;MF;21.0;31.0;2.0;0.0;0.0;0.0;24.0;3.2;2.0;0.06451613
+0.32;300;Jonjo Shelvey;Newcastle United;29;2;Premier League;Angleterre;eng ENG;MF;29.0;25.0;2.0;1.0;7.0;1.0;23.0;0.9;3.0;0.12
+0.22727273;301;Emil Krafth;Newcastle United;29;2;Premier League;Angleterre;se SWE;DF;26.0;22.0;0.0;1.0;5.0;0.0;20.0;0.3;1.0;0.045454547
+0.03846154;302;Sean Longstaff;Newcastle United;29;2;Premier League;Angleterre;eng ENG;MF;23.0;26.0;1.0;1.0;1.0;0.0;17.0;0.7;2.0;0.07692308
+0.25;303;Dan Burn;Newcastle United;29;2;Premier League;Angleterre;eng ENG;DF;29.0;16.0;0.0;1.0;4.0;0.0;16.0;0.7;1.0;0.0625
+0.0625;304;Matt Targett;Newcastle United;29;2;Premier League;Angleterre;eng ENG;DF;25.0;16.0;0.0;0.0;1.0;0.0;16.0;0.3;0.0;0.0
+0.2631579;305;Matt Ritchie;Newcastle United;29;2;Premier League;Angleterre;sct SCO;DF;31.0;19.0;0.0;2.0;5.0;0.0;15.0;0.7;2.0;0.10526316
+0.22222222;306;Callum Wilson;Newcastle United;29;2;Premier League;Angleterre;eng ENG;FW;29.0;18.0;8.0;0.0;4.0;0.0;16.0;6.2;8.0;0.44444445
+0.23809524;307;Javier Manquillo;Newcastle United;29;2;Premier League;Angleterre;es ESP;DF;27.0;21.0;1.0;2.0;5.0;0.0;16.0;0.3;3.0;0.14285715
+0.0;308;Chris Wood;Newcastle United;29;2;Premier League;Angleterre;nz NZL;FW;29.0;17.0;2.0;0.0;0.0;0.0;15.0;3.1;2.0;0.11764706
+0.21428572;309;Ciaran Clark;Newcastle United;29;2;Premier League;Angleterre;ie IRL;DF;31.0;14.0;0.0;1.0;2.0;1.0;13.0;1.1;1.0;0.071428575
+0.23529412;310;Bruno Guimarães;Newcastle United;29;2;Premier League;Angleterre;br BRA;MF;23.0;17.0;5.0;1.0;4.0;0.0;11.0;3.1;6.0;0.3529412
+0.125;311;Karl Darlow;Newcastle United;29;2;Premier League;Angleterre;eng ENG;GK;30.0;8.0;0.0;0.0;1.0;0.0;8.0;0.0;0.0;0.0
+0.0;312;Federico Fernández;Newcastle United;29;2;Premier League;Angleterre;ar ARG;DF;32.0;7.0;0.0;0.0;0.0;0.0;5.0;0.4;0.0;0.0
+0.0;313;Kieran Trippier;Newcastle United;29;2;Premier League;Angleterre;eng ENG;DF;30.0;7.0;2.0;0.0;0.0;0.0;6.0;0.2;2.0;0.2857143
+0.0;314;Freddie Woodman;Newcastle United;29;2;Premier League;Angleterre;eng ENG;GK;24.0;5.0;0.0;0.0;0.0;0.0;5.0;0.0;0.0;0.0
+0.16666667;315;Jamal Lewis;Newcastle United;29;2;Premier League;Angleterre;nir NIR;DF;23.0;6.0;0.0;0.0;1.0;0.0;5.0;0.0;0.0;0.0
+0.6666667;316;Paul Dummett;Newcastle United;29;2;Premier League;Angleterre;wls WAL;DF;29.0;3.0;0.0;0.0;2.0;0.0;2.0;0.0;0.0;0.0
+0.0;317;Jeff Hendrick;Newcastle United;29;2;Premier League;Angleterre;ie IRL;MF;29.0;4.0;1.0;0.0;0.0;0.0;1.0;0.1;1.0;0.25
+0.12195122;318;Teemu Pukki;Norwich City;30;2;Premier League;Angleterre;fi FIN;FW;31.0;41.0;11.0;4.0;5.0;0.0;38.0;11.4;15.0;0.36585367
+0.11111111;319;Grant Hanley;Norwich City;30;2;Premier League;Angleterre;sct SCO;DF;29.0;36.0;1.0;0.0;4.0;0.0;36.0;2.1;1.0;0.027777778
+0.114285715;320;Kenny McLean;Norwich City;30;2;Premier League;Angleterre;sct SCO;MF;29.0;35.0;3.0;1.0;4.0;0.0;32.0;1.8;4.0;0.114285715
+0.22857143;321;Max Aarons;Norwich City;30;2;Premier League;Angleterre;eng ENG;DF;21.0;35.0;0.0;2.0;8.0;0.0;32.0;0.8;2.0;0.057142857
+0.032258064;322;Tim Krul;Norwich City;30;2;Premier League;Angleterre;nl NED;GK;33.0;31.0;0.0;0.0;1.0;0.0;31.0;0.0;0.0;0.0
+0.19354838;323;Ben Gibson;Norwich City;30;2;Premier League;Angleterre;eng ENG;DF;28.0;31.0;0.0;0.0;5.0;1.0;31.0;1.4;0.0;0.0
+0.1891892;324;Pierre Lees-Melou;Norwich City;30;2;Premier League;Angleterre;fr FRA;MF;28.0;37.0;1.0;0.0;7.0;0.0;31.0;1.6;1.0;0.027027028
+0.31034482;325;Brandon Williams;Norwich City;30;2;Premier League;Angleterre;eng ENG;DF;20.0;29.0;0.0;1.0;9.0;0.0;25.0;0.2;1.0;0.03448276
+0.071428575;326;Billy Gilmour;Norwich City;30;2;Premier League;Angleterre;sct SCO;MF;20.0;28.0;0.0;2.0;2.0;0.0;23.0;0.9;2.0;0.071428575
+0.28;327;Mathias Normann;Norwich City;30;2;Premier League;Angleterre;no NOR;MF;25.0;25.0;1.0;2.0;7.0;0.0;21.0;0.9;3.0;0.12
+0.09090909;328;Dimitris Giannoulis;Norwich City;30;2;Premier League;Angleterre;gr GRE;DF;25.0;22.0;0.0;1.0;2.0;0.0;17.0;0.1;1.0;0.045454547
+0.22222222;329;Sam Byram;Norwich City;30;2;Premier League;Angleterre;eng ENG;DF;27.0;18.0;0.0;0.0;4.0;0.0;14.0;0.6;0.0;0.0
+0.16666667;330;Ozan Kabak;Norwich City;30;2;Premier League;Angleterre;tr TUR;DF;21.0;12.0;0.0;0.0;2.0;0.0;12.0;0.3;0.0;0.0
+0.045454547;331;Lukas Rupp;Norwich City;30;2;Premier League;Angleterre;de GER;MF;30.0;22.0;2.0;0.0;1.0;0.0;10.0;0.7;2.0;0.09090909
+0.0;332;Angus Gunn;Norwich City;30;2;Premier League;Angleterre;sct SCO;GK;25.0;11.0;0.0;0.0;0.0;0.0;11.0;0.0;0.0;0.0
+0.14285715;333;Andrew Omobamidele;Norwich City;30;2;Premier League;Angleterre;ie IRL;DF;19.0;7.0;1.0;0.0;1.0;0.0;6.0;0.2;1.0;0.14285715
+0.2;334;Christoph Zimmermann;Norwich City;30;2;Premier League;Angleterre;de GER;DF;28.0;5.0;0.0;0.0;1.0;0.0;4.0;0.0;0.0;0.0
+0.0;335;Bali Mumba;Norwich City;30;2;Premier League;Angleterre;eng ENG;DF;19.0;3.0;0.0;0.0;0.0;0.0;2.0;0.0;0.0;0.0
+1.0;336;Michael McGovern;Norwich City;30;2;Premier League;Angleterre;nir NIR;GK;37.0;1.0;0.0;0.0;1.0;0.0;1.0;;0.0;0.0
+0.0952381;337;James Ward-Prowse;Southampton;38;2;Premier League;Angleterre;eng ENG;MF;26.0;42.0;11.0;8.0;3.0;1.0;41.0;5.4;19.0;0.45238096
+0.2972973;338;Mohammed Salisu;Southampton;38;2;Premier League;Angleterre;gh GHA;DF;22.0;37.0;1.0;0.0;10.0;1.0;36.0;2.0;1.0;0.027027028
+0.21428572;339;Oriol Romeu;Southampton;38;2;Premier League;Angleterre;es ESP;MF;29.0;42.0;2.0;3.0;9.0;0.0;37.0;1.4;5.0;0.11904762
+0.16216215;340;Kyle Walker-Peters;Southampton;38;2;Premier League;Angleterre;eng ENG;DF;24.0;37.0;3.0;4.0;6.0;0.0;33.0;1.1;7.0;0.1891892
+0.29411766;341;Jan Bednarek;Southampton;38;2;Premier League;Angleterre;pl POL;DF;25.0;34.0;4.0;0.0;10.0;0.0;32.0;2.2;4.0;0.11764706
+0.0625;342;Valentino Livramento;Southampton;38;2;Premier League;Angleterre;eng ENG;DF;18.0;32.0;1.0;1.0;2.0;0.0;27.0;1.4;2.0;0.0625
+0.05263158;343;Armando Broja;Southampton;38;2;Premier League;Angleterre;al ALB;FW;19.0;38.0;9.0;1.0;2.0;0.0;24.0;5.9;10.0;0.2631579
+0.083333336;344;Fraser Forster;Southampton;38;2;Premier League;Angleterre;eng ENG;GK;33.0;24.0;0.0;0.0;2.0;0.0;24.0;0.0;0.0;0.0
+0.0;345;Che Adams;Southampton;38;2;Premier League;Angleterre;sct SCO;FW;25.0;33.0;8.0;3.0;0.0;0.0;24.0;7.1;11.0;0.33333334
+0.17391305;346;Romain Perraud;Southampton;38;2;Premier League;Angleterre;fr FRA;DF;23.0;23.0;1.0;1.0;4.0;0.0;21.0;0.5;2.0;0.08695652
+0.033333335;347;Stuart Armstrong;Southampton;38;2;Premier League;Angleterre;sct SCO;MF;29.0;30.0;3.0;0.0;1.0;0.0;18.0;2.5;3.0;0.1
+0.035714287;348;Adam Armstrong;Southampton;38;2;Premier League;Angleterre;eng ENG;FW;24.0;28.0;2.0;2.0;1.0;0.0;21.0;4.5;4.0;0.14285715
+0.13333334;349;Ibrahima Diallo;Southampton;38;2;Premier League;Angleterre;fr FRA;MF;22.0;30.0;1.0;2.0;4.0;0.0;15.0;0.4;3.0;0.1
+0.05882353;350;Alex McCarthy;Southampton;38;2;Premier League;Angleterre;eng ENG;GK;31.0;17.0;0.0;0.0;1.0;0.0;17.0;0.0;0.0;0.0
+0.25;351;Jack Stephens;Southampton;38;2;Premier League;Angleterre;eng ENG;DF;27.0;16.0;0.0;0.0;4.0;0.0;14.0;0.0;0.0;0.0
+0.16666667;352;Lyanco;Southampton;38;2;Premier League;Angleterre;br BRA;DF;24.0;18.0;0.0;0.0;3.0;0.0;12.0;0.3;0.0;0.0
+0.36363637;353;Yan Valery;Southampton;38;2;Premier League;Angleterre;tn TUN;DF;22.0;11.0;0.0;1.0;3.0;1.0;9.0;0.0;1.0;0.09090909
+0.25;354;Moussa Djenepo;Southampton;38;2;Premier League;Angleterre;ml MLI;MF;23.0;16.0;0.0;0.0;4.0;0.0;8.0;1.5;0.0;0.0
+0.05263158;355;Shane Long;Southampton;38;2;Premier League;Angleterre;ie IRL;FW;34.0;19.0;2.0;1.0;1.0;0.0;6.0;0.9;3.0;0.15789473
+0.25;356;Willy Caballero;Southampton;38;2;Premier League;Angleterre;ar ARG;GK;39.0;4.0;0.0;0.0;1.0;0.0;4.0;0.0;0.0;0.0
+0.0;357;Thierry Small;Southampton;38;2;Premier League;Angleterre;eng ENG;DF;16.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;358;Michael Obafemi;Southampton;38;2;Premier League;Angleterre;ie IRL;FW;21.0;1.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.10204082;359;Harry Kane;Tottenham Hotspur;40;2;Premier League;Angleterre;eng ENG;FW;28.0;49.0;25.0;10.0;5.0;0.0;46.0;20.4;35.0;0.71428573
+0.06382979;360;Pierre Højbjerg;Tottenham Hotspur;40;2;Premier League;Angleterre;dk DEN;MF;25.0;47.0;3.0;4.0;3.0;0.0;43.0;2.5;7.0;0.14893617
+0.046511628;361;Hugo Lloris;Tottenham Hotspur;40;2;Premier League;Angleterre;fr FRA;GK;34.0;43.0;0.0;0.0;2.0;0.0;43.0;0.0;0.0;0.0
+0.14634146;362;Ben Davies;Tottenham Hotspur;40;2;Premier League;Angleterre;wls WAL;DF;28.0;41.0;1.0;1.0;6.0;0.0;39.0;2.5;2.0;0.048780486
+0.025641026;363;Eric Dier;Tottenham Hotspur;40;2;Premier League;Angleterre;eng ENG;DF;27.0;39.0;0.0;0.0;1.0;0.0;38.0;1.3;0.0;0.0
+0.15625;364;Davinson Sánchez;Tottenham Hotspur;40;2;Premier League;Angleterre;co COL;DF;25.0;32.0;2.0;0.0;5.0;0.0;25.0;2.1;2.0;0.0625
+0.42857143;365;Cristian Romero;Tottenham Hotspur;40;2;Premier League;Angleterre;ar ARG;DF;23.0;28.0;1.0;0.0;11.0;1.0;27.0;0.5;1.0;0.035714287
+0.25;366;Oliver Skipp;Tottenham Hotspur;40;2;Premier League;Angleterre;eng ENG;MF;20.0;28.0;0.0;0.0;7.0;0.0;22.0;0.4;0.0;0.0
+0.10714286;367;Harry Winks;Tottenham Hotspur;40;2;Premier League;Angleterre;eng ENG;MF;25.0;28.0;1.0;2.0;3.0;0.0;15.0;0.2;3.0;0.10714286
+0.0;368;Matt Doherty;Tottenham Hotspur;40;2;Premier League;Angleterre;ie IRL;DF;29.0;24.0;2.0;4.0;0.0;0.0;17.0;2.5;6.0;0.25
+0.33333334;369;Rodrigo Bentancur;Tottenham Hotspur;40;2;Premier League;Angleterre;uy URU;MF;24.0;18.0;0.0;4.0;6.0;0.0;16.0;0.8;4.0;0.22222222
+0.2631579;370;Japhet Tanganga;Tottenham Hotspur;40;2;Premier League;Angleterre;eng ENG;DF;22.0;19.0;0.0;0.0;4.0;1.0;17.0;0.5;0.0;0.0
+0.11764706;371;Dele Alli;Tottenham Hotspur;40;2;Premier League;Angleterre;eng ENG;MF;25.0;17.0;2.0;1.0;2.0;0.0;13.0;2.6;3.0;0.1764706
+0.125;372;Tanguy Ndombele;Tottenham Hotspur;40;2;Premier League;Angleterre;fr FRA;MF;24.0;16.0;2.0;1.0;2.0;0.0;10.0;0.5;3.0;0.1875
+0.0;373;Pierluigi Gollini;Tottenham Hotspur;40;2;Premier League;Angleterre;it ITA;GK;26.0;8.0;0.0;0.0;0.0;0.0;8.0;0.0;0.0;0.0
+0.0;374;Joe Rodon;Tottenham Hotspur;40;2;Premier League;Angleterre;wls WAL;DF;23.0;10.0;0.0;0.0;0.0;0.0;5.0;0.1;0.0;0.0
+0.16666667;375;Dane Scarlett;Tottenham Hotspur;40;2;Premier League;Angleterre;eng ENG;MF;17.0;6.0;0.0;0.0;1.0;0.0;2.0;0.0;0.0;0.0
+0.13157895;376;Moussa Sissoko;Watford;44;2;Premier League;Angleterre;fr FRA;MF;31.0;38.0;2.0;1.0;5.0;0.0;37.0;3.8;3.0;0.078947365
+0.09375;377;Craig Cathcart;Watford;44;2;Premier League;Angleterre;nir NIR;DF;32.0;32.0;0.0;1.0;3.0;0.0;28.0;0.2;1.0;0.03125
+0.0;378;Ben Foster;Watford;44;2;Premier League;Angleterre;eng ENG;GK;38.0;27.0;0.0;1.0;0.0;0.0;27.0;0.0;1.0;0.037037037
+0.15151516;379;Joshua King;Watford;44;2;Premier League;Angleterre;no NOR;FW;29.0;33.0;5.0;3.0;5.0;0.0;28.0;8.9;8.0;0.24242425
+0.071428575;380;Kiko Femenía;Watford;44;2;Premier League;Angleterre;es ESP;DF;30.0;28.0;0.0;5.0;2.0;0.0;26.0;0.1;5.0;0.17857143
+0.22222222;381;Juraj Kucka;Watford;44;2;Premier League;Angleterre;sk SVK;MF;34.0;27.0;1.0;1.0;5.0;1.0;22.0;3.2;2.0;0.074074075
+0.06666667;382;Tom Cleverley;Watford;44;2;Premier League;Angleterre;eng ENG;MF;31.0;30.0;0.0;2.0;2.0;0.0;21.0;0.7;2.0;0.06666667
+0.21052632;383;Samir Santos;Watford;44;2;Premier League;Angleterre;br BRA;DF;26.0;19.0;0.0;0.0;4.0;0.0;19.0;0.5;0.0;0.0
+0.31578946;384;Hassane Kamara;Watford;44;2;Premier League;Angleterre;ci CIV;DF;27.0;19.0;1.0;0.0;5.0;1.0;18.0;0.2;1.0;0.05263158
+0.27272728;385;Imran Louza;Watford;44;2;Premier League;Angleterre;ma MAR;MF;22.0;22.0;0.0;0.0;6.0;0.0;19.0;1.2;0.0;0.0
+0.16666667;386;William Troost-Ekong;Watford;44;2;Premier League;Angleterre;ng NGA;DF;27.0;18.0;0.0;0.0;3.0;0.0;16.0;0.1;0.0;0.0
+0.0;387;Christian Kabasele;Watford;44;2;Premier League;Angleterre;be BEL;DF;30.0;17.0;0.0;0.0;0.0;0.0;13.0;0.9;0.0;0.0
+0.0;388;Daniel Bachmann;Watford;44;2;Premier League;Angleterre;at AUT;GK;27.0;13.0;0.0;0.0;0.0;0.0;13.0;0.0;0.0;0.0
+0.0;389;Adam Masina;Watford;44;2;Premier League;Angleterre;ma MAR;DF;27.0;16.0;0.0;1.0;0.0;0.0;14.0;0.3;1.0;0.0625
+0.0;390;Jeremy Ngakia;Watford;44;2;Premier League;Angleterre;eng ENG;DF;20.0;19.0;0.0;0.0;0.0;0.0;12.0;0.1;0.0;0.0
+0.0;391;Edo Kayembe;Watford;44;2;Premier League;Angleterre;cd COD;MF;23.0;13.0;0.0;0.0;0.0;0.0;9.0;0.1;0.0;0.0
+0.5555556;392;Danny Rose;Watford;44;2;Premier League;Angleterre;eng ENG;DF;31.0;9.0;0.0;0.0;5.0;0.0;8.0;0.2;0.0;0.0
+0.125;393;Francisco Sierralta;Watford;44;2;Premier League;Angleterre;cl CHI;DF;24.0;8.0;0.0;0.0;1.0;0.0;8.0;0.1;0.0;0.0
+0.3;394;Oghenekaro Etebo;Watford;44;2;Premier League;Angleterre;ng NGA;MF;25.0;10.0;0.0;0.0;3.0;0.0;5.0;0.1;0.0;0.0
+0.0;395;Ozan Tufan;Watford;44;2;Premier League;Angleterre;tr TUR;MF;26.0;9.0;0.0;0.0;0.0;0.0;6.0;0.6;0.0;0.0
+0.0;396;Dan Gosling;Watford;44;2;Premier League;Angleterre;eng ENG;MF;31.0;6.0;1.0;0.0;0.0;0.0;3.0;0.2;1.0;0.16666667
+0.0;397;Ashley Fletcher;Watford;44;2;Premier League;Angleterre;eng ENG;FW;25.0;6.0;2.0;1.0;0.0;0.0;3.0;0.6;3.0;0.5
+0.0;398;Samuel Kalu;Watford;44;2;Premier League;Angleterre;ng NGA;FW;23.0;4.0;0.0;0.0;0.0;0.0;2.0;0.4;0.0;0.0
+0.0;399;Nicolas Nkoulou;Watford;44;2;Premier League;Angleterre;cm CMR;DF;31.0;3.0;0.0;0.0;0.0;0.0;2.0;0.0;0.0;0.0
+0.0;400;James Morris;Watford;44;2;Premier League;Angleterre;eng ENG;DF;19.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;401;Rob Elliot;Watford;44;2;Premier League;Angleterre;ie IRL;GK;35.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;402;Troy Deeney;Watford;44;2;Premier League;Angleterre;eng ENG;FW;33.0;2.0;0.0;0.0;0.0;0.0;0.0;0.1;0.0;0.0
+0.0;403;Kamil Conteh;Watford;44;2;Premier League;Angleterre;sl SLE;MF;18.0;1.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.0;404;Shaqai Forde;Watford;44;2;Premier League;Angleterre;eng ENG;FW;17.0;1.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.22;405;Declan Rice;West Ham United;45;2;Premier League;Angleterre;eng ENG;MF;22.0;50.0;5.0;4.0;11.0;0.0;48.0;2.6;9.0;0.18
+0.05882353;406;Tomá¨ Sou?ek;West Ham United;45;2;Premier League;Angleterre;cz CZE;MF;26.0;51.0;6.0;1.0;3.0;0.0;47.0;7.5;7.0;0.13725491
+0.16;407;Craig Dawson;West Ham United;45;2;Premier League;Angleterre;eng ENG;DF;31.0;50.0;4.0;2.0;7.0;1.0;45.0;4.8;6.0;0.12
+0.15686275;408;Jarrod Bowen;West Ham United;45;2;Premier League;Angleterre;eng ENG;FW;24.0;51.0;18.0;11.0;8.0;0.0;45.0;15.6;29.0;0.5686275
+0.23404256;409;Michail Antonio;West Ham United;45;2;Premier League;Angleterre;jm JAM;FW;31.0;47.0;13.0;11.0;10.0;1.0;45.0;13.6;24.0;0.5106383
+0.14285715;410;Aaron Cresswell;West Ham United;45;2;Premier League;Angleterre;eng ENG;DF;31.0;42.0;2.0;6.0;4.0;2.0;41.0;1.2;8.0;0.1904762
+0.05263158;411;?ukasz Fabia?ski;West Ham United;45;2;Premier League;Angleterre;pl POL;GK;36.0;38.0;0.0;0.0;2.0;0.0;38.0;0.0;0.0;0.0
+0.0625;412;Kurt Zouma;West Ham United;45;2;Premier League;Angleterre;fr FRA;DF;26.0;32.0;1.0;1.0;2.0;0.0;32.0;2.0;2.0;0.0625
+0.1764706;413;Vladimír Coufal;West Ham United;45;2;Premier League;Angleterre;cz CZE;DF;28.0;34.0;0.0;5.0;5.0;1.0;29.0;1.0;5.0;0.14705883
+0.029411765;414;Ben Johnson;West Ham United;45;2;Premier League;Angleterre;eng ENG;DF;21.0;34.0;1.0;0.0;1.0;0.0;28.0;0.2;1.0;0.029411765
+0.07692308;415;Issa Diop;West Ham United;45;2;Premier League;Angleterre;fr FRA;DF;24.0;26.0;1.0;2.0;2.0;0.0;22.0;0.9;3.0;0.115384616
+0.0;416;Alphonse Areola;West Ham United;45;2;Premier League;Angleterre;fr FRA;GK;28.0;18.0;0.0;0.0;0.0;0.0;18.0;0.0;0.0;0.0
+0.04347826;417;Mark Noble;West Ham United;45;2;Premier League;Angleterre;eng ENG;MF;34.0;23.0;2.0;0.0;1.0;0.0;10.0;2.4;2.0;0.08695652
+0.09090909;418;Angelo Ogbonna;West Ham United;45;2;Premier League;Angleterre;it ITA;DF;33.0;11.0;1.0;0.0;1.0;0.0;11.0;0.3;1.0;0.09090909
+0.06666667;419;Ryan Fredericks;West Ham United;45;2;Premier League;Angleterre;eng ENG;DF;28.0;15.0;0.0;0.0;1.0;0.0;8.0;0.1;0.0;0.0
+0.0;420;Alex Král;West Ham United;45;2;Premier League;Angleterre;cz CZE;MF;23.0;6.0;0.0;0.0;0.0;0.0;3.0;0.0;0.0;0.0
+0.0;421;Harrison Ashby;West Ham United;45;2;Premier League;Angleterre;sct SCO;DF;19.0;3.0;0.0;0.0;0.0;0.0;2.0;0.0;0.0;0.0
+0.0;422;Sonny Perkins;West Ham United;45;2;Premier League;Angleterre;eng ENG;MF;17.0;3.0;0.0;0.0;0.0;0.0;1.0;0.7;0.0;0.0
+0.0;423;Emmanuel Longelo;West Ham United;45;2;Premier League;Angleterre;eng ENG;DF;20.0;1.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.0;424;Jamal Baptiste;West Ham United;45;2;Premier League;Angleterre;eng ENG;DF;17.0;1.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.0;425;Ajibola Alese;West Ham United;45;2;Premier League;Angleterre;eng ENG;DF;20.0;1.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.0;426;Keenan Appiah-Forson;West Ham United;45;2;Premier League;Angleterre;eng ENG;FW;19.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;427;Freddie Potts;West Ham United;45;2;Premier League;Angleterre;eng ENG;MF;17.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;428;Daniel Chesters;West Ham United;45;2;Premier League;Angleterre;eng ENG;MF;19.0;2.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0952381;429;Conor Coady;Wolverhampton Wanderers;46;2;Premier League;Angleterre;eng ENG;DF;28.0;42.0;4.0;0.0;4.0;0.0;41.0;2.8;4.0;0.0952381
+0.08108108;430;José Sá;Wolverhampton Wanderers;46;2;Premier League;Angleterre;pt POR;GK;28.0;37.0;0.0;1.0;3.0;0.0;37.0;0.0;1.0;0.027027028
+0.102564104;431;João Moutinho;Wolverhampton Wanderers;46;2;Premier League;Angleterre;pt POR;MF;34.0;39.0;2.0;1.0;4.0;0.0;36.0;1.3;3.0;0.07692308
+0.0882353;432;Max Kilman;Wolverhampton Wanderers;46;2;Premier League;Angleterre;eng ENG;DF;24.0;34.0;1.0;0.0;3.0;0.0;34.0;1.1;1.0;0.029411765
+0.30555555;433;Rúben Neves;Wolverhampton Wanderers;46;2;Premier League;Angleterre;pt POR;MF;24.0;36.0;4.0;2.0;11.0;0.0;34.0;1.1;6.0;0.16666667
+0.1875;434;Romain Saïss;Wolverhampton Wanderers;46;2;Premier League;Angleterre;ma MAR;DF;31.0;32.0;3.0;0.0;6.0;0.0;32.0;2.7;3.0;0.09375
+0.30555555;435;Raúl Jiménez;Wolverhampton Wanderers;46;2;Premier League;Angleterre;mx MEX;FW;30.0;36.0;6.0;5.0;9.0;2.0;30.0;6.1;11.0;0.30555555
+0.11764706;436;Leander Dendoncker;Wolverhampton Wanderers;46;2;Premier League;Angleterre;be BEL;MF;26.0;34.0;3.0;4.0;4.0;0.0;25.0;2.2;7.0;0.20588236
+0.07692308;437;Jonny Castro;Wolverhampton Wanderers;46;2;Premier League;Angleterre;es ESP;DF;27.0;13.0;2.0;0.0;1.0;0.0;10.0;1.0;2.0;0.15384616
+0.09090909;438;Willy Boly;Wolverhampton Wanderers;46;2;Premier League;Angleterre;ci CIV;DF;30.0;11.0;0.0;0.0;1.0;0.0;11.0;0.2;0.0;0.0
+0.03846154;439;Fábio Silva;Wolverhampton Wanderers;46;2;Premier League;Angleterre;pt POR;FW;19.0;26.0;0.0;3.0;1.0;0.0;10.0;1.8;3.0;0.115384616
+0.0;440;John Ruddy;Wolverhampton Wanderers;46;2;Premier League;Angleterre;eng ENG;GK;34.0;6.0;0.0;0.0;0.0;0.0;5.0;0.0;0.0;0.0
+0.2;441;Toti Gomes;Wolverhampton Wanderers;46;2;Premier League;Angleterre;pt POR;DF;22.0;5.0;0.0;0.0;1.0;0.0;5.0;0.0;0.0;0.0
+0.0;442;Luke Cundle;Wolverhampton Wanderers;46;2;Premier League;Angleterre;eng ENG;MF;19.0;6.0;0.0;0.0;0.0;0.0;2.0;0.0;0.0;0.0
+0.0;443;Chem Campbell;Wolverhampton Wanderers;46;2;Premier League;Angleterre;wls WAL;MF;18.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;444;Yerson Mosquera;Wolverhampton Wanderers;46;2;Premier League;Angleterre;co COL;DF;20.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;445;Bruno Jordão;Wolverhampton Wanderers;46;2;Premier League;Angleterre;pt POR;MF;22.0;1.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.8566667;446;Mohamed Salah;Liverpool;24;2;Premier League;Angleterre;eg EGY;FW;30.0;30.0;16.0;2.0;0.0;25.7;;;18.0;0.6
+0.0;447;Alisson;Liverpool;24;2;Premier League;Angleterre;br BRA;GK;29.0;0.0;1.0;1.0;0.0;0.0;;;2.0;0.0
+0.675;448;Trent Alexander-Arnold;Liverpool;24;2;Premier League;Angleterre;eng ENG;DF;23.0;4.0;10.0;7.0;0.0;2.7;;;17.0;4.25
+1.1999999;449;Virgil van Dijk;Liverpool;24;2;Premier League;Angleterre;nl NED;DF;31.0;3.0;2.0;4.0;0.0;3.6;;;6.0;2.0
+0.0;450;Fabinho;Liverpool;24;2;Premier League;Angleterre;br BRA;MF;28.0;0.0;2.0;13.0;0.0;0.7;;;15.0;0.0
+0.0;451;Andrew Robertson;Liverpool;24;2;Premier League;Angleterre;sct SCO;DF;28.0;0.0;11.0;4.0;0.0;1.4;;;15.0;0.0
+0.0;452;Jordan Henderson;Liverpool;24;2;Premier League;Angleterre;eng ENG;MF;32.0;0.0;3.0;2.0;0.0;1.4;;;5.0;0.0
+1.2066667;453;Darwin Núñez;Liverpool;24;2;Premier League;Angleterre;uy URU;FW;23.0;15.0;5.0;3.0;1.0;17.1;;;8.0;0.53333336
+0.64;454;Harvey Elliott;Liverpool;24;2;Premier League;Angleterre;eng ENG;MF;19.0;5.0;2.0;3.0;0.0;3.2;;;5.0;1.0
+0.0;455;Joe Gomez;Liverpool;24;2;Premier League;Angleterre;eng ENG;DF;25.0;0.0;1.0;5.0;0.0;0.3;;;6.0;0.0
+0.0;456;Ibrahima Konaté;Liverpool;24;2;Premier League;Angleterre;fr FRA;DF;23.0;0.0;0.0;7.0;0.0;1.3;;;7.0;0.0
+0.0;457;Thiago Alcántara;Liverpool;24;2;Premier League;Angleterre;es ESP;MF;31.0;0.0;1.0;3.0;0.0;0.6;;;4.0;0.0
+0.55;458;Joël Matip;Liverpool;24;2;Premier League;Angleterre;cm CMR;DF;30.0;2.0;0.0;4.0;0.0;1.1;;;4.0;2.0
+0.6;459;Luis Díaz;Liverpool;24;2;Premier League;Angleterre;co COL;FW;25.0;5.0;2.0;2.0;0.0;3.0;;;4.0;0.8
+0.0;460;Kostas Tsimikas;Liverpool;24;2;Premier League;Angleterre;gr GRE;DF;26.0;0.0;6.0;4.0;0.0;0.8;;;10.0;0.0
+0.0;461;James Milner;Liverpool;24;2;Premier League;Angleterre;eng ENG;MF;36.0;0.0;2.0;3.0;0.0;0.4;;;5.0;0.0
+0.8;462;Stefan Bajcetic;Liverpool;24;2;Premier League;Angleterre;es ESP;MF;17.0;1.0;0.0;4.0;0.0;0.8;;;4.0;4.0
+1.3;463;Alex Oxlade-Chamberlain;Liverpool;24;2;Premier League;Angleterre;eng ENG;MF;28.0;1.0;0.0;0.0;0.0;1.3;;;0.0;0.0
+0.0;464;Naby Keïta;Liverpool;24;2;Premier League;Angleterre;gn GUI;MF;27.0;0.0;0.0;2.0;0.0;0.6;;;2.0;0.0
+0.0;465;Caoimhín Kelleher;Liverpool;24;2;Premier League;Angleterre;ie IRL;GK;23.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;466;Nathaniel Phillips;Liverpool;24;2;Premier League;Angleterre;eng ENG;DF;25.0;0.0;0.0;1.0;0.0;0.0;;;1.0;0.0
+0.0;467;Calvin Ramsay;Liverpool;24;2;Premier League;Angleterre;sct SCO;DF;19.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;468;Ben Doak;Liverpool;24;2;Premier League;Angleterre;sct SCO;FW;16.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;469;Adrián;Liverpool;24;2;Premier League;Angleterre;es ESP;GK;35.0;0.0;0.0;0.0;0.0;;;;0.0;0.0
+0.0;470;Bobby Clark;Liverpool;24;2;Premier League;Angleterre;eng ENG;MF;17.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;471;Melkamu Frauendorf;Liverpool;24;2;Premier League;Angleterre;de GER;FW;18.0;0.0;0.0;0.0;0.0;;;;0.0;0.0
+0.0;472;Layton Stewart;Liverpool;24;2;Premier League;Angleterre;eng ENG;FW;19.0;0.0;0.0;0.0;0.0;;;;0.0;0.0
+0.0;473;Arthur Melo;Liverpool;24;2;Premier League;Angleterre;br BRA;MF;25.0;0.0;0.0;0.0;0.0;0.1;;;0.0;0.0
+0.0;474;Harvey Davies;Liverpool;24;2;Premier League;Angleterre;eng ENG;GK;18.0;;;;;;;;0.0;0.0
+0.0;475;Rhys Williams;Liverpool;24;2;Premier League;Angleterre;eng ENG;DF;21.0;;;;;;;;0.0;0.0
+0.0;476;Luke Chambers;Liverpool;24;2;Premier League;Angleterre;eng ENG;DF;18.0;;;;;;;;0.0;0.0
+0.0;477;Jarell Quansah;Liverpool;24;2;Premier League;Angleterre;eng ENG;DF;19.0;;;;;;;;0.0;0.0
+0.0;478;Jake Cain;Liverpool;24;2;Premier League;Angleterre;eng ENG;MF;20.0;;;;;;;;0.0;0.0
+0.9461539;479;João Pedro;Cagliari;10;3;Serie A;Italie;it ITA;FW;29.0;13.0;4.0;9.0;0.0;12.3;;;13.0;1.0
+0.0;480;Alessio Cragno;Cagliari;10;3;Serie A;Italie;it ITA;GK;27.0;0.0;0.0;3.0;0.0;0.0;;;3.0;0.0
+2.8;481;R?zvan Marin;Cagliari;10;3;Serie A;Italie;ro ROU;MF;25.0;1.0;5.0;7.0;1.0;1.8;;;12.0;12.0
+0.0;482;Andrea Carboni;Cagliari;10;3;Serie A;Italie;it ITA;DF;20.0;0.0;1.0;6.0;0.0;0.7;;;7.0;0.0
+0.41666666;483;Alessandro Deiola;Cagliari;10;3;Serie A;Italie;it ITA;MF;25.0;6.0;1.0;5.0;0.0;2.5;;;6.0;1.0
+0.0;484;Alberto Grassi;Cagliari;10;3;Serie A;Italie;it ITA;MF;26.0;0.0;1.0;6.0;1.0;1.1;;;7.0;0.0
+1.3199999;485;Leonardo Pavoletti;Cagliari;10;3;Serie A;Italie;it ITA;FW;32.0;5.0;1.0;9.0;0.0;6.6;;;10.0;2.0
+1.0;486;Giorgio Altare;Cagliari;10;3;Serie A;Italie;it ITA;DF;22.0;1.0;0.0;5.0;0.0;1.0;;;5.0;5.0
+0.4;487;Luca Ceppitelli;Cagliari;10;3;Serie A;Italie;it ITA;DF;31.0;1.0;1.0;3.0;0.0;0.4;;;4.0;4.0
+0.0;488;Gabriele Zappa;Cagliari;10;3;Serie A;Italie;it ITA;DF;21.0;0.0;1.0;5.0;1.0;0.6;;;6.0;0.0
+0.0;489;Matteo Lovato;Cagliari;10;3;Serie A;Italie;it ITA;DF;21.0;0.0;0.0;4.0;0.0;0.5;;;4.0;0.0
+1.1666666;490;Keita Baldé;Cagliari;10;3;Serie A;Italie;sn SEN;FW;26.0;3.0;1.0;2.0;0.0;3.5;;;3.0;1.0
+0.0;491;Edoardo Goldaniga;Cagliari;10;3;Serie A;Italie;it ITA;DF;27.0;0.0;0.0;3.0;0.0;0.3;;;3.0;0.0
+0.0;492;Diego Godín;Cagliari;10;3;Serie A;Italie;uy URU;DF;35.0;0.0;1.0;3.0;0.0;0.4;;;4.0;0.0
+1.2;493;Martín Cáceres;Cagliari;10;3;Serie A;Italie;uy URU;DF;34.0;1.0;1.0;3.0;1.0;0.2;;;4.0;4.0
+0.0;494;Kevin Strootman;Cagliari;10;3;Serie A;Italie;nl NED;MF;31.0;0.0;0.0;4.0;0.0;0.0;;;4.0;0.0
+0.0;495;Boris Radunovi?;Cagliari;10;3;Serie A;Italie;rs SRB;GK;25.0;0.0;0.0;0.0;1.0;0.0;;;0.0;0.0
+0.0;496;Sebastian Walukiewicz;Cagliari;10;3;Serie A;Italie;pl POL;DF;21.0;0.0;0.0;1.0;0.0;0.4;;;1.0;0.0
+0.0;497;Marko Rog;Cagliari;10;3;Serie A;Italie;hr CRO;MF;26.0;0.0;1.0;0.0;0.0;0.3;;;1.0;0.0
+0.0;498;Daniele Baselli;Cagliari;10;3;Serie A;Italie;it ITA;MF;29.0;0.0;1.0;1.0;0.0;0.5;;;2.0;0.0
+0.0;499;Christian Oliva;Cagliari;10;3;Serie A;Italie;uy URU;MF;25.0;0.0;0.0;1.0;0.0;0.0;;;1.0;0.0
+0.0;500;Riccardo Ladinetti;Cagliari;10;3;Serie A;Italie;it ITA;MF;20.0;0.0;0.0;0.0;0.0;;;;0.0;0.0
+0.0;501;Damir Ceter;Cagliari;10;3;Serie A;Italie;co COL;FW;23.0;1.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;502;Jacopo Desogus;Cagliari;10;3;Serie A;Italie;it ITA;FW;18.0;0.0;0.0;0.0;0.0;;;;0.0;0.0
+0.0;503;Paolo Faragò;Cagliari;10;3;Serie A;Italie;it ITA;MF;28.0;0.0;0.0;0.0;0.0;0.4;;;0.0;0.0
+0.0;504;Giovanni Simeone;Cagliari;10;3;Serie A;Italie;ar ARG;FW;26.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;505;Nicolò Cavuoti;Cagliari;10;3;Serie A;Italie;it ITA;MF;18.0;0.0;0.0;0.0;0.0;;;;0.0;0.0
+0.0;506;Roberto Biancu;Cagliari;10;3;Serie A;Italie;it ITA;MF;21.0;;;;;;;;0.0;0.0
+0.0;507;Zito Luvumbo;Cagliari;10;3;Serie A;Italie;ao ANG;FW;19.0;;;;;;;;0.0;0.0
+0.0;508;Alberto Cerri;Cagliari;10;3;Serie A;Italie;it ITA;FW;25.0;;;;;;;;0.0;0.0
+0.0;509;Andrea D'Aniello;Cagliari;10;3;Serie A;Italie;it ITA;GK;18.0;;;;;;;;0.0;0.0
+0.0;510;Simone Aresti;Cagliari;10;3;Serie A;Italie;it ITA;GK;35.0;;;;;;;;0.0;0.0
+0.0;511;Luigi Palomba;Cagliari;10;3;Serie A;Italie;it ITA;DF;18.0;;;;;;;;0.0;0.0
+0.0;512;Eldin Lolic;Cagliari;10;3;Serie A;Italie;ba BIH;GK;17.0;;;;;;;;0.0;0.0
+0.0;513;Lisandru Tramoni;Cagliari;10;3;Serie A;Italie;fr FRA;FW;18.0;;;;;;;;0.0;0.0
+0.0;514;Iurie Iovu;Cagliari;10;3;Serie A;Italie;md MDA;DF;19.0;;;;;;;;0.0;0.0
+0.0;515;Isaias Del Pupo;Cagliari;10;3;Serie A;Italie;ar ARG;MF;18.0;;;;;;;;0.0;0.0
+0.0;516;Eugenio Fusco;Cagliari;10;3;Serie A;Italie;it ITA;GK;18.0;;;;;;;;0.0;0.0
+0.0;517;Samir Handanovi?;Inter;20;3;Serie A;Italie;si SVN;GK;37.0;0.0;0.0;1.0;0.0;0.0;;;1.0;0.0
+1.325;518;Milan ¦kriniar;Inter;20;3;Serie A;Italie;sk SVK;DF;26.0;4.0;0.0;5.0;0.0;5.3;;;5.0;1.25
+0.56666666;519;Marcelo Brozovi?;Inter;20;3;Serie A;Italie;hr CRO;MF;28.0;3.0;3.0;9.0;0.0;1.7;;;12.0;4.0
+1.5;520;Nicolò Barella;Inter;20;3;Serie A;Italie;it ITA;MF;24.0;4.0;11.0;9.0;1.0;5.0;;;20.0;5.0
+0.51;521;Ivan Peri¨i?;Inter;20;3;Serie A;Italie;hr CRO;DF;32.0;10.0;8.0;4.0;0.0;5.1;;;12.0;1.2
+3.2;522;Stefan de Vrij;Inter;20;3;Serie A;Italie;nl NED;DF;29.0;1.0;0.0;3.0;0.0;3.2;;;3.0;3.0
+1.1117647;523;Edin D¸eko;Inter;20;3;Serie A;Italie;ba BIH;FW;35.0;17.0;8.0;3.0;0.0;18.9;;;11.0;0.64705884
+0.775;524;Hakan Çalhano?lu;Inter;20;3;Serie A;Italie;tr TUR;MF;27.0;8.0;12.0;11.0;0.0;6.2;;;23.0;2.875
+0.3;525;Alessandro Bastoni;Inter;20;3;Serie A;Italie;it ITA;DF;22.0;1.0;2.0;6.0;0.0;0.3;;;8.0;8.0
+0.932;526;Lautaro Martínez;Inter;20;3;Serie A;Italie;ar ARG;FW;23.0;25.0;3.0;8.0;0.0;23.3;;;11.0;0.44
+1.12;527;Denzel Dumfries;Inter;20;3;Serie A;Italie;nl NED;DF;25.0;5.0;6.0;4.0;0.0;5.6;;;10.0;2.0
+0.4;528;Matteo Darmian;Inter;20;3;Serie A;Italie;it ITA;DF;31.0;2.0;4.0;5.0;0.0;0.8;;;9.0;4.5
+1.9;529;Federico Dimarco;Inter;20;3;Serie A;Italie;it ITA;DF;23.0;2.0;4.0;2.0;0.0;3.8;;;6.0;3.0
+2.1;530;Danilo D'Ambrosio;Inter;20;3;Serie A;Italie;it ITA;DF;32.0;1.0;1.0;3.0;0.0;2.1;;;4.0;4.0
+1.3;531;Arturo Vidal;Inter;20;3;Serie A;Italie;cl CHI;MF;34.0;2.0;3.0;6.0;0.0;2.6;;;9.0;4.5
+0.6222222;532;Alexis Sánchez;Inter;20;3;Serie A;Italie;cl CHI;FW;32.0;9.0;4.0;3.0;1.0;4.6;;;7.0;0.7777778
+0.76666665;533;Joaquín Correa;Inter;20;3;Serie A;Italie;ar ARG;FW;26.0;6.0;2.0;3.0;0.0;4.6;;;5.0;0.8333333
+0.45;534;Roberto Gagliardini;Inter;20;3;Serie A;Italie;it ITA;MF;27.0;2.0;2.0;3.0;0.0;0.9;;;5.0;2.5
+1.4;535;Matías Vecino;Inter;20;3;Serie A;Italie;uy URU;MF;29.0;1.0;0.0;3.0;0.0;1.4;;;3.0;3.0
+0.7;536;Andrea Ranocchia;Inter;20;3;Serie A;Italie;it ITA;DF;33.0;1.0;0.0;1.0;0.0;0.7;;;1.0;1.0
+0.0;537;Ionu? Radu;Inter;20;3;Serie A;Italie;ro ROU;GK;24.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.5;538;Stefano Sensi;Inter;20;3;Serie A;Italie;it ITA;MF;25.0;1.0;0.0;0.0;0.0;0.5;;;0.0;0.0
+0.0;539;Aleksandar Kolarov;Inter;20;3;Serie A;Italie;rs SRB;DF;35.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;540;Mattia Zanotti;Inter;20;3;Serie A;Italie;it ITA;DF;18.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;541;Cesare Casadei;Inter;20;3;Serie A;Italie;it ITA;MF;18.0;;;;;;;;0.0;0.0
+0.0;542;Dennis Curatolo;Inter;20;3;Serie A;Italie;it ITA;FW;17.0;;;;;;;;0.0;0.0
+0.0;543;William Rovida;Inter;20;3;Serie A;Italie;it ITA;GK;18.0;;;;;;;;0.0;0.0
+0.0;544;Fabio Cortinovis;Inter;20;3;Serie A;Italie;it ITA;DF;19.0;;;;;;;;0.0;0.0
+0.0;545;Lucien Agoume;Inter;20;3;Serie A;Italie;fr FRA;MF;19.0;;;;;;;;0.0;0.0
+0.0;546;Andrea Pinamonti;Inter;20;3;Serie A;Italie;it ITA;FW;22.0;;;;;;;;0.0;0.0
+0.0;547;Franco Carboni;Inter;20;3;Serie A;Italie;it ITA;FW;18.0;;;;;;;;0.0;0.0
+0.0;548;Mattia Sangalli;Inter;20;3;Serie A;Italie;it ITA;MF;19.0;;;;;;;;0.0;0.0
+0.0;549;Alex Cordaz;Inter;20;3;Serie A;Italie;it ITA;GK;38.0;;;;;;;;0.0;0.0
+0.0;550;Norbert Gyömbér;Salernitana;36;3;Serie A;Italie;sk SVK;DF;29.0;0.0;0.0;9.0;0.0;0.6;;;9.0;0.0
+0.0;551;Lassana Coulibaly;Salernitana;36;3;Serie A;Italie;ml MLI;MF;25.0;0.0;0.0;3.0;0.0;1.0;;;3.0;0.0
+1.0600001;552;Milan ?uri?;Salernitana;36;3;Serie A;Italie;ba BIH;FW;31.0;5.0;4.0;6.0;0.0;5.3;;;10.0;2.0
+0.6;553;Luca Ranieri;Salernitana;36;3;Serie A;Italie;it ITA;DF;22.0;1.0;0.0;9.0;0.0;0.6;;;9.0;9.0
+0.0;554;Vid Belec;Salernitana;36;3;Serie A;Italie;si SVN;GK;31.0;0.0;0.0;1.0;0.0;0.0;;;1.0;0.0
+2.5;555;Federico Fazio;Salernitana;36;3;Serie A;Italie;ar ARG;DF;34.0;1.0;0.0;3.0;1.0;1.5;;;3.0;3.0
+0.0;556;Luigi Sepe;Salernitana;36;3;Serie A;Italie;it ITA;GK;30.0;0.0;0.0;2.0;0.0;0.0;;;2.0;0.0
+0.0;557;Francesco Di Tacchio;Salernitana;36;3;Serie A;Italie;it ITA;MF;31.0;0.0;0.0;4.0;0.0;0.4;;;4.0;0.0
+0.0;558;Pasquale Mazzocchi;Salernitana;36;3;Serie A;Italie;it ITA;DF;26.0;0.0;2.0;2.0;0.0;0.1;;;4.0;0.0
+0.0;559;Riccardo Gagliolo;Salernitana;36;3;Serie A;Italie;se SWE;DF;31.0;0.0;1.0;2.0;0.0;0.5;;;3.0;0.0
+1.0;560;Éderson;Salernitana;36;3;Serie A;Italie;br BRA;MF;22.0;2.0;1.0;5.0;0.0;2.0;;;6.0;3.0
+0.0;561;Stefan Strandberg;Salernitana;36;3;Serie A;Italie;no NOR;DF;31.0;0.0;0.0;2.0;1.0;0.4;;;2.0;0.0
+0.7;562;Mamadou Coulibaly;Salernitana;36;3;Serie A;Italie;sn SEN;MF;22.0;2.0;0.0;1.0;0.0;1.4;;;1.0;0.5
+3.2;563;Simeon Nwankwo;Salernitana;36;3;Serie A;Italie;ng NGA;FW;29.0;1.0;1.0;0.0;0.0;3.2;;;1.0;1.0
+0.0;564;Matteo Ruggeri;Salernitana;36;3;Serie A;Italie;it ITA;DF;19.0;0.0;1.0;1.0;0.0;0.2;;;2.0;0.0
+1.7;565;Cedric Gondo;Salernitana;36;3;Serie A;Italie;ci CIV;FW;24.0;1.0;0.0;1.0;0.0;1.7;;;1.0;1.0
+0.0;566;Emil Bohinen;Salernitana;36;3;Serie A;Italie;no NOR;MF;22.0;0.0;1.0;5.0;0.0;0.1;;;6.0;0.0
+0.2;567;Andrea Schiavone;Salernitana;36;3;Serie A;Italie;it ITA;MF;28.0;1.0;0.0;2.0;0.0;0.2;;;2.0;2.0
+0.0;568;Pawe? Jaroszy?ski;Salernitana;36;3;Serie A;Italie;pl POL;DF;26.0;0.0;0.0;2.0;0.0;0.1;;;2.0;0.0
+0.0;569;Freddie Veseli;Salernitana;36;3;Serie A;Italie;al ALB;DF;28.0;0.0;0.0;3.0;1.0;0.0;;;3.0;0.0
+0.0;570;Luka Bogdan;Salernitana;36;3;Serie A;Italie;hr CRO;DF;25.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;571;Radu Dr?gu?in;Salernitana;36;3;Serie A;Italie;ro ROU;DF;19.0;0.0;0.0;1.0;0.0;0.0;;;1.0;0.0
+0.0;572;Filippo Delli Carri;Salernitana;36;3;Serie A;Italie;it ITA;DF;22.0;0.0;0.0;1.0;0.0;0.2;;;1.0;0.0
+0.0;573;Leonardo Capezzi;Salernitana;36;3;Serie A;Italie;it ITA;MF;26.0;0.0;0.0;1.0;0.0;0.0;;;1.0;0.0
+0.0;574;Vincenzo Fiorillo;Salernitana;36;3;Serie A;Italie;it ITA;GK;31.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;575;Ramzi Aya;Salernitana;36;3;Serie A;Italie;it ITA;DF;30.0;0.0;0.0;1.0;0.0;0.0;;;1.0;0.0
+0.0;576;Andrei Motoc;Salernitana;36;3;Serie A;Italie;ro ROU;DF;19.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;577;Alessandro Russo;Salernitana;36;3;Serie A;Italie;it ITA;MF;17.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;578;Julian Kristoffersen;Salernitana;36;3;Serie A;Italie;no NOR;FW;24.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;579;Mario Perrone;Salernitana;36;3;Serie A;Italie;it ITA;DF;18.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;580;Lorenzo Cannavale;Salernitana;36;3;Serie A;Italie;it ITA;FW;19.0;;;;;;;;0.0;0.0
+0.0;581;Guido Guerrieri;Salernitana;36;3;Serie A;Italie;it ITA;GK;25.0;;;;;;;;0.0;0.0
+0.0;582;Carmine Iannone;Salernitana;36;3;Serie A;Italie;it ITA;MF;20.0;;;;;;;;0.0;0.0
+0.0;583;Tommaso De Lorenzo;Salernitana;36;3;Serie A;Italie;it ITA;DF;17.0;;;;;;;;0.0;0.0
+0.0;584;Jacopo De Matteis;Salernitana;36;3;Serie A;Italie;it ITA;GK;18.0;;;;;;;;0.0;0.0
+0.0;585;Antonio Russo;Salernitana;36;3;Serie A;Italie;it ITA;GK;21.0;;;;;;;;0.0;0.0
+0.0;586;Antonio Iervolino;Salernitana;36;3;Serie A;Italie;it ITA;MF;18.0;;;;;;;;0.0;0.0
+0.0;587;Angelo Guida;Salernitana;36;3;Serie A;Italie;it ITA;FW;18.0;;;;;;;;0.0;0.0
+0.0;588;Sedric Kalombo;Torino;39;3;Serie A;Italie;it ITA;DF;26.0;;;;;;;;0.0;0.0
+0.93999994;589;Sa¨a Luki?;Torino;39;3;Serie A;Italie;rs SRB;MF;24.0;5.0;4.0;11.0;0.0;4.7;;;15.0;3.0
+1.4666667;590;Gleison Bremer;Torino;39;3;Serie A;Italie;br BRA;DF;24.0;3.0;1.0;7.0;0.0;4.4;;;8.0;2.6666667
+1.1999999;591;Wilfried Singo;Torino;39;3;Serie A;Italie;ci CIV;DF;20.0;3.0;4.0;5.0;1.0;2.6;;;9.0;3.0
+0.0;592;Ricardo Rodríguez;Torino;39;3;Serie A;Italie;ch SUI;DF;28.0;0.0;1.0;4.0;0.0;0.3;;;5.0;0.0
+0.0;593;Vanja Milinkovi?-Savi?;Torino;39;3;Serie A;Italie;rs SRB;GK;24.0;0.0;0.0;3.0;0.0;0.1;;;3.0;0.0
+0.61428577;594;Josip Brekalo;Torino;39;3;Serie A;Italie;hr CRO;MF;23.0;7.0;2.0;1.0;0.0;4.3;;;3.0;0.42857143
+0.8;595;Tommaso Pobega;Torino;39;3;Serie A;Italie;it ITA;MF;22.0;4.0;2.0;11.0;0.0;3.2;;;13.0;3.25
+0.0;596;Mërgim Vojvoda;Torino;39;3;Serie A;Italie;xk KVX;DF;26.0;0.0;3.0;3.0;0.0;1.2;;;6.0;0.0
+0.0;597;Koffi Djidji;Torino;39;3;Serie A;Italie;ci CIV;DF;28.0;0.0;0.0;6.0;1.0;0.6;;;6.0;0.0
+1.3833333;598;Antonio Sanabria;Torino;39;3;Serie A;Italie;py PAR;FW;25.0;6.0;1.0;3.0;0.0;8.3;;;4.0;0.6666667
+0.0;599;Ola Aina;Torino;39;3;Serie A;Italie;ng NGA;DF;24.0;0.0;0.0;4.0;0.0;0.2;;;4.0;0.0
+1.15;600;Dennis Praet;Torino;39;3;Serie A;Italie;be BEL;MF;27.0;2.0;2.0;3.0;0.0;2.3;;;5.0;2.5
+2.2;601;Rolando Mandragora;Torino;39;3;Serie A;Italie;it ITA;MF;24.0;1.0;2.0;7.0;1.0;1.2;;;9.0;9.0
+0.9875;602;Andrea Belotti;Torino;39;3;Serie A;Italie;it ITA;FW;27.0;8.0;1.0;1.0;0.0;7.9;;;2.0;0.25
+0.0;603;Alessandro Buongiorno;Torino;39;3;Serie A;Italie;it ITA;DF;22.0;0.0;1.0;6.0;0.0;0.9;;;7.0;0.0
+0.0;604;David Zima;Torino;39;3;Serie A;Italie;cz CZE;DF;20.0;0.0;0.0;3.0;0.0;0.7;;;3.0;0.0
+0.6666667;605;Marko Pjaca;Torino;39;3;Serie A;Italie;hr CRO;MF;26.0;3.0;0.0;0.0;0.0;2.0;;;0.0;0.0
+0.0;606;Etrit Berisha;Torino;39;3;Serie A;Italie;al ALB;GK;32.0;0.0;0.0;1.0;0.0;0.0;;;1.0;0.0
+0.0;607;Cristian Ansaldi;Torino;39;3;Serie A;Italie;ar ARG;DF;34.0;0.0;3.0;2.0;0.0;0.3;;;5.0;0.0
+0.0;608;Samuele Ricci;Torino;39;3;Serie A;Italie;it ITA;MF;19.0;0.0;0.0;1.0;0.0;0.4;;;1.0;0.0
+0.0;609;Armando Izzo;Torino;39;3;Serie A;Italie;it ITA;DF;29.0;0.0;0.0;4.0;0.0;0.6;;;4.0;0.0
+0.0;610;Tomás Rincón;Torino;39;3;Serie A;Italie;ve VEN;MF;33.0;0.0;0.0;2.0;0.0;0.0;;;2.0;0.0
+0.4;611;Pietro Pellegri;Torino;39;3;Serie A;Italie;it ITA;FW;20.0;1.0;0.0;1.0;0.0;0.4;;;1.0;1.0
+0.0;612;Ben Lhassine Kone;Torino;39;3;Serie A;Italie;ci CIV;MF;21.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;613;Luca Gemello;Torino;39;3;Serie A;Italie;it ITA;GK;21.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;614;Nicola Rauti;Torino;39;3;Serie A;Italie;it ITA;FW;21.0;0.0;0.0;1.0;0.0;;;;1.0;0.0
+0.0;615;Jacopo Segre;Torino;39;3;Serie A;Italie;it ITA;MF;24.0;0.0;0.0;0.0;0.0;;;;0.0;0.0
+0.0;616;Denis Stojkovi?;Torino;39;3;Serie A;Italie;rs SRB;FW;18.0;;;;;;;;0.0;0.0
+0.0;617;Matt Garbett;Torino;39;3;Serie A;Italie;nz NZL;MF;19.0;;;;;;;;0.0;0.0
+0.0;618;Simone Edera;Torino;39;3;Serie A;Italie;it ITA;MF;24.0;;;;;;;;0.0;0.0
+0.0;619;Andrei Anton;Torino;39;3;Serie A;Italie;it ITA;DF;17.0;;;;;;;;0.0;0.0
+0.0;620;Samuele Angori;Torino;39;3;Serie A;Italie;it ITA;DF;17.0;;;;;;;;0.0;0.0
+0.0;621;Alberto Milan;Torino;39;3;Serie A;Italie;it ITA;GK;18.0;;;;;;;;0.0;0.0
+1.65;622;Pietro Ceccaroni;Venezia;42;3;Serie A;Italie;it ITA;DF;25.0;2.0;1.0;7.0;1.0;2.3;;;8.0;4.0
+1.8;623;Mattia Caldara;Venezia;42;3;Serie A;Italie;it ITA;DF;27.0;1.0;0.0;9.0;0.0;1.8;;;9.0;9.0
+0.8666667;624;Thomas Henry;Venezia;42;3;Serie A;Italie;fr FRA;FW;26.0;9.0;2.0;6.0;1.0;6.8;;;8.0;0.8888889
+0.5;625;Ridgeciano Haps;Venezia;42;3;Serie A;Italie;sr SUR;DF;28.0;1.0;1.0;6.0;0.0;0.5;;;7.0;7.0
+0.55;626;Domen ?rnigoj;Venezia;42;3;Serie A;Italie;si SVN;MF;25.0;4.0;1.0;4.0;0.0;2.2;;;5.0;1.25
+0.9;627;Gianluca Busio;Venezia;42;3;Serie A;Italie;us USA;MF;19.0;1.0;1.0;8.0;0.0;0.9;;;9.0;9.0
+0.0;628;Niki Mäenpää;Venezia;42;3;Serie A;Italie;fi FIN;GK;36.0;0.0;1.0;1.0;0.0;0.0;;;2.0;0.0
+0.0;629;Michael Svoboda;Venezia;42;3;Serie A;Italie;at AUT;DF;22.0;0.0;0.0;2.0;1.0;1.1;;;2.0;0.0
+0.0;630;Sergio Romero;Venezia;42;3;Serie A;Italie;ar ARG;GK;34.0;0.0;0.0;2.0;0.0;0.0;;;2.0;0.0
+0.0;631;Pasquale Mazzocchi;Venezia;42;3;Serie A;Italie;it ITA;DF;26.0;0.0;0.0;3.0;0.0;0.3;;;3.0;0.0
+0.0;632;Tyronne Ebuehi;Venezia;42;3;Serie A;Italie;ng NGA;DF;25.0;0.0;0.0;1.0;1.0;0.6;;;1.0;0.0
+0.0;633;Antonio Vacca;Venezia;42;3;Serie A;Italie;it ITA;MF;31.0;0.0;0.0;5.0;0.0;0.0;;;5.0;0.0
+0.0;634;Mickaël Cuisance;Venezia;42;3;Serie A;Italie;fr FRA;MF;21.0;0.0;0.0;2.0;0.0;0.6;;;2.0;0.0
+0.0;635;Luca Fiordilino;Venezia;42;3;Serie A;Italie;it ITA;MF;25.0;0.0;0.0;4.0;0.0;0.2;;;4.0;0.0
+0.0;636;Tanner Tessmann;Venezia;42;3;Serie A;Italie;us USA;MF;19.0;0.0;0.0;1.0;1.0;0.6;;;1.0;0.0
+0.0;637;Dor Peretz;Venezia;42;3;Serie A;Italie;il ISR;MF;26.0;0.0;2.0;2.0;0.0;0.8;;;4.0;0.0
+0.0;638;Ale¨ Mat?j?;Venezia;42;3;Serie A;Italie;cz CZE;DF;25.0;0.0;1.0;3.0;0.0;0.3;;;4.0;0.0
+0.0;639;Luca Lezzerini;Venezia;42;3;Serie A;Italie;it ITA;GK;26.0;0.0;0.0;2.0;0.0;0.0;;;2.0;0.0
+0.0;640;Cristian Molinaro;Venezia;42;3;Serie A;Italie;it ITA;DF;38.0;0.0;1.0;0.0;0.0;0.0;;;1.0;0.0
+0.5;641;Francesco Forte;Venezia;42;3;Serie A;Italie;it ITA;FW;28.0;2.0;0.0;3.0;0.0;1.0;;;3.0;1.5
+0.0;642;Marco Modolo;Venezia;42;3;Serie A;Italie;it ITA;DF;32.0;0.0;0.0;2.0;0.0;0.2;;;2.0;0.0
+0.0;643;David Schnegg;Venezia;42;3;Serie A;Italie;at AUT;DF;22.0;0.0;0.0;3.0;0.0;0.0;;;3.0;0.0
+0.0;644;Maximilian Ullmann;Venezia;42;3;Serie A;Italie;at AUT;DF;25.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;645;Jean-Pierre Nsame;Venezia;42;3;Serie A;Italie;cm CMR;FW;28.0;0.0;1.0;0.0;0.0;0.7;;;1.0;0.0
+0.0;646;Francesco Di Mariano;Venezia;42;3;Serie A;Italie;it ITA;FW;25.0;1.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;647;Bruno;Venezia;42;3;Serie A;Italie;br BRA;GK;23.0;0.0;0.0;0.0;0.0;;;;0.0;0.0
+0.0;648;Bjarki Bjarkason;Venezia;42;3;Serie A;Italie;is ISL;MF;21.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;649;Hilmir Mikaelsson;Venezia;42;3;Serie A;Italie;is ISL;FW;17.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;650;Jacopo Dezi;Venezia;42;3;Serie A;Italie;it ITA;MF;29.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;651;Nicolas Galazzi;Venezia;42;3;Serie A;Italie;it ITA;MF;20.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;652;Jack De Vries;Venezia;42;3;Serie A;Italie;us USA;MF;19.0;0.0;0.0;1.0;0.0;;;;1.0;0.0
+0.0;653;Issa Bah;Venezia;42;3;Serie A;Italie;lu LUX;FW;19.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;654;Patrick Leal;Venezia;42;3;Serie A;Italie;us USA;FW;18.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;655;Filippo Neri;Venezia;42;3;Serie A;Italie;it ITA;GK;18.0;;;;;;;;0.0;0.0
+0.0;656;Riccardo Pigozzo;Venezia;42;3;Serie A;Italie;it ITA;GK;21.0;;;;;;;;0.0;0.0
+0.0;657;Lauri Ala-Myllymäki;Venezia;42;3;Serie A;Italie;fi FIN;MF;24.0;;;;;;;;0.0;0.0
+0.0;658;Óttar Magnús Karlsson;Venezia;42;3;Serie A;Italie;is ISL;FW;24.0;;;;;;;;0.0;0.0
+0.0;659;Jakob Franz Pálsson;Venezia;42;3;Serie A;Italie;is ISL;DF;18.0;;;;;;;;0.0;0.0
+0.0;660;Morré Makadji;Venezia;42;3;Serie A;Italie;fr FRA;DF;17.0;;;;;;;;0.0;0.0
+0.0;661;Damiano Pecile;Venezia;42;3;Serie A;Italie;ca CAN;MF;19.0;;;;;;;;0.0;0.0
+0.0;662;Melvyn Remy;Venezia;42;3;Serie A;Italie;fr FRA;DF;18.0;;;;;;;;0.0;0.0
+0.0;663;Roman Lazar;Venezia;42;3;Serie A;Italie;;GK;17.0;;;;;;;;0.0;0.0
+0.0;664;Filippo Mozzo;Venezia;42;3;Serie A;Italie;it ITA;MF;17.0;;;;;;;;0.0;0.0
+0.0;665;Ivan Provedel;Lazio;21;3;Serie A;Italie;it ITA;GK;28.0;0.0;0.0;1.0;0.0;0.0;;;1.0;0.0
+0.60833335;666;Felipe Anderson;Lazio;21;3;Serie A;Italie;br BRA;FW;29.0;12.0;5.0;4.0;0.0;7.3;;;9.0;0.75
+0.80909085;667;Sergej Milinkovi?-Savi?;Lazio;21;3;Serie A;Italie;rs SRB;MF;27.0;11.0;8.0;12.0;0.0;8.9;;;20.0;1.8181819
+0.75;668;Alessio Romagnoli;Lazio;21;3;Serie A;Italie;it ITA;DF;27.0;2.0;0.0;8.0;0.0;1.5;;;8.0;4.0
+0.71;669;Mattia Zaccagni;Lazio;21;3;Serie A;Italie;it ITA;FW;27.0;10.0;9.0;13.0;0.0;7.1;;;22.0;2.2
+0.0;670;Adam Maru¨i?;Lazio;21;3;Serie A;Italie;me MNE;DF;29.0;0.0;2.0;9.0;1.0;0.9;;;11.0;0.0
+0.7428571;671;Luis Alberto;Lazio;21;3;Serie A;Italie;es ESP;MF;29.0;7.0;8.0;5.0;0.0;5.2;;;13.0;1.8571428
+0.7;672;Nicolò Casale;Lazio;21;3;Serie A;Italie;it ITA;DF;24.0;1.0;1.0;7.0;0.0;0.7;;;8.0;8.0
+0.2;673;Elseid Hysaj;Lazio;21;3;Serie A;Italie;al ALB;DF;28.0;1.0;1.0;4.0;0.0;0.2;;;5.0;5.0
+1.1999999;674;Ciro Immobile;Lazio;21;3;Serie A;Italie;it ITA;FW;32.0;14.0;7.0;5.0;0.0;16.8;;;12.0;0.85714287
+0.0;675;Danilo Cataldi;Lazio;21;3;Serie A;Italie;it ITA;MF;27.0;0.0;1.0;6.0;0.0;0.2;;;7.0;0.0
+0.0;676;Manuel Lazzari;Lazio;21;3;Serie A;Italie;it ITA;DF;28.0;0.0;0.0;11.0;1.0;0.6;;;11.0;0.0
+0.7;677;Pedro;Lazio;21;3;Serie A;Italie;es ESP;FW;35.0;7.0;4.0;2.0;0.0;4.9;;;6.0;0.85714287
+1.15;678;Matías Vecino;Lazio;21;3;Serie A;Italie;uy URU;MF;30.0;4.0;1.0;8.0;0.0;4.6;;;9.0;2.25
+0.0;679;Patric;Lazio;21;3;Serie A;Italie;es ESP;DF;29.0;0.0;0.0;3.0;1.0;0.1;;;3.0;0.0
+2.1;680;Toma Ba¨i?;Lazio;21;3;Serie A;Italie;hr CRO;MF;25.0;1.0;0.0;2.0;0.0;2.1;;;2.0;2.0
+1.2;681;Marcos Antônio;Lazio;21;3;Serie A;Italie;br BRA;MF;22.0;1.0;1.0;2.0;0.0;1.2;;;3.0;3.0
+0.0;682;Mario Gila;Lazio;21;3;Serie A;Italie;es ESP;DF;21.0;0.0;0.0;1.0;0.0;0.1;;;1.0;0.0
+0.0;683;Matteo Cancellieri;Lazio;21;3;Serie A;Italie;it ITA;FW;20.0;0.0;0.0;5.0;0.0;0.9;;;5.0;0.0
+0.0;684;Luís Maximiano;Lazio;21;3;Serie A;Italie;pt POR;GK;23.0;0.0;0.0;0.0;1.0;0.0;;;0.0;0.0
+2.4;685;Luka Romero;Lazio;21;3;Serie A;Italie;ar ARG;FW;17.0;1.0;0.0;2.0;1.0;1.4;;;2.0;2.0
+0.0;686;Luca Pellegrini;Lazio;21;3;Serie A;Italie;it ITA;DF;23.0;0.0;0.0;4.0;0.0;0.1;;;4.0;0.0
+0.0;687;?tefan Radu;Lazio;21;3;Serie A;Italie;ro ROU;FW;35.0;0.0;0.0;1.0;0.0;0.0;;;1.0;0.0
+0.0;688;Marco Bertini;Lazio;21;3;Serie A;Italie;it ITA;MF;19.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;689;Romano Floriani;Lazio;21;3;Serie A;Italie;it ITA;DF;19.0;;;;;;;;0.0;0.0
+0.0;690;Davide Renzetti;Lazio;21;3;Serie A;Italie;it ITA;GK;16.0;;;;;;;;0.0;0.0
+0.0;691;Fabio Ruggeri;Lazio;21;3;Serie A;Italie;it ITA;DF;17.0;;;;;;;;0.0;0.0
+0.0;692;Federico Magro;Lazio;21;3;Serie A;Italie;it ITA;GK;17.0;;;;;;;;0.0;0.0
+0.0;693;Diego González;Lazio;21;3;Serie A;Italie;py PAR;FW;19.0;;;;;;;;0.0;0.0
+0.0;694;Raúl Moro;Lazio;21;3;Serie A;Italie;es ESP;FW;19.0;;;;;;;;0.0;0.0
+0.0;695;Dimitrije Kamenovi?;Lazio;21;3;Serie A;Italie;rs SRB;DF;22.0;;;;;;;;0.0;0.0
+0.0;696;Marius Adamonis;Lazio;21;3;Serie A;Italie;lt LTU;GK;25.0;;;;;;;;0.0;0.0
+1.5;697;Sandro Tonali;Milan;27;3;Serie A;Italie;it ITA;MF;22.0;2.0;9.0;11.0;0.0;3.0;;;20.0;10.0
+1.15;698;Theo Hernández;Milan;27;3;Serie A;Italie;fr FRA;DF;24.0;4.0;4.0;10.0;0.0;4.6;;;14.0;3.5
+2.4;699;Fikayo Tomori;Milan;27;3;Serie A;Italie;eng ENG;DF;24.0;1.0;1.0;9.0;1.0;1.4;;;10.0;10.0
+1.6;700;Pierre Kalulu;Milan;27;3;Serie A;Italie;fr FRA;DF;22.0;1.0;0.0;4.0;0.0;1.6;;;4.0;4.0
+1.0777777;701;Olivier Giroud;Milan;27;3;Serie A;Italie;fr FRA;FW;35.0;18.0;7.0;9.0;1.0;18.4;;;16.0;0.8888889
+0.5;702;Ismaël Bennacer;Milan;27;3;Serie A;Italie;dz ALG;MF;24.0;3.0;2.0;6.0;0.0;1.5;;;8.0;2.6666667
+0.0;703;Mike Maignan;Milan;27;3;Serie A;Italie;fr FRA;GK;27.0;0.0;1.0;1.0;0.0;0.0;;;2.0;0.0
+1.4;704;Davide Calabria;Milan;27;3;Serie A;Italie;it ITA;DF;25.0;1.0;4.0;8.0;0.0;1.4;;;12.0;12.0
+0.0;705;Ciprian T?t?ru?anu;Milan;27;3;Serie A;Italie;ro ROU;GK;36.0;0.0;1.0;0.0;0.0;0.0;;;1.0;0.0
+0.0;706;Malick Thiaw;Milan;27;3;Serie A;Italie;de GER;DF;20.0;0.0;0.0;7.0;0.0;1.6;;;7.0;0.0
+0.0;707;Simon Kjær;Milan;27;3;Serie A;Italie;dk DEN;DF;33.0;0.0;0.0;4.0;0.0;0.3;;;4.0;0.0
+1.4;708;Divock Origi;Milan;27;3;Serie A;Italie;be BEL;FW;27.0;2.0;1.0;2.0;0.0;2.8;;;3.0;1.5
+0.7;709;Tommaso Pobega;Milan;27;3;Serie A;Italie;it ITA;MF;23.0;3.0;0.0;5.0;0.0;2.1;;;5.0;1.6666666
+0.4;710;Matteo Gabbia;Milan;27;3;Serie A;Italie;it ITA;DF;22.0;1.0;0.0;3.0;0.0;0.4;;;3.0;3.0
+0.0;711;Sergiño Dest;Milan;27;3;Serie A;Italie;us USA;DF;21.0;0.0;0.0;0.0;0.0;0.6;;;0.0;0.0
+0.0;712;Aster Vranckx;Milan;27;3;Serie A;Italie;be BEL;MF;19.0;0.0;0.0;1.0;0.0;0.1;;;1.0;0.0
+1.2;713;Zlatan Ibrahimovi?;Milan;27;3;Serie A;Italie;se SWE;FW;40.0;1.0;0.0;0.0;0.0;1.2;;;0.0;0.0
+0.0;714;Tiemoué Bakayoko;Milan;27;3;Serie A;Italie;fr FRA;MF;27.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;715;Marko Lazeti?;Milan;27;3;Serie A;Italie;rs SRB;FW;18.0;0.0;0.0;1.0;0.0;0.1;;;1.0;0.0
+0.0;716;Antonio Mirante;Milan;27;3;Serie A;Italie;it ITA;GK;39.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;717;Lapo Nava;Milan;27;3;Serie A;Italie;it ITA;GK;18.0;;;;;;;;0.0;0.0
+0.0;718;Antonio Gala;Milan;27;3;Serie A;Italie;it ITA;MF;18.0;;;;;;;;0.0;0.0
+0.0;719;Devis Vásquez;Milan;27;3;Serie A;Italie;co COL;GK;24.0;;;;;;;;0.0;0.0
+0.0;720;Andrei Coubis;Milan;27;3;Serie A;Italie;ro ROU;DF;18.0;;;;;;;;0.0;0.0
+0.0;721;Andrea Bozzolan;Milan;27;3;Serie A;Italie;it ITA;DF;18.0;;;;;;;;0.0;0.0
+0.0;722;Andreas Jungdal;Milan;27;3;Serie A;Italie;dk DEN;GK;20.0;;;;;;;;0.0;0.0
+0.76;723;Giovanni Di Lorenzo;Napoli;28;3;Serie A;Italie;it ITA;DF;28.0;5.0;6.0;4.0;0.0;3.8;;;10.0;2.0
+0.0;724;Alex Meret;Napoli;28;3;Serie A;Italie;it ITA;GK;25.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.7;725;Stanislav Lobotka;Napoli;28;3;Serie A;Italie;sk SVK;MF;27.0;1.0;1.0;2.0;0.0;0.7;;;3.0;3.0
+0.5;726;Kim Min-jae;Napoli;28;3;Serie A;Italie;kr KOR;DF;25.0;2.0;2.0;8.0;0.0;1.0;;;10.0;5.0
+1.55;727;Andre-Frank Zambo Anguissa;Napoli;28;3;Serie A;Italie;cm CMR;MF;26.0;4.0;8.0;5.0;1.0;5.2;;;13.0;3.25
+0.9928571;728;Khvicha Kvaratskhelia;Napoli;28;3;Serie A;Italie;ge GEO;FW;21.0;14.0;14.0;1.0;0.0;13.9;;;15.0;1.0714285
+1.05;729;Amir Rrahmani;Napoli;28;3;Serie A;Italie;xk KVX;DF;28.0;2.0;1.0;4.0;0.0;2.1;;;5.0;2.5
+0.84838706;730;Victor Osimhen;Napoli;28;3;Serie A;Italie;ng NGA;FW;23.0;31.0;4.0;5.0;0.0;26.3;;;9.0;0.29032257
+1.0571429;731;Piotr Zieli?ski;Napoli;28;3;Serie A;Italie;pl POL;MF;28.0;7.0;10.0;4.0;0.0;7.4;;;14.0;2.0
+0.65;732;Mathías Olivera;Napoli;28;3;Serie A;Italie;uy URU;DF;24.0;2.0;4.0;3.0;0.0;1.3;;;7.0;3.5
+0.0;733;Mário Rui;Napoli;28;3;Serie A;Italie;pt POR;DF;31.0;0.0;7.0;3.0;1.0;1.0;;;10.0;0.0
+1.675;734;Hirving Lozano;Napoli;28;3;Serie A;Italie;mx MEX;FW;27.0;4.0;4.0;3.0;0.0;6.7;;;7.0;1.75
+1.325;735;Matteo Politano;Napoli;28;3;Serie A;Italie;it ITA;FW;28.0;4.0;4.0;3.0;0.0;5.3;;;7.0;1.75
+0.9;736;Tanguy Ndombele;Napoli;28;3;Serie A;Italie;fr FRA;MF;25.0;2.0;1.0;5.0;0.0;1.8;;;6.0;3.0
+0.1;737;Juan Jesus;Napoli;28;3;Serie A;Italie;br BRA;DF;31.0;2.0;0.0;5.0;0.0;0.2;;;5.0;2.5
+0.75;738;Giacomo Raspadori;Napoli;28;3;Serie A;Italie;it ITA;FW;22.0;6.0;5.0;2.0;0.0;4.5;;;7.0;1.1666666
+0.46666664;739;Giovanni Simeone;Napoli;28;3;Serie A;Italie;ar ARG;FW;27.0;9.0;1.0;1.0;0.0;4.2;;;2.0;0.22222222
+0.2;740;Leo Skiri Østigård;Napoli;28;3;Serie A;Italie;no NOR;DF;22.0;1.0;0.0;1.0;0.0;0.2;;;1.0;1.0
+0.0;741;Pierluigi Gollini;Napoli;28;3;Serie A;Italie;it ITA;GK;27.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;742;Alessio Zerbin;Napoli;28;3;Serie A;Italie;it ITA;FW;23.0;0.0;1.0;2.0;0.0;0.5;;;3.0;0.0
+1.1;743;Gianluca Gaetano;Napoli;28;3;Serie A;Italie;it ITA;MF;22.0;1.0;1.0;0.0;0.0;1.1;;;1.0;1.0
+0.0;744;Diego Demme;Napoli;28;3;Serie A;Italie;de GER;MF;30.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;745;Alessandro Zanoli;Napoli;28;3;Serie A;Italie;it ITA;DF;21.0;0.0;0.0;0.0;0.0;0.1;;;0.0;0.0
+0.0;746;Karim Zedadka;Napoli;28;3;Serie A;Italie;fr FRA;FW;22.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;747;Adam Ounas;Napoli;28;3;Serie A;Italie;dz ALG;FW;25.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;748;Davide Marfella;Napoli;28;3;Serie A;Italie;it ITA;GK;22.0;;;;;;;;0.0;0.0
+0.0;749;Valerio Boffelli;Napoli;28;3;Serie A;Italie;it ITA;GK;17.0;;;;;;;;0.0;0.0
+0.0;750;Hubert Idasiak;Napoli;28;3;Serie A;Italie;pl POL;GK;20.0;;;;;;;;0.0;0.0
+0.0;751;Salvatore Sirigu;Napoli;28;3;Serie A;Italie;it ITA;GK;35.0;;;;;;;;0.0;0.0
+0.26666668;752;Lassana Coulibaly;Salernitana;36;3;Serie A;Italie;ml MLI;MF;26.0;3.0;3.0;12.0;0.0;0.8;;;15.0;5.0
+0.6;753;Tonny Vilhena;Salernitana;36;3;Serie A;Italie;nl NED;MF;27.0;4.0;1.0;5.0;0.0;2.4;;;6.0;1.5
+0.0;754;Domagoj Bradari?;Salernitana;36;3;Serie A;Italie;hr CRO;DF;22.0;0.0;3.0;5.0;0.0;0.2;;;8.0;0.0
+0.0;755;Flavius Daniliuc;Salernitana;36;3;Serie A;Italie;at AUT;DF;21.0;0.0;2.0;9.0;0.0;0.6;;;11.0;0.0
+2.075;756;Krzysztof Pi?tek;Salernitana;36;3;Serie A;Italie;pl POL;FW;27.0;4.0;5.0;5.0;0.0;8.3;;;10.0;2.5
+0.75;757;Lorenzo Pirola;Salernitana;36;3;Serie A;Italie;it ITA;DF;20.0;2.0;0.0;4.0;0.0;1.5;;;4.0;2.0
+0.65;758;Pasquale Mazzocchi;Salernitana;36;3;Serie A;Italie;it ITA;DF;27.0;2.0;3.0;2.0;0.0;1.3;;;5.0;2.5
+0.0;759;Guillermo Ochoa;Salernitana;36;3;Serie A;Italie;mx MEX;GK;37.0;0.0;0.0;1.0;0.0;0.0;;;1.0;0.0
+0.0;760;Norbert Gyömbér;Salernitana;36;3;Serie A;Italie;sk SVK;DF;30.0;0.0;1.0;5.0;0.0;0.7;;;6.0;0.0
+0.0;761;Dylan Bronn;Salernitana;36;3;Serie A;Italie;tn TUN;DF;27.0;0.0;0.0;5.0;1.0;0.7;;;5.0;0.0
+0.0;762;Luigi Sepe;Salernitana;36;3;Serie A;Italie;it ITA;GK;31.0;0.0;0.0;3.0;0.0;0.0;;;3.0;0.0
+1.7;763;Federico Fazio;Salernitana;36;3;Serie A;Italie;ar ARG;DF;35.0;1.0;0.0;3.0;1.0;0.7;;;3.0;3.0
+0.0;764;Giulio Maggiore;Salernitana;36;3;Serie A;Italie;it ITA;MF;24.0;0.0;0.0;2.0;0.0;0.5;;;2.0;0.0
+0.0;765;Emil Bohinen;Salernitana;36;3;Serie A;Italie;no NOR;MF;23.0;0.0;0.0;0.0;0.0;0.1;;;0.0;0.0
+0.0;766;Matteo Lovato;Salernitana;36;3;Serie A;Italie;it ITA;DF;22.0;0.0;0.0;2.0;0.0;0.0;;;2.0;0.0
+0.0;767;Junior Sambia;Salernitana;36;3;Serie A;Italie;fr FRA;DF;25.0;0.0;1.0;3.0;0.0;0.6;;;4.0;0.0
+0.4;768;Hans Nicolussi Caviglia;Salernitana;36;3;Serie A;Italie;it ITA;MF;22.0;1.0;0.0;2.0;0.0;0.4;;;2.0;2.0
+0.7;769;William Troost-Ekong;Salernitana;36;3;Serie A;Italie;ng NGA;DF;28.0;1.0;0.0;1.0;0.0;0.7;;;1.0;1.0
+0.0;770;Domen ?rnigoj;Salernitana;36;3;Serie A;Italie;si SVN;MF;26.0;0.0;0.0;1.0;0.0;0.1;;;1.0;0.0
+0.0;771;Franck Ribéry;Salernitana;36;3;Serie A;Italie;fr FRA;MF;39.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;772;Wajdi Kechrida;Salernitana;36;3;Serie A;Italie;tn TUN;DF;26.0;0.0;0.0;0.0;0.0;;;;0.0;0.0
+0.0;773;Vincenzo Fiorillo;Salernitana;36;3;Serie A;Italie;it ITA;GK;32.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;774;Valerio Mantovani;Salernitana;36;3;Serie A;Italie;it ITA;DF;26.0;0.0;0.0;0.0;0.0;;;;0.0;0.0
+0.0;775;Leonardo Capezzi;Salernitana;36;3;Serie A;Italie;it ITA;MF;27.0;0.0;0.0;0.0;0.0;;;;0.0;0.0
+0.0;776;Sanasi Sy;Salernitana;36;3;Serie A;Italie;fr FRA;MF;23.0;0.0;0.0;0.0;0.0;;;;0.0;0.0
+0.0;777;Michele Cavion;Salernitana;36;3;Serie A;Italie;it ITA;MF;27.0;0.0;0.0;0.0;0.0;;;;0.0;0.0
+0.0;778;Julian Kristoffersen;Salernitana;36;3;Serie A;Italie;no NOR;FW;25.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;779;Antonio Iervolino;Salernitana;36;3;Serie A;Italie;it ITA;MF;19.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;780;Reda Boultam;Salernitana;36;3;Serie A;Italie;nl NED;MF;24.0;;;;;;;;0.0;0.0
+0.0;781;Jacopo De Matteis;Salernitana;36;3;Serie A;Italie;it ITA;GK;19.0;;;;;;;;0.0;0.0
+0.0;782;Pasquale Allocca;Salernitana;36;3;Serie A;Italie;it ITA;GK;17.0;;;;;;;;0.0;0.0
+0.0;783;Alessandro Micai;Salernitana;36;3;Serie A;Italie;it ITA;GK;29.0;;;;;;;;0.0;0.0
+0.0;784;Freddie Veseli;Salernitana;36;3;Serie A;Italie;al ALB;DF;29.0;;;;;;;;0.0;0.0
+0.0;785;Andrea Sorrentino;Salernitana;36;3;Serie A;Italie;it ITA;GK;17.0;;;;;;;;0.0;0.0
+0.0;786;Edoardo Vergani;Salernitana;36;3;Serie A;Italie;it ITA;FW;21.0;;;;;;;;0.0;0.0
+0.0;787;Andres Sfait;Salernitana;36;3;Serie A;Italie;ro ROU;MF;17.0;;;;;;;;0.0;0.0
+0.0;788;Andrei Motoc;Salernitana;36;3;Serie A;Italie;ro ROU;MF;20.0;;;;;;;;0.0;0.0
+1.2;789;Robin Le Normand;Real Sociedad;34;1;La Liga;Espagne;es ESP;DF;24.0;2.0;2.0;6.0;0.0;2.4;;;8.0;4.0
+0.0;790;Álex Remiro;Real Sociedad;34;1;La Liga;Espagne;es ESP;GK;26.0;0.0;0.0;1.0;0.0;0.0;;;1.0;0.0
+1.275;791;Mikel Merino;Real Sociedad;34;1;La Liga;Espagne;es ESP;MF;25.0;4.0;2.0;9.0;0.0;5.1;;;11.0;2.75
+0.9666667;792;Martín Zubimendi;Real Sociedad;34;1;La Liga;Espagne;es ESP;MF;22.0;3.0;2.0;7.0;0.0;2.9;;;9.0;3.0
+0.7;793;Aritz Elustondo;Real Sociedad;34;1;La Liga;Espagne;es ESP;DF;27.0;4.0;1.0;5.0;1.0;1.8;;;6.0;1.5
+1.27;794;Alexander Isak;Real Sociedad;34;1;La Liga;Espagne;se SWE;FW;21.0;10.0;3.0;7.0;0.0;12.7;;;10.0;1.0
+0.0;795;Andoni Gorosabel;Real Sociedad;34;1;La Liga;Espagne;es ESP;DF;24.0;0.0;4.0;5.0;0.0;0.6;;;9.0;0.0
+1.025;796;Alexander Sørloth;Real Sociedad;34;1;La Liga;Espagne;no NOR;FW;25.0;8.0;1.0;2.0;0.0;8.2;;;3.0;0.375
+0.0;797;Igor Zubeldia;Real Sociedad;34;1;La Liga;Espagne;es ESP;DF;24.0;0.0;2.0;9.0;0.0;0.8;;;11.0;0.0
+1.3;798;Aihen Muñoz;Real Sociedad;34;1;La Liga;Espagne;es ESP;DF;23.0;1.0;1.0;6.0;1.0;0.3;;;7.0;7.0
+2.45;799;David Silva;Real Sociedad;34;1;La Liga;Espagne;es ESP;MF;35.0;2.0;4.0;5.0;1.0;3.9;;;9.0;4.5
+0.0;800;Joseba Zaldúa;Real Sociedad;34;1;La Liga;Espagne;es ESP;DF;29.0;0.0;3.0;8.0;0.0;0.1;;;11.0;0.0
+0.0;801;Diego Rico;Real Sociedad;34;1;La Liga;Espagne;es ESP;DF;28.0;0.0;1.0;4.0;0.0;0.2;;;5.0;0.0
+0.0;802;Ander Guevara;Real Sociedad;34;1;La Liga;Espagne;es ESP;MF;24.0;0.0;0.0;4.0;0.0;0.1;;;4.0;0.0
+2.6;803;Rafinha;Real Sociedad;34;1;La Liga;Espagne;br BRA;MF;28.0;1.0;0.0;3.0;0.0;2.6;;;3.0;3.0
+0.0;804;Mathew Ryan;Real Sociedad;34;1;La Liga;Espagne;au AUS;GK;29.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;805;Jon Pacheco;Real Sociedad;34;1;La Liga;Espagne;es ESP;DF;20.0;0.0;0.0;1.0;0.0;0.0;;;1.0;0.0
+0.0;806;Asier Illarramendi;Real Sociedad;34;1;La Liga;Espagne;es ESP;MF;31.0;0.0;0.0;1.0;0.0;0.0;;;1.0;0.0
+0.5;807;Beñat Turrientes;Real Sociedad;34;1;La Liga;Espagne;es ESP;MF;19.0;1.0;0.0;1.0;0.0;0.5;;;1.0;1.0
+0.45;808;Jon Guridi;Real Sociedad;34;1;La Liga;Espagne;es ESP;MF;26.0;2.0;0.0;0.0;0.0;0.9;;;0.0;0.0
+0.0;809;Olasagasti;Real Sociedad;34;1;La Liga;Espagne;es ESP;MF;20.0;0.0;1.0;0.0;0.0;;;;1.0;0.0
+0.0;810;Germán Valera;Real Sociedad;34;1;La Liga;Espagne;es ESP;FW;19.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;811;Jon Bautista;Real Sociedad;34;1;La Liga;Espagne;es ESP;MF;26.0;0.0;0.0;0.0;0.0;0.1;;;0.0;0.0
+0.0;812;Cristo;Real Sociedad;34;1;La Liga;Espagne;es ESP;DF;21.0;0.0;0.0;0.0;0.0;0.0;;;0.0;0.0
+0.0;813;Jon Karrikaburu;Real Sociedad;34;1;La Liga;Espagne;es ESP;FW;18.0;0.0;0.0;0.0;0.0;0.1;;;0.0;0.0
+0.0;814;Gaizka Ayesa;Real Sociedad;34;1;La Liga;Espagne;es ESP;GK;20.0;;;;;;;;0.0;0.0
+0.0;815;Urko González;Real Sociedad;34;1;La Liga;Espagne;es ESP;DF;20.0;;;;;;;;0.0;0.0
+0.0;816;Unai Marrero;Real Sociedad;34;1;La Liga;Espagne;es ESP;GK;19.0;;;;;;;;0.0;0.0
+0.0;817;Jonathan Gomez;Real Sociedad;34;1;La Liga;Espagne;us USA;DF;17.0;;;;;;;;0.0;0.0
+0.08108108;818;Fernando;Almería;1;1;La Liga;Espagne;es ESP;GK;32.0;37.0;0.0;0.0;3.0;0.0;37.0;0.0;0.0;0.0
+0.30555555;819;Rodrigo Ely;Almería;1;1;La Liga;Espagne;br BRA;DF;28.0;36.0;0.0;1.0;10.0;1.0;36.0;1.0;1.0;0.027777778
+0.14705883;820;Sr?an Babi?;Almería;1;1;La Liga;Espagne;rs SRB;DF;26.0;34.0;3.0;0.0;5.0;0.0;33.0;1.2;3.0;0.0882353
+0.1891892;821;Lucas Robertone;Almería;1;1;La Liga;Espagne;ar ARG;MF;25.0;37.0;2.0;7.0;7.0;0.0;34.0;2.6;9.0;0.24324325
+0.1724138;822;Sergio Akieme;Almería;1;1;La Liga;Espagne;es ESP;DF;24.0;29.0;1.0;0.0;5.0;0.0;27.0;1.5;1.0;0.03448276
+0.18181819;823;Samu Costa;Almería;1;1;La Liga;Espagne;pt POR;MF;21.0;33.0;1.0;2.0;6.0;0.0;23.0;1.7;3.0;0.09090909
+0.06451613;824;Alejandro Pozo Pozo;Almería;1;1;La Liga;Espagne;es ESP;DF;23.0;31.0;0.0;3.0;2.0;0.0;20.0;0.5;3.0;0.09677419
+0.17857143;825;Gonzalo Melero;Almería;1;1;La Liga;Espagne;es ESP;MF;28.0;28.0;4.0;3.0;5.0;0.0;24.0;3.0;7.0;0.25
+0.24;826;César de la Hoz;Almería;1;1;La Liga;Espagne;es ESP;MF;30.0;25.0;1.0;0.0;6.0;0.0;18.0;0.4;1.0;0.04
+0.27272728;827;Juan Brandáriz;Almería;1;1;La Liga;Espagne;es ESP;DF;23.0;22.0;1.0;0.0;6.0;0.0;16.0;0.4;1.0;0.045454547
+0.23809524;828;Luis Javier Suárez;Almería;1;1;La Liga;Espagne;co COL;FW;24.0;21.0;4.0;4.0;4.0;1.0;18.0;4.4;8.0;0.3809524
+0.045454547;829;El Bilal Touré;Almería;1;1;La Liga;Espagne;ml MLI;FW;20.0;22.0;7.0;2.0;0.0;1.0;15.0;6.3;9.0;0.4090909
+0.0625;830;Álex Centelles;Almería;1;1;La Liga;Espagne;es ESP;DF;24.0;16.0;1.0;2.0;0.0;1.0;12.0;0.4;3.0;0.1875
+0.23076923;831;Íñigo Eguaras;Almería;1;1;La Liga;Espagne;es ESP;MF;30.0;26.0;1.0;1.0;6.0;0.0;11.0;1.0;2.0;0.07692308
+0.14285715;832;Houboulang Mendes;Almería;1;1;La Liga;Espagne;gw GNB;DF;24.0;14.0;0.0;1.0;2.0;0.0;11.0;0.0;1.0;0.071428575
+0.35714287;833;Kaiky;Almería;1;1;La Liga;Espagne;br BRA;DF;18.0;14.0;0.0;0.0;5.0;0.0;8.0;0.1;0.0;0.0
+0.04761905;834;Dyego Sousa;Almería;1;1;La Liga;Espagne;pt POR;FW;32.0;21.0;0.0;1.0;1.0;0.0;4.0;1.2;1.0;0.04761905
+0.33333334;835;Umar Sadiq;Almería;1;1;La Liga;Espagne;ng NGA;FW;25.0;3.0;2.0;0.0;1.0;0.0;3.0;1.5;2.0;0.6666667
+0.0;836;Diego Fuoli;Almería;1;1;La Liga;Espagne;es ESP;GK;24.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;837;Fernando Pacheco;Almería;1;1;La Liga;Espagne;es ESP;GK;30.0;1.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.0;838;Diego Mariño;Almería;1;1;La Liga;Espagne;es ESP;GK;32.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.5;839;Curro;Almería;1;1;La Liga;Espagne;es ESP;MF;26.0;2.0;0.0;0.0;1.0;0.0;0.0;0.1;0.0;0.0
+1.0;840;Gui Guedes;Almería;1;1;La Liga;Espagne;pt POR;MF;20.0;1.0;0.0;0.0;1.0;0.0;0.0;;0.0;0.0
+0.5;841;Marko Milovanovi?;Almería;1;1;La Liga;Espagne;rs SRB;FW;18.0;2.0;0.0;0.0;1.0;0.0;0.0;0.1;0.0;0.0
+0.1627907;842;Óscar de Marcos;Athletic Club;4;1;La Liga;Espagne;es ESP;DF;33.0;43.0;2.0;6.0;7.0;0.0;38.0;0.4;8.0;0.18604651
+0.04761905;843;Iñaki Williams;Athletic Club;4;1;La Liga;Espagne;gh GHA;FW;28.0;42.0;11.0;5.0;2.0;0.0;37.0;10.7;16.0;0.3809524
+0.1627907;844;Mikel Vesga;Athletic Club;4;1;La Liga;Espagne;es ESP;MF;29.0;43.0;4.0;5.0;7.0;0.0;35.0;3.9;9.0;0.20930232
+0.069767445;845;Nico Williams;Athletic Club;4;1;La Liga;Espagne;es ESP;FW;20.0;43.0;9.0;4.0;3.0;0.0;38.0;4.9;13.0;0.30232558
+0.2777778;846;Yuri Berchiche;Athletic Club;4;1;La Liga;Espagne;es ESP;DF;32.0;36.0;1.0;1.0;9.0;1.0;34.0;1.3;2.0;0.055555556
+0.25;847;Daniel Vivian;Athletic Club;4;1;La Liga;Espagne;es ESP;DF;23.0;36.0;1.0;0.0;8.0;1.0;32.0;1.2;1.0;0.027777778
+0.2195122;848;Oihan Sancet;Athletic Club;4;1;La Liga;Espagne;es ESP;MF;22.0;41.0;10.0;2.0;8.0;1.0;36.0;7.6;12.0;0.29268292
+0.27272728;849;Yeray Álvarez;Athletic Club;4;1;La Liga;Espagne;es ESP;DF;27.0;33.0;1.0;1.0;8.0;1.0;32.0;0.8;2.0;0.060606062
+0.06451613;850;Unai Simón;Athletic Club;4;1;La Liga;Espagne;es ESP;GK;25.0;31.0;0.0;0.0;2.0;0.0;31.0;0.0;0.0;0.0
+0.069767445;851;Álex Berenguer;Athletic Club;4;1;La Liga;Espagne;es ESP;FW;27.0;43.0;7.0;1.0;3.0;0.0;31.0;4.3;8.0;0.18604651
+0.054054055;852;Gorka Guruzeta;Athletic Club;4;1;La Liga;Espagne;es ESP;FW;25.0;37.0;6.0;2.0;2.0;0.0;20.0;6.1;8.0;0.21621622
+0.11111111;853;Iñigo Martínez;Athletic Club;4;1;La Liga;Espagne;es ESP;DF;31.0;18.0;1.0;0.0;2.0;0.0;18.0;0.8;1.0;0.055555556
+0.20689656;854;Dani García;Athletic Club;4;1;La Liga;Espagne;es ESP;MF;32.0;29.0;0.0;2.0;6.0;0.0;19.0;1.4;2.0;0.06896552
+0.08695652;855;Iñigo Lekue;Athletic Club;4;1;La Liga;Espagne;es ESP;DF;29.0;23.0;0.0;1.0;2.0;0.0;15.0;0.2;1.0;0.04347826
+0.06666667;856;Julen Agirrezabala;Athletic Club;4;1;La Liga;Espagne;es ESP;GK;21.0;15.0;0.0;0.0;1.0;0.0;14.0;0.0;0.0;0.0
+0.16666667;857;Oier Zarraga;Athletic Club;4;1;La Liga;Espagne;es ESP;MF;23.0;30.0;1.0;1.0;5.0;0.0;9.0;1.3;2.0;0.06666667
+0.1764706;858;Aitor Paredes;Athletic Club;4;1;La Liga;Espagne;es ESP;DF;22.0;17.0;0.0;0.0;3.0;0.0;9.0;0.5;0.0;0.0
+0.25;859;Ander Herrera;Athletic Club;4;1;La Liga;Espagne;es ESP;MF;32.0;20.0;0.0;1.0;4.0;1.0;11.0;0.5;1.0;0.05
+0.18181819;860;Unai Vencedor Paris;Athletic Club;4;1;La Liga;Espagne;es ESP;MF;21.0;11.0;0.0;0.0;2.0;0.0;0.0;0.5;0.0;0.0
+0.0;861;Asier Villalibre;Athletic Club;4;1;La Liga;Espagne;es ESP;FW;24.0;8.0;0.0;0.0;0.0;0.0;2.0;0.3;0.0;0.0
+0.0;862;Mikel Balenziaga;Athletic Club;4;1;La Liga;Espagne;es ESP;DF;34.0;4.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.14285715;863;Ander Capa;Athletic Club;4;1;La Liga;Espagne;es ESP;DF;30.0;7.0;0.0;0.0;1.0;0.0;1.0;0.0;0.0;0.0
+0.02631579;864;Jan Oblak;Atlético Madrid;5;1;La Liga;Espagne;si SVN;GK;29.0;38.0;0.0;0.0;1.0;0.0;38.0;0.0;0.0;0.0
+0.14285715;865;Koke;Atlético Madrid;5;1;La Liga;Espagne;es ESP;MF;30.0;42.0;0.0;3.0;6.0;0.0;38.0;0.9;3.0;0.071428575
+0.3611111;866;José María Giménez;Atlético Madrid;5;1;La Liga;Espagne;uy URU;DF;27.0;36.0;2.0;1.0;13.0;0.0;33.0;2.5;3.0;0.083333336
+0.21212122;867;Reinildo Mandava;Atlético Madrid;5;1;La Liga;Espagne;mz MOZ;DF;28.0;33.0;0.0;0.0;7.0;0.0;31.0;0.6;0.0;0.0
+0.3529412;868;Mario Hermoso;Atlético Madrid;5;1;La Liga;Espagne;es ESP;DF;27.0;34.0;4.0;2.0;10.0;2.0;31.0;2.8;6.0;0.1764706
+0.41379312;869;Stefan Savi?;Atlético Madrid;5;1;La Liga;Espagne;me MNE;DF;31.0;29.0;0.0;0.0;9.0;3.0;29.0;0.2;0.0;0.0
+0.11111111;870;Álvaro Morata;Atlético Madrid;5;1;La Liga;Espagne;es ESP;FW;29.0;45.0;15.0;3.0;5.0;0.0;31.0;12.9;18.0;0.4
+0.18421052;871;Rodrigo De Paul;Atlético Madrid;5;1;La Liga;Espagne;ar ARG;MF;28.0;38.0;3.0;8.0;7.0;0.0;27.0;1.8;11.0;0.28947368
+0.0625;872;Thomas Lemar;Atlético Madrid;5;1;La Liga;Espagne;fr FRA;MF;26.0;32.0;1.0;3.0;2.0;0.0;21.0;1.0;4.0;0.125
+0.25925925;873;Geoffrey Kondogbia;Atlético Madrid;5;1;La Liga;Espagne;cf CTA;MF;29.0;27.0;0.0;2.0;7.0;0.0;13.0;1.0;2.0;0.074074075
+0.23076923;874;Ivo Grbi?;Atlético Madrid;5;1;La Liga;Espagne;hr CRO;GK;26.0;13.0;0.0;0.0;3.0;0.0;11.0;0.0;0.0;0.0
+0.25;875;João Félix;Atlético Madrid;5;1;La Liga;Espagne;pt POR;FW;22.0;20.0;5.0;3.0;5.0;0.0;11.0;2.9;8.0;0.4
+0.15384616;876;Pablo Barrios;Atlético Madrid;5;1;La Liga;Espagne;es ESP;MF;19.0;26.0;2.0;1.0;4.0;0.0;8.0;0.5;3.0;0.115384616
+0.11111111;877;Memphis;Atlético Madrid;5;1;La Liga;Espagne;nl NED;FW;28.0;9.0;4.0;0.0;1.0;0.0;3.0;3.0;4.0;0.44444445
+0.0;878;Felipe;Atlético Madrid;5;1;La Liga;Espagne;br BRA;DF;33.0;4.0;0.0;0.0;0.0;0.0;3.0;0.2;0.0;0.0
+0.0;879;Alberto Moreno;Atlético Madrid;5;1;La Liga;Espagne;es ESP;MF;20.0;1.0;0.0;1.0;0.0;0.0;0.0;;1.0;1.0
+0.0;880;Matt Doherty;Atlético Madrid;5;1;La Liga;Espagne;ie IRL;DF;30.0;2.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;881;Antonio Gomis;Atlético Madrid;5;1;La Liga;Espagne;es ESP;GK;19.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;882;Marc-André ter Stegen;Barcelona;6;1;La Liga;Espagne;de GER;GK;30.0;50.0;0.0;0.0;0.0;0.0;50.0;0.0;0.0;0.0
+0.13043478;883;Robert Lewandowski;Barcelona;6;1;La Liga;Espagne;pl POL;FW;33.0;46.0;33.0;8.0;5.0;1.0;45.0;28.4;41.0;0.8913044
+0.30612245;884;Gavi;Barcelona;6;1;La Liga;Espagne;es ESP;MF;17.0;49.0;3.0;7.0;15.0;0.0;40.0;3.2;10.0;0.20408164
+0.05;885;Jules Koundé;Barcelona;6;1;La Liga;Espagne;fr FRA;DF;23.0;40.0;1.0;6.0;2.0;0.0;39.0;1.4;7.0;0.175
+0.069767445;886;Frenkie de Jong;Barcelona;6;1;La Liga;Espagne;nl NED;MF;25.0;43.0;2.0;4.0;3.0;0.0;37.0;2.4;6.0;0.13953489
+0.33333334;887;Sergio Busquets;Barcelona;6;1;La Liga;Espagne;es ESP;MF;34.0;42.0;0.0;4.0;13.0;1.0;38.0;0.7;4.0;0.0952381
+0.11363637;888;Alejandro Balde;Barcelona;6;1;La Liga;Espagne;es ESP;DF;18.0;44.0;1.0;6.0;5.0;0.0;36.0;1.9;7.0;0.1590909
+0.22;889;Raphinha;Barcelona;6;1;La Liga;Espagne;br BRA;FW;25.0;50.0;10.0;11.0;11.0;0.0;35.0;10.0;21.0;0.42
+0.2580645;890;Ronald Araújo;Barcelona;6;1;La Liga;Espagne;uy URU;DF;23.0;31.0;1.0;2.0;7.0;1.0;30.0;2.2;3.0;0.09677419
+0.09375;891;Andreas Christensen;Barcelona;6;1;La Liga;Espagne;dk DEN;DF;26.0;32.0;1.0;1.0;3.0;0.0;28.0;1.1;2.0;0.0625
+0.14285715;892;Ousmane Dembélé;Barcelona;6;1;La Liga;Espagne;fr FRA;FW;25.0;35.0;8.0;9.0;5.0;0.0;25.0;5.0;17.0;0.4857143
+0.08108108;893;Marcos Alonso;Barcelona;6;1;La Liga;Espagne;es ESP;DF;31.0;37.0;3.0;0.0;3.0;0.0;20.0;2.1;3.0;0.08108108
+0.26666668;894;Jordi Alba;Barcelona;6;1;La Liga;Espagne;es ESP;DF;33.0;30.0;2.0;6.0;7.0;1.0;20.0;0.8;8.0;0.26666668
+0.21212122;895;Sergi Roberto;Barcelona;6;1;La Liga;Espagne;es ESP;DF;30.0;33.0;4.0;3.0;7.0;0.0;22.0;2.5;7.0;0.21212122
+0.078431375;896;Ansu Fati;Barcelona;6;1;La Liga;Espagne;es ESP;FW;19.0;51.0;10.0;4.0;4.0;0.0;14.0;10.1;14.0;0.27450982
+0.125;897;Eric García;Barcelona;6;1;La Liga;Espagne;es ESP;DF;21.0;32.0;1.0;1.0;4.0;0.0;18.0;1.6;2.0;0.0625
+0.11627907;898;Franck Kessié;Barcelona;6;1;La Liga;Espagne;ci CIV;MF;25.0;43.0;3.0;3.0;5.0;0.0;16.0;2.2;6.0;0.13953489
+0.3;899;Gerard Piqué;Barcelona;6;1;La Liga;Espagne;es ESP;DF;35.0;10.0;0.0;0.0;2.0;1.0;6.0;0.4;0.0;0.0
+0.0;900;Héctor Bellerín;Barcelona;6;1;La Liga;Espagne;es ESP;DF;27.0;7.0;0.0;0.0;0.0;0.0;5.0;0.1;0.0;0.0
+0.0;901;Iñaki Peña;Barcelona;6;1;La Liga;Espagne;es ESP;GK;23.0;5.0;0.0;0.0;0.0;0.0;3.0;0.0;0.0;0.0
+0.0;902;Memphis;Barcelona;6;1;La Liga;Espagne;nl NED;FW;28.0;4.0;1.0;0.0;0.0;0.0;3.0;0.9;1.0;0.25
+0.0;903;Ángel Alarcón;Barcelona;6;1;La Liga;Espagne;es ESP;FW;18.0;5.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.0;904;Marc Casado;Barcelona;6;1;La Liga;Espagne;es ESP;MF;18.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;905;Alvaro Sanz;Barcelona;6;1;La Liga;Espagne;es ESP;MF;21.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;906;Pierre-Emerick Aubameyang;Barcelona;6;1;La Liga;Espagne;ga GAB;FW;33.0;1.0;0.0;0.0;0.0;0.0;0.0;0.1;0.0;0.0
+0.0;907;Lamine Yamal;Barcelona;6;1;La Liga;Espagne;es ESP;FW;15.0;1.0;0.0;0.0;0.0;0.0;0.0;0.4;0.0;0.0
+0.0;908;Aleix Garrido;Barcelona;6;1;La Liga;Espagne;es ESP;FW;18.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;909;Chadi Riad;Barcelona;6;1;La Liga;Espagne;ma MAR;MF;19.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.25;910;Luis Hernández;Cádiz;14;1;La Liga;Espagne;es ESP;DF;33.0;36.0;0.0;0.0;8.0;1.0;36.0;0.3;0.0;0.0
+0.19444445;911;Alfonso Espino;Cádiz;14;1;La Liga;Espagne;uy URU;DF;30.0;36.0;0.0;4.0;7.0;0.0;35.0;1.5;4.0;0.11111111
+0.05882353;912;Jeremías Ledesma;Cádiz;14;1;La Liga;Espagne;ar ARG;GK;29.0;34.0;0.0;0.0;2.0;0.0;34.0;0.0;0.0;0.0
+0.25;913;Isaac Carcelen;Cádiz;14;1;La Liga;Espagne;es ESP;DF;29.0;28.0;0.0;1.0;4.0;3.0;26.0;0.2;1.0;0.035714287
+0.38709676;914;Rubén Alcaraz;Cádiz;14;1;La Liga;Espagne;es ESP;MF;31.0;31.0;3.0;0.0;11.0;1.0;22.0;4.0;3.0;0.09677419
+0.42424244;915;Fede San Emeterio;Cádiz;14;1;La Liga;Espagne;es ESP;MF;25.0;33.0;0.0;1.0;14.0;0.0;24.0;0.3;1.0;0.030303031
+0.21428572;916;Anthony Lozano;Cádiz;14;1;La Liga;Espagne;hn HON;FW;29.0;28.0;1.0;1.0;6.0;0.0;14.0;2.6;2.0;0.071428575
+0.11764706;917;Sergi Guardiola;Cádiz;14;1;La Liga;Espagne;es ESP;FW;31.0;17.0;3.0;0.0;2.0;0.0;14.0;3.4;3.0;0.1764706
+0.2857143;918;Gonzalo Escalante;Cádiz;14;1;La Liga;Espagne;ar ARG;MF;29.0;14.0;4.0;1.0;4.0;0.0;13.0;3.5;5.0;0.35714287
+0.21428572;919;Víctor Chust;Cádiz;14;1;La Liga;Espagne;es ESP;DF;22.0;14.0;1.0;0.0;3.0;0.0;10.0;0.9;1.0;0.071428575
+0.045454547;920;Álvaro Negredo;Cádiz;14;1;La Liga;Espagne;es ESP;FW;36.0;22.0;2.0;2.0;1.0;0.0;10.0;1.8;4.0;0.18181819
+0.14285715;921;Mamadou Mbaye;Cádiz;14;1;La Liga;Espagne;sn SEN;DF;24.0;14.0;0.0;0.0;2.0;0.0;7.0;0.1;0.0;0.0
+0.2;922;Lucas Pérez;Cádiz;14;1;La Liga;Espagne;es ESP;FW;33.0;15.0;4.0;0.0;3.0;0.0;6.0;2.0;4.0;0.26666668
+0.13333334;923;Chris Ramos;Cádiz;14;1;La Liga;Espagne;es ESP;FW;25.0;15.0;1.0;0.0;2.0;0.0;7.0;3.0;1.0;0.06666667
+0.4;924;Joseba Zaldúa;Cádiz;14;1;La Liga;Espagne;es ESP;DF;30.0;10.0;0.0;1.0;4.0;0.0;7.0;0.0;1.0;0.1
+0.071428575;925;Roger Martí;Cádiz;14;1;La Liga;Espagne;es ESP;FW;31.0;14.0;1.0;0.0;1.0;0.0;8.0;2.5;1.0;0.071428575
+0.0;926;Jorge Meré;Cádiz;14;1;La Liga;Espagne;es ESP;DF;25.0;10.0;0.0;0.0;0.0;0.0;6.0;0.2;0.0;0.0
+0.0;927;David Gil;Cádiz;14;1;La Liga;Espagne;es ESP;GK;28.0;5.0;0.0;0.0;0.0;0.0;5.0;0.0;0.0;0.0
+0.21052632;928;José Mari;Cádiz;14;1;La Liga;Espagne;es ESP;MF;34.0;19.0;0.0;0.0;4.0;0.0;3.0;0.1;0.0;0.0
+0.16666667;929;Raúl Parra;Cádiz;14;1;La Liga;Espagne;es ESP;DF;22.0;6.0;0.0;0.0;1.0;0.0;4.0;0.0;0.0;0.0
+0.6;930;Tomás Alarcón;Cádiz;14;1;La Liga;Espagne;cl CHI;MF;23.0;5.0;0.0;0.0;2.0;1.0;2.0;0.0;0.0;0.0
+0.25;931;Blanco;Cádiz;14;1;La Liga;Espagne;;MF;22.0;4.0;0.0;0.0;1.0;0.0;3.0;;0.0;0.0
+0.0;932;Cala;Cádiz;14;1;La Liga;Espagne;es ESP;DF;32.0;3.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.4;933;Youba Diarra;Cádiz;14;1;La Liga;Espagne;ml MLI;MF;24.0;5.0;0.0;0.0;2.0;0.0;1.0;0.0;0.0;0.0
+0.0;934;Lautaro Spatz;Cádiz;14;1;La Liga;Espagne;ar ARG;DF;20.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;935;Alberto Perea;Cádiz;14;1;La Liga;Espagne;es ESP;MF;31.0;1.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.0;936;Álvaro Giménez;Cádiz;14;1;La Liga;Espagne;es ESP;FW;31.0;2.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;937;Carlos García;Cádiz;14;1;La Liga;Espagne;es ESP;DF;22.0;1.0;0.0;1.0;0.0;0.0;0.0;0.0;1.0;1.0
+0.0;938;Francisco Mwepu;Cádiz;14;1;La Liga;Espagne;zm ZAM;FW;22.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.20512821;939;Unai Núñez;Celta Vigo;11;1;La Liga;Espagne;es ESP;DF;25.0;39.0;0.0;0.0;8.0;0.0;38.0;1.2;0.0;0.0
+0.15;940;Javi Galán;Celta Vigo;11;1;La Liga;Espagne;es ESP;DF;27.0;40.0;1.0;4.0;6.0;0.0;38.0;0.6;5.0;0.125
+0.21621622;941;Joseph Aidoo;Celta Vigo;11;1;La Liga;Espagne;gh GHA;DF;26.0;37.0;4.0;0.0;7.0;1.0;37.0;1.0;4.0;0.10810811
+0.15384616;942;Fran Beltrán;Celta Vigo;11;1;La Liga;Espagne;es ESP;MF;23.0;39.0;0.0;2.0;6.0;0.0;35.0;0.9;2.0;0.051282052
+0.15384616;943;Iago Aspas;Celta Vigo;11;1;La Liga;Espagne;es ESP;FW;34.0;39.0;12.0;3.0;6.0;0.0;31.0;11.0;15.0;0.3846154
+0.17948718;944;Gabriel Veiga;Celta Vigo;11;1;La Liga;Espagne;es ESP;MF;20.0;39.0;11.0;4.0;6.0;1.0;30.0;6.1;15.0;0.3846154
+0.25;945;Hugo Mallo;Celta Vigo;11;1;La Liga;Espagne;es ESP;DF;31.0;28.0;0.0;1.0;6.0;1.0;26.0;1.4;1.0;0.035714287
+0.19444445;946;Óscar Rodríguez Arnaiz;Celta Vigo;11;1;La Liga;Espagne;es ESP;MF;24.0;36.0;3.0;1.0;7.0;0.0;21.0;3.6;4.0;0.11111111
+0.14285715;947;Jørgen Strand Larsen;Celta Vigo;11;1;La Liga;Espagne;no NOR;FW;22.0;35.0;5.0;6.0;5.0;0.0;21.0;5.6;11.0;0.31428573
+0.0;948;Iván Villar;Celta Vigo;11;1;La Liga;Espagne;es ESP;GK;25.0;21.0;0.0;0.0;0.0;0.0;21.0;0.0;0.0;0.0
+0.25;949;Agustín Marchesín;Celta Vigo;11;1;La Liga;Espagne;ar ARG;GK;34.0;20.0;0.0;0.0;4.0;1.0;20.0;0.0;0.0;0.0
+0.2;950;Luca de la Torre;Celta Vigo;11;1;La Liga;Espagne;us USA;MF;24.0;30.0;1.0;2.0;6.0;0.0;17.0;1.1;3.0;0.1
+0.08695652;951;Óscar Mingueza;Celta Vigo;11;1;La Liga;Espagne;es ESP;DF;23.0;23.0;0.0;0.0;2.0;0.0;15.0;0.4;0.0;0.0
+0.16666667;952;Haris Seferovi?;Celta Vigo;11;1;La Liga;Espagne;ch SUI;FW;30.0;18.0;3.0;1.0;3.0;0.0;10.0;1.8;4.0;0.22222222
+0.0;953;Augusto Solari;Celta Vigo;11;1;La Liga;Espagne;ar ARG;MF;30.0;12.0;0.0;1.0;0.0;0.0;3.0;0.3;1.0;0.083333336
+0.0;954;Carlos Dominguez;Celta Vigo;11;1;La Liga;Espagne;es ESP;DF;21.0;4.0;0.0;1.0;0.0;0.0;2.0;0.0;1.0;0.25
+0.14285715;955;Williot Swedberg;Celta Vigo;11;1;La Liga;Espagne;se SWE;MF;18.0;7.0;0.0;0.0;1.0;0.0;1.0;0.0;0.0;0.0
+0.0;956;Hugo Sotelo;Celta Vigo;11;1;La Liga;Espagne;es ESP;MF;18.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;957;Fernando Medrano;Celta Vigo;11;1;La Liga;Espagne;es ESP;DF;22.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.05263158;958;Édgar Badía;Elche;15;1;La Liga;Espagne;es ESP;GK;30.0;38.0;0.0;0.0;2.0;0.0;38.0;0.0;0.0;0.0
+0.31578946;959;Gerard Gumbau;Elche;15;1;La Liga;Espagne;es ESP;MF;27.0;38.0;1.0;7.0;12.0;0.0;34.0;2.3;8.0;0.21052632
+0.21621622;960;Lucas Boyé;Elche;15;1;La Liga;Espagne;ar ARG;FW;26.0;37.0;7.0;3.0;7.0;1.0;30.0;8.3;10.0;0.27027026
+0.20689656;961;Pedro Bigas;Elche;15;1;La Liga;Espagne;es ESP;DF;31.0;29.0;0.0;1.0;4.0;2.0;26.0;1.8;1.0;0.03448276
+0.24;962;Helibelton Palacios;Elche;15;1;La Liga;Espagne;co COL;DF;29.0;25.0;0.0;0.0;6.0;0.0;24.0;0.4;0.0;0.0
+0.39130434;963;Enzo Roco;Elche;15;1;La Liga;Espagne;cl CHI;DF;29.0;23.0;0.0;0.0;8.0;1.0;20.0;0.6;0.0;0.0
+0.032258064;964;Raúl Guti;Elche;15;1;La Liga;Espagne;es ESP;MF;25.0;31.0;0.0;1.0;1.0;0.0;14.0;1.6;1.0;0.032258064
+0.22222222;965;Diego González;Elche;15;1;La Liga;Espagne;es ESP;DF;27.0;18.0;0.0;0.0;4.0;0.0;9.0;0.8;0.0;0.0
+0.071428575;966;Lisandro Magallán;Elche;15;1;La Liga;Espagne;ar ARG;DF;28.0;14.0;0.0;0.0;0.0;1.0;11.0;0.6;0.0;0.0
+0.16666667;967;Gonzalo Verdú;Elche;15;1;La Liga;Espagne;es ESP;DF;33.0;18.0;1.0;0.0;1.0;2.0;11.0;0.6;1.0;0.055555556
+0.2;968;Roger Martí;Elche;15;1;La Liga;Espagne;es ESP;FW;31.0;15.0;2.0;1.0;3.0;0.0;10.0;0.6;3.0;0.2
+0.16666667;969;Álex Collado;Elche;15;1;La Liga;Espagne;es ESP;MF;23.0;18.0;1.0;1.0;3.0;0.0;8.0;0.6;2.0;0.11111111
+0.07692308;970;Pol Lirola;Elche;15;1;La Liga;Espagne;es ESP;DF;24.0;13.0;1.0;0.0;1.0;0.0;7.0;0.2;1.0;0.07692308
+0.36363637;971;Domingos Quina;Elche;15;1;La Liga;Espagne;pt POR;MF;22.0;11.0;0.0;0.0;3.0;1.0;3.0;0.2;0.0;0.0
+0.0;972;Axel Werner;Elche;15;1;La Liga;Espagne;ar ARG;GK;26.0;3.0;0.0;0.0;0.0;0.0;3.0;0.0;0.0;0.0
+0.0;973;Federico Fernández;Elche;15;1;La Liga;Espagne;ar ARG;DF;33.0;1.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.0;974;Marco Soler;Elche;15;1;La Liga;Espagne;es ESP;DF;22.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;975;Manu Cocca;Elche;15;1;La Liga;Espagne;ar ARG;DF;19.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+1.0;976;Pape Cheikh Diop;Elche;15;1;La Liga;Espagne;sn SEN;MF;24.0;2.0;0.0;0.0;1.0;1.0;0.0;0.0;0.0;0.0
+0.0;977;Rodrigo Mendoza;Elche;15;1;La Liga;Espagne;es ESP;MF;17.0;1.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.0;978;Alejandro Alfaro;Elche;15;1;La Liga;Espagne;es ESP;MF;20.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;979;Branislav Kne¸evi?;Elche;15;1;La Liga;Espagne;rs SRB;DF;20.0;1.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+0.0;980;Javier Pastore;Elche;15;1;La Liga;Espagne;ar ARG;MF;33.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.09756097;981;Sergi Darder;Espanyol;16;1;La Liga;Espagne;es ESP;MF;28.0;41.0;7.0;3.0;4.0;0.0;39.0;3.5;10.0;0.24390244
+0.05263158;982;Joselu;Espanyol;16;1;La Liga;Espagne;es ESP;FW;32.0;38.0;17.0;3.0;2.0;0.0;35.0;14.5;20.0;0.5263158
+0.3611111;983;Leandro Cabrera;Espanyol;16;1;La Liga;Espagne;uy URU;DF;31.0;36.0;0.0;1.0;11.0;2.0;35.0;2.3;1.0;0.027777778
+0.44444445;984;Óscar Gil;Espanyol;16;1;La Liga;Espagne;es ESP;DF;25.0;36.0;0.0;2.0;16.0;0.0;32.0;0.6;2.0;0.055555556
+0.21212122;985;Brian Oliván;Espanyol;16;1;La Liga;Espagne;es ESP;DF;28.0;33.0;1.0;8.0;7.0;0.0;32.0;0.6;9.0;0.27272728
+0.35135135;986;Vinicius Souza;Espanyol;16;1;La Liga;Espagne;br BRA;MF;23.0;37.0;1.0;1.0;12.0;1.0;29.0;0.8;2.0;0.054054055
+0.13333334;987;Sergi Gómez;Espanyol;16;1;La Liga;Espagne;es ESP;DF;30.0;30.0;0.0;0.0;2.0;2.0;27.0;0.9;0.0;0.0
+0.27272728;988;César Montes;Espanyol;16;1;La Liga;Espagne;mx MEX;DF;25.0;22.0;3.0;0.0;6.0;0.0;20.0;0.9;3.0;0.13636364
+0.125;989;Edu Expósito;Espanyol;16;1;La Liga;Espagne;es ESP;MF;25.0;32.0;3.0;2.0;3.0;1.0;16.0;0.9;5.0;0.15625
+0.0;990;Fernando Pacheco;Espanyol;16;1;La Liga;Espagne;es ESP;GK;30.0;16.0;0.0;0.0;0.0;0.0;16.0;0.0;0.0;0.0
+0.083333336;991;Álvaro Fernández;Espanyol;16;1;La Liga;Espagne;es ESP;GK;24.0;12.0;0.0;0.0;1.0;0.0;12.0;0.0;0.0;0.0
+0.2;992;Benjamin Lecomte;Espanyol;16;1;La Liga;Espagne;fr FRA;GK;31.0;10.0;0.0;0.0;1.0;1.0;10.0;0.0;0.0;0.0
+0.05;993;Keidi Bare;Espanyol;16;1;La Liga;Espagne;al ALB;MF;24.0;20.0;0.0;1.0;1.0;0.0;5.0;0.6;1.0;0.05
+0.0;994;Joan García;Espanyol;16;1;La Liga;Espagne;es ESP;GK;21.0;4.0;0.0;0.0;0.0;0.0;4.0;0.0;0.0;0.0
+0.0;995;Simo;Espanyol;16;1;La Liga;Espagne;es ESP;DF;17.0;9.0;0.0;0.0;0.0;0.0;2.0;0.0;0.0;0.0
+0.375;996;Ronaël Pierre-Gabriel;Espanyol;16;1;La Liga;Espagne;fr FRA;DF;24.0;8.0;1.0;0.0;2.0;1.0;2.0;0.2;1.0;0.125
+0.16666667;997;Pol Lozano;Espanyol;16;1;La Liga;Espagne;es ESP;MF;22.0;6.0;0.0;0.0;1.0;0.0;1.0;0.0;0.0;0.0
+0.5;998;Roger Martínez;Espanyol;16;1;La Liga;Espagne;es ESP;DF;18.0;2.0;0.0;0.0;1.0;0.0;1.0;0.0;0.0;0.0
+0.0;999;Daniel Villahermosa;Espanyol;16;1;La Liga;Espagne;es ESP;MF;21.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;1000;Adri Embarba;Espanyol;16;1;La Liga;Espagne;es ESP;FW;30.0;1.0;0.0;0.0;0.0;0.0;0.0;0.1;0.0;0.0
+1.0;1001;Kenneth;Espanyol;16;1;La Liga;Espagne;es ESP;FW;21.0;1.0;0.0;0.0;1.0;0.0;0.0;;0.0;0.0
+0.0;1002;Nabil Touaizi;Espanyol;16;1;La Liga;Espagne;ma MAR;MF;21.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.051282052;1003;David Soria;Getafe;18;1;La Liga;Espagne;es ESP;GK;29.0;39.0;0.0;0.0;2.0;0.0;39.0;0.0;0.0;0.0
+0.15789473;1004;Enes Ünal;Getafe;18;1;La Liga;Espagne;tr TUR;FW;25.0;38.0;15.0;5.0;6.0;0.0;38.0;11.7;20.0;0.5263158
+0.3888889;1005;Djené;Getafe;18;1;La Liga;Espagne;tg TOG;DF;30.0;36.0;0.0;1.0;13.0;1.0;36.0;0.6;1.0;0.027777778
+0.38235295;1006;Domingos Duarte;Getafe;18;1;La Liga;Espagne;pt POR;DF;27.0;34.0;0.0;2.0;12.0;1.0;33.0;1.3;2.0;0.05882353
+0.10526316;1007;Borja Mayoral;Getafe;18;1;La Liga;Espagne;es ESP;FW;25.0;38.0;9.0;2.0;4.0;0.0;33.0;7.9;11.0;0.28947368
+0.35714287;1008;Omar Alderete;Getafe;18;1;La Liga;Espagne;py PAR;DF;25.0;28.0;1.0;1.0;10.0;0.0;25.0;0.6;2.0;0.071428575
+0.23333333;1009;Luis Milla;Getafe;18;1;La Liga;Espagne;es ESP;MF;27.0;30.0;0.0;5.0;6.0;1.0;25.0;0.3;5.0;0.16666667
+0.10344828;1010;Nemanja Maksimovi?;Getafe;18;1;La Liga;Espagne;rs SRB;MF;27.0;29.0;0.0;0.0;3.0;0.0;26.0;1.8;0.0;0.0
+0.22727273;1011;Stefan Mitrovi?;Getafe;18;1;La Liga;Espagne;rs SRB;DF;32.0;22.0;0.0;0.0;5.0;0.0;18.0;0.1;0.0;0.0
+0.32;1012;Gastón Álvarez;Getafe;18;1;La Liga;Espagne;uy URU;DF;22.0;25.0;2.0;0.0;7.0;1.0;17.0;0.5;2.0;0.08
+0.13793103;1013;Ángel Algobia;Getafe;18;1;La Liga;Espagne;es ESP;MF;23.0;29.0;0.0;0.0;4.0;0.0;13.0;0.3;0.0;0.0
+0.46153846;1014;Mauro Arambarri;Getafe;18;1;La Liga;Espagne;uy URU;MF;26.0;13.0;0.0;1.0;5.0;1.0;13.0;0.2;1.0;0.07692308
+0.14285715;1015;Juanmi Latasa;Getafe;18;1;La Liga;Espagne;es ESP;FW;21.0;21.0;2.0;0.0;3.0;0.0;3.0;1.1;2.0;0.0952381
+0.2;1016;Fabrizio Angileri;Getafe;18;1;La Liga;Espagne;ar ARG;DF;28.0;15.0;0.0;0.0;2.0;1.0;7.0;0.1;0.0;0.0
+0.3125;1017;Gonzalo Villar;Getafe;18;1;La Liga;Espagne;es ESP;MF;24.0;16.0;0.0;0.0;5.0;0.0;3.0;0.1;0.0;0.0
+0.5;1018;Jordan Amavi;Getafe;18;1;La Liga;Espagne;fr FRA;DF;28.0;6.0;0.0;0.0;2.0;1.0;2.0;0.0;0.0;0.0
+0.0;1019;Kiko Casilla;Getafe;18;1;La Liga;Espagne;es ESP;GK;35.0;2.0;0.0;0.0;0.0;0.0;2.0;;0.0;0.0
+0.0;1020;Moises Parra Gutierrez;Getafe;18;1;La Liga;Espagne;es ESP;FW;20.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;1021;Alejandro Revuelta Montero;Getafe;18;1;La Liga;Espagne;es ESP;DF;22.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.22222222;1022;Santiago Bueno;Girona;19;1;La Liga;Espagne;uy URU;DF;23.0;36.0;0.0;1.0;7.0;1.0;35.0;1.3;1.0;0.027777778
+0.3529412;1023;Oriol Romeu;Girona;19;1;La Liga;Espagne;es ESP;MF;30.0;34.0;2.0;0.0;11.0;1.0;34.0;1.6;2.0;0.05882353
+0.31428573;1024;Arnau Martinez;Girona;19;1;La Liga;Espagne;es ESP;DF;19.0;35.0;3.0;4.0;11.0;0.0;33.0;1.9;7.0;0.2
+0.3243243;1025;Valentín Castellanos;Girona;19;1;La Liga;Espagne;ar ARG;FW;23.0;37.0;14.0;0.0;12.0;0.0;34.0;11.2;14.0;0.3783784
+0.19444445;1026;Miguel Gutiérrez;Girona;19;1;La Liga;Espagne;es ESP;DF;21.0;36.0;2.0;3.0;7.0;0.0;29.0;0.8;5.0;0.1388889
+0.14285715;1027;Paulo Gazzaniga;Girona;19;1;La Liga;Espagne;ar ARG;GK;30.0;28.0;0.0;0.0;4.0;0.0;28.0;0.0;0.0;0.0
+0.03125;1028;Aleix García;Girona;19;1;La Liga;Espagne;es ESP;MF;25.0;32.0;1.0;6.0;1.0;0.0;27.0;1.8;7.0;0.21875
+0.07692308;1029;Iván Martín;Girona;19;1;La Liga;Espagne;es ESP;MF;23.0;26.0;3.0;3.0;2.0;0.0;20.0;2.4;6.0;0.23076923
+0.25;1030;David López;Girona;19;1;La Liga;Espagne;es ESP;DF;32.0;20.0;3.0;1.0;5.0;0.0;19.0;1.5;4.0;0.2
+0.0;1031;Viktor Tsyhankov;Girona;19;1;La Liga;Espagne;ua UKR;MF;24.0;19.0;3.0;6.0;0.0;0.0;17.0;2.8;9.0;0.47368422
+0.15789473;1032;Juanpe;Girona;19;1;La Liga;Espagne;es ESP;DF;31.0;19.0;1.0;0.0;3.0;0.0;17.0;0.5;1.0;0.05263158
+0.2857143;1033;Bernardo Espinosa;Girona;19;1;La Liga;Espagne;co COL;DF;33.0;21.0;1.0;1.0;6.0;0.0;15.0;1.2;2.0;0.0952381
+0.23529412;1034;Cristhian Stuani;Girona;19;1;La Liga;Espagne;uy URU;FW;35.0;34.0;10.0;0.0;8.0;0.0;9.0;9.7;10.0;0.29411766
+0.115384616;1035;Javi Hernández;Girona;19;1;La Liga;Espagne;es ESP;DF;24.0;26.0;1.0;3.0;3.0;0.0;14.0;1.3;4.0;0.15384616
+0.0;1036;Juan Carlos;Girona;19;1;La Liga;Espagne;es ESP;GK;34.0;11.0;0.0;0.0;0.0;0.0;11.0;0.0;0.0;0.0
+0.0;1037;Ramón Terrats;Girona;19;1;La Liga;Espagne;es ESP;MF;21.0;10.0;0.0;0.0;0.0;0.0;4.0;0.2;0.0;0.0
+0.11111111;1038;Samuel Sáiz;Girona;19;1;La Liga;Espagne;es ESP;MF;31.0;9.0;2.0;0.0;1.0;0.0;1.0;1.7;2.0;0.22222222
+0.0;1039;Oscar Ureña;Girona;19;1;La Liga;Espagne;es ESP;MF;19.0;4.0;0.0;0.0;0.0;0.0;1.0;0.2;0.0;0.0
+0.16666667;1040;Alexander Callens;Girona;19;1;La Liga;Espagne;pe PER;DF;30.0;6.0;0.0;0.0;1.0;0.0;0.0;0.0;0.0;0.0
+0.0;1041;Toni Fuidias;Girona;19;1;La Liga;Espagne;es ESP;GK;21.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.083333336;1042;Predrag Rajkovi?;Mallorca;25;1;La Liga;Espagne;rs SRB;GK;26.0;36.0;0.0;0.0;3.0;0.0;36.0;0.0;0.0;0.0
+0.21621622;1043;Vedat Muriqi;Mallorca;25;1;La Liga;Espagne;xk KVX;FW;28.0;37.0;16.0;4.0;7.0;1.0;35.0;12.5;20.0;0.5405405
+0.1891892;1044;Pablo Maffeo;Mallorca;25;1;La Liga;Espagne;es ESP;DF;25.0;37.0;2.0;4.0;6.0;1.0;34.0;1.8;6.0;0.16216215
+0.3939394;1045;Antonio Raillo;Mallorca;25;1;La Liga;Espagne;es ESP;DF;30.0;33.0;2.0;3.0;12.0;1.0;33.0;0.6;5.0;0.15151516
+0.25;1046;Martin Valjent;Mallorca;25;1;La Liga;Espagne;sk SVK;DF;26.0;32.0;0.0;0.0;8.0;0.0;32.0;0.3;0.0;0.0
+0.33333334;1047;Jaume Costa;Mallorca;25;1;La Liga;Espagne;es ESP;DF;34.0;33.0;0.0;1.0;11.0;0.0;31.0;1.0;1.0;0.030303031
+0.40625;1048;Iñigo Ruiz de Galarreta;Mallorca;25;1;La Liga;Espagne;es ESP;MF;28.0;32.0;0.0;1.0;13.0;0.0;30.0;0.3;1.0;0.03125
+0.32258064;1049;Copete;Mallorca;25;1;La Liga;Espagne;es ESP;DF;22.0;31.0;1.0;0.0;9.0;1.0;29.0;1.0;1.0;0.032258064
+0.20512821;1050;Dani Rodríguez;Mallorca;25;1;La Liga;Espagne;es ESP;MF;34.0;39.0;4.0;8.0;8.0;0.0;27.0;2.4;12.0;0.30769232
+0.31578946;1051;Giovanni González;Mallorca;25;1;La Liga;Espagne;uy URU;DF;27.0;19.0;0.0;2.0;6.0;0.0;12.0;0.2;2.0;0.10526316
+0.1764706;1052;Matija Nastasi?;Mallorca;25;1;La Liga;Espagne;rs SRB;DF;29.0;17.0;1.0;0.0;3.0;0.0;13.0;0.5;1.0;0.05882353
+0.29166666;1053;Clément Grenier;Mallorca;25;1;La Liga;Espagne;fr FRA;MF;31.0;24.0;1.0;0.0;7.0;0.0;8.0;0.2;1.0;0.041666668
+0.2777778;1054;Rodrigo Battaglia;Mallorca;25;1;La Liga;Espagne;ar ARG;MF;31.0;18.0;0.0;0.0;5.0;0.0;10.0;0.2;0.0;0.0
+0.25;1055;Manu Morlanes;Mallorca;25;1;La Liga;Espagne;es ESP;MF;23.0;12.0;1.0;0.0;3.0;0.0;9.0;0.3;1.0;0.083333336
+0.125;1056;Dennis Hadzikadunic;Mallorca;25;1;La Liga;Espagne;ba BIH;DF;24.0;8.0;0.0;0.0;1.0;0.0;7.0;0.3;0.0;0.0
+0.125;1057;Braian Cufré;Mallorca;25;1;La Liga;Espagne;ar ARG;DF;25.0;8.0;0.0;1.0;1.0;0.0;5.0;0.1;1.0;0.125
+0.0;1058;Dominik Greif;Mallorca;25;1;La Liga;Espagne;sk SVK;GK;25.0;4.0;0.0;0.0;0.0;0.0;4.0;0.0;0.0;0.0
+0.0;1059;Franco Russo;Mallorca;25;1;La Liga;Espagne;ar ARG;DF;27.0;5.0;0.0;0.0;0.0;0.0;4.0;0.0;0.0;0.0
+0.0;1060;Leonardo Román;Mallorca;25;1;La Liga;Espagne;es ESP;GK;22.0;2.0;0.0;0.0;0.0;0.0;2.0;0.0;0.0;0.0
+0.0;1061;Ludwig Augustinsson;Mallorca;25;1;La Liga;Espagne;se SWE;DF;28.0;4.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.0;1062;Javier Llabrés;Mallorca;25;1;La Liga;Espagne;es ESP;FW;19.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;1063;Rubén Quintanilla;Mallorca;25;1;La Liga;Espagne;es ESP;DF;20.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.30769232;1064;David García;Osasuna;31;1;La Liga;Espagne;es ESP;DF;28.0;39.0;3.0;0.0;11.0;1.0;38.0;0.7;3.0;0.07692308
+0.28947368;1065;Lucas Torró;Osasuna;31;1;La Liga;Espagne;es ESP;MF;28.0;38.0;2.0;0.0;11.0;0.0;36.0;1.4;2.0;0.05263158
+0.21212122;1066;Juan Cruz Armada;Osasuna;31;1;La Liga;Espagne;es ESP;DF;30.0;33.0;0.0;0.0;7.0;0.0;26.0;0.2;0.0;0.0
+0.083333336;1067;Manu Sánchez;Osasuna;31;1;La Liga;Espagne;es ESP;DF;21.0;36.0;0.0;3.0;3.0;0.0;25.0;0.8;3.0;0.083333336
+0.032258064;1068;Aridane Hernández;Osasuna;31;1;La Liga;Espagne;es ESP;DF;33.0;31.0;0.0;2.0;1.0;0.0;26.0;0.2;2.0;0.06451613
+0.125;1069;Sergio Herrera;Osasuna;31;1;La Liga;Espagne;es ESP;GK;29.0;24.0;0.0;0.0;3.0;0.0;24.0;0.0;0.0;0.0
+0.16216215;1070;Ante Budimir;Osasuna;31;1;La Liga;Espagne;hr CRO;FW;31.0;37.0;8.0;0.0;6.0;0.0;25.0;7.6;8.0;0.21621622
+0.3043478;1071;Unai García;Osasuna;31;1;La Liga;Espagne;es ESP;DF;30.0;23.0;0.0;1.0;6.0;1.0;22.0;0.2;1.0;0.04347826
+0.04761905;1072;Aitor Fernández;Osasuna;31;1;La Liga;Espagne;es ESP;GK;31.0;21.0;0.0;0.0;1.0;0.0;21.0;0.0;0.0;0.0
+0.11627907;1073;Kiké;Osasuna;31;1;La Liga;Espagne;es ESP;FW;32.0;43.0;7.0;0.0;5.0;0.0;13.0;4.4;7.0;0.1627907
+0.21875;1074;Darko Bra¨anac;Osasuna;31;1;La Liga;Espagne;rs SRB;MF;30.0;32.0;2.0;1.0;7.0;0.0;13.0;1.2;3.0;0.09375
+0.09677419;1075;Pablo Ibáñez;Osasuna;31;1;La Liga;Espagne;es ESP;MF;23.0;31.0;1.0;1.0;2.0;1.0;15.0;1.3;2.0;0.06451613
+0.18181819;1076;Nacho Vidal;Osasuna;31;1;La Liga;Espagne;es ESP;DF;27.0;22.0;1.0;0.0;4.0;0.0;16.0;0.6;1.0;0.045454547
+0.071428575;1077;Diego Moreno;Osasuna;31;1;La Liga;Espagne;es ESP;DF;21.0;14.0;0.0;0.0;1.0;0.0;7.0;0.4;0.0;0.0
+0.0;1078;Iker Muñoz;Osasuna;31;1;La Liga;Espagne;es ESP;MF;19.0;8.0;0.0;0.0;0.0;0.0;2.0;0.1;0.0;0.0
+0.5;1079;Jorge Herrando;Osasuna;31;1;La Liga;Espagne;es ESP;DF;21.0;2.0;0.0;0.0;0.0;1.0;2.0;0.0;0.0;0.0
+0.0;1080;Juan Pérez;Osasuna;31;1;La Liga;Espagne;es ESP;GK;26.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.025;1081;Fran Garcia;Rayo Vallecano;32;1;La Liga;Espagne;es ESP;DF;22.0;40.0;2.0;3.0;1.0;0.0;38.0;1.2;5.0;0.125
+0.10810811;1082;Stole Dimitrievski;Rayo Vallecano;32;1;La Liga;Espagne;mk MKD;GK;28.0;37.0;0.0;0.0;4.0;0.0;37.0;0.0;0.0;0.0
+0.4054054;1083;Catena;Rayo Vallecano;32;1;La Liga;Espagne;es ESP;DF;27.0;37.0;1.0;1.0;14.0;1.0;37.0;1.4;2.0;0.054054055
+0.16216215;1084;Iván Balliu;Rayo Vallecano;32;1;La Liga;Espagne;al ALB;DF;30.0;37.0;0.0;0.0;6.0;0.0;37.0;0.3;0.0;0.0
+0.30555555;1085;Óscar Valentín;Rayo Vallecano;32;1;La Liga;Espagne;es ESP;MF;27.0;36.0;0.0;0.0;11.0;0.0;31.0;0.5;0.0;0.0
+0.28125;1086;Florian Lejeune;Rayo Vallecano;32;1;La Liga;Espagne;fr FRA;DF;31.0;32.0;4.0;0.0;6.0;3.0;32.0;2.8;4.0;0.125
+0.048780486;1087;Sergio Camello;Rayo Vallecano;32;1;La Liga;Espagne;es ESP;FW;21.0;41.0;7.0;5.0;2.0;0.0;29.0;7.3;12.0;0.29268292
+0.18421052;1088;Santi Comesaña;Rayo Vallecano;32;1;La Liga;Espagne;es ESP;MF;25.0;38.0;3.0;2.0;7.0;0.0;30.0;2.5;5.0;0.13157895
+0.055555556;1089;Unai López;Rayo Vallecano;32;1;La Liga;Espagne;es ESP;MF;26.0;36.0;1.0;2.0;2.0;0.0;13.0;1.3;3.0;0.083333336
+0.11764706;1090;Abdul Mumin;Rayo Vallecano;32;1;La Liga;Espagne;gh GHA;DF;24.0;17.0;0.0;0.0;2.0;0.0;10.0;0.4;0.0;0.0
+0.10526316;1091;Raúl de Tomás;Rayo Vallecano;32;1;La Liga;Espagne;es ESP;FW;27.0;19.0;4.0;0.0;2.0;0.0;9.0;5.1;4.0;0.21052632
+0.16666667;1092;Mario Hernández;Rayo Vallecano;32;1;La Liga;Espagne;es ESP;DF;23.0;6.0;0.0;0.0;1.0;0.0;4.0;0.1;0.0;0.0
+0.0;1093;Diego López;Rayo Vallecano;32;1;La Liga;Espagne;es ESP;GK;40.0;5.0;0.0;0.0;0.0;0.0;4.0;0.0;0.0;0.0
+0.16666667;1094;Bebé;Rayo Vallecano;32;1;La Liga;Espagne;cv CPV;FW;32.0;6.0;1.0;0.0;1.0;0.0;2.0;0.1;1.0;0.16666667
+0.5;1095;Esteban Saveljich;Rayo Vallecano;32;1;La Liga;Espagne;me MNE;FW;31.0;2.0;0.0;0.0;1.0;0.0;1.0;0.0;0.0;0.0
+0.0;1096;Diego Méndez;Rayo Vallecano;32;1;La Liga;Espagne;es ESP;MF;18.0;2.0;1.0;0.0;0.0;0.0;1.0;0.0;1.0;0.5
+0.0;1097;Pablo Muñoz;Rayo Vallecano;32;1;La Liga;Espagne;es ESP;MF;18.0;3.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.20454545;1098;Guido Rodríguez;Real Betis;33;1;La Liga;Espagne;ar ARG;MF;28.0;44.0;2.0;0.0;9.0;0.0;39.0;1.4;2.0;0.045454547
+0.23076923;1099;Germán Pezzella;Real Betis;33;1;La Liga;Espagne;ar ARG;DF;31.0;39.0;0.0;0.0;6.0;3.0;36.0;1.2;0.0;0.0
+0.1627907;1100;William Carvalho;Real Betis;33;1;La Liga;Espagne;pt POR;MF;30.0;43.0;4.0;2.0;6.0;1.0;36.0;3.4;6.0;0.13953489
+0.069767445;1101;Borja Iglesias;Real Betis;33;1;La Liga;Espagne;es ESP;FW;29.0;43.0;15.0;5.0;2.0;1.0;30.0;15.1;20.0;0.4651163
+0.071428575;1102;Rui Silva;Real Betis;33;1;La Liga;Espagne;pt POR;GK;28.0;28.0;0.0;0.0;2.0;0.0;28.0;0.0;0.0;0.0
+0.1627907;1103;Luiz Henrique;Real Betis;33;1;La Liga;Espagne;br BRA;FW;21.0;43.0;3.0;7.0;7.0;0.0;27.0;4.3;10.0;0.23255815
+0.26666668;1104;Luiz Felipe;Real Betis;33;1;La Liga;Espagne;it ITA;DF;25.0;30.0;0.0;0.0;5.0;3.0;28.0;0.2;0.0;0.0
+0.3548387;1105;Édgar González;Real Betis;33;1;La Liga;Espagne;es ESP;DF;25.0;31.0;1.0;0.0;9.0;2.0;24.0;1.4;1.0;0.032258064
+0.12903225;1106;Juan Miranda;Real Betis;33;1;La Liga;Espagne;es ESP;DF;22.0;31.0;3.0;5.0;3.0;1.0;25.0;2.7;8.0;0.2580645
+0.071428575;1107;Youssouf Sabaly;Real Betis;33;1;La Liga;Espagne;sn SEN;DF;29.0;28.0;2.0;2.0;2.0;0.0;23.0;0.7;4.0;0.14285715
+0.1904762;1108;Claudio Bravo;Real Betis;33;1;La Liga;Espagne;cl CHI;GK;39.0;21.0;0.0;0.0;4.0;0.0;21.0;0.0;0.0;0.0
+0.38235295;1109;Andrés Guardado;Real Betis;33;1;La Liga;Espagne;mx MEX;MF;35.0;34.0;1.0;1.0;12.0;1.0;19.0;0.5;2.0;0.05882353
+0.025641026;1110;Willian José;Real Betis;33;1;La Liga;Espagne;br BRA;FW;30.0;39.0;6.0;1.0;1.0;0.0;14.0;4.6;7.0;0.17948718
+0.05263158;1111;Álex Moreno;Real Betis;33;1;La Liga;Espagne;es ESP;DF;29.0;19.0;0.0;3.0;1.0;0.0;15.0;1.3;3.0;0.15789473
+0.11111111;1112;Juanmi;Real Betis;33;1;La Liga;Espagne;es ESP;FW;29.0;27.0;4.0;1.0;3.0;0.0;13.0;4.4;5.0;0.18518518
+0.3;1113;Nabil Fekir;Real Betis;33;1;La Liga;Espagne;fr FRA;MF;29.0;20.0;6.0;2.0;5.0;1.0;14.0;3.4;8.0;0.4
+0.14285715;1114;Víctor Ruiz;Real Betis;33;1;La Liga;Espagne;es ESP;DF;33.0;14.0;0.0;0.0;2.0;0.0;9.0;0.1;0.0;0.0
+0.125;1115;Abner;Real Betis;33;1;La Liga;Espagne;br BRA;DF;22.0;16.0;0.0;0.0;2.0;0.0;9.0;1.7;0.0;0.0
+0.16666667;1116;Martín Montoya;Real Betis;33;1;La Liga;Espagne;es ESP;DF;31.0;6.0;0.0;0.0;1.0;0.0;6.0;0.0;0.0;0.0
+0.16666667;1117;Juan Cruz;Real Betis;33;1;La Liga;Espagne;es ESP;FW;22.0;6.0;1.0;0.0;1.0;0.0;1.0;0.5;1.0;0.16666667
+0.0;1118;Felix Garreta;Real Betis;33;1;La Liga;Espagne;es ESP;DF;18.0;2.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.25;1119;Loren Morón;Real Betis;33;1;La Liga;Espagne;es ESP;FW;28.0;4.0;1.0;0.0;1.0;0.0;0.0;0.0;1.0;0.25
+0.0;1120;Daniel Guerrero;Real Betis;33;1;La Liga;Espagne;es ESP;FW;17.0;1.0;0.0;0.0;0.0;0.0;0.0;0.1;0.0;0.0
+0.0;1121;Enrique;Real Betis;33;1;La Liga;Espagne;es ESP;MF;18.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;1122;Fran Delgado;Real Betis;33;1;La Liga;Espagne;es ESP;DF;21.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.13725491;1123;Ivan Rakiti?;Sevilla;37;1;La Liga;Espagne;hr CRO;MF;34.0;51.0;2.0;6.0;6.0;1.0;41.0;4.5;8.0;0.15686275
+0.11111111;1124;Yassine Bounou;Sevilla;37;1;La Liga;Espagne;ma MAR;GK;31.0;36.0;0.0;0.0;4.0;0.0;35.0;0.0;0.0;0.0
+0.083333336;1125;Youssef En-Nesyri;Sevilla;37;1;La Liga;Espagne;ma MAR;FW;25.0;48.0;18.0;1.0;4.0;0.0;31.0;12.4;19.0;0.39583334
+0.11111111;1126;Fernando;Sevilla;37;1;La Liga;Espagne;br BRA;MF;35.0;36.0;0.0;1.0;3.0;1.0;29.0;0.4;1.0;0.027777778
+0.30769232;1127;Joan Jordán;Sevilla;37;1;La Liga;Espagne;es ESP;MF;28.0;39.0;2.0;2.0;12.0;0.0;28.0;1.0;4.0;0.102564104
+0.3255814;1128;Gonzalo Montiel;Sevilla;37;1;La Liga;Espagne;ar ARG;DF;25.0;43.0;1.0;3.0;13.0;1.0;25.0;0.9;4.0;0.093023255
+0.13333334;1129;Tanguy Nianzou;Sevilla;37;1;La Liga;Espagne;fr FRA;DF;20.0;30.0;3.0;0.0;3.0;1.0;26.0;0.8;3.0;0.1
+0.25925925;1130;Loïc Bade;Sevilla;37;1;La Liga;Espagne;fr FRA;DF;22.0;27.0;2.0;0.0;7.0;0.0;24.0;0.6;2.0;0.074074075
+0.08;1131;Marko Dmitrovi?;Sevilla;37;1;La Liga;Espagne;rs SRB;GK;30.0;25.0;0.0;0.0;2.0;0.0;23.0;0.0;0.0;0.0
+0.13636364;1132;Karim Rekik;Sevilla;37;1;La Liga;Espagne;nl NED;DF;27.0;22.0;1.0;1.0;3.0;0.0;18.0;0.8;2.0;0.09090909
+0.5625;1133;Pape Gueye;Sevilla;37;1;La Liga;Espagne;sn SEN;MF;23.0;16.0;1.0;3.0;6.0;3.0;15.0;1.3;4.0;0.25
+0.6;1134;Carmona;Sevilla;37;1;La Liga;Espagne;es ESP;DF;20.0;15.0;2.0;1.0;8.0;1.0;10.0;1.3;3.0;0.2
+0.18181819;1135;Marcão;Sevilla;37;1;La Liga;Espagne;br BRA;DF;26.0;11.0;0.0;0.0;2.0;0.0;9.0;0.0;0.0;0.0
+0.3;1136;Kike Salas;Sevilla;37;1;La Liga;Espagne;es ESP;DF;20.0;10.0;1.0;1.0;2.0;1.0;7.0;0.2;2.0;0.2
+0.25;1137;Thomas Delaney;Sevilla;37;1;La Liga;Espagne;dk DEN;MF;30.0;12.0;0.0;0.0;3.0;0.0;5.0;0.3;0.0;0.0
+0.0;1138;Kasper Dolberg;Sevilla;37;1;La Liga;Espagne;dk DEN;FW;24.0;8.0;0.0;1.0;0.0;0.0;3.0;0.2;1.0;0.125
+0.0;1139;Manuel Sebastián;Sevilla;37;1;La Liga;Espagne;es ESP;MF;18.0;2.0;0.0;0.0;0.0;0.0;2.0;0.0;0.0;0.0
+0.0;1140;Jesús Corona;Sevilla;37;1;La Liga;Espagne;mx MEX;FW;29.0;4.0;1.0;0.0;0.0;0.0;1.0;0.5;1.0;0.25
+0.33333334;1141;Carlos Álvarez;Sevilla;37;1;La Liga;Espagne;es ESP;MF;18.0;3.0;1.0;0.0;1.0;0.0;1.0;0.0;1.0;0.33333334
+1.0;1142;Diego Iturralde;Sevilla;37;1;La Liga;Espagne;es ESP;DF;19.0;1.0;0.0;0.0;1.0;0.0;1.0;0.0;0.0;0.0
+0.0;1143;Nacho Quintana;Sevilla;37;1;La Liga;Espagne;es ESP;MF;21.0;2.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+1.0;1144;Iván Romero;Sevilla;37;1;La Liga;Espagne;es ESP;MF;21.0;1.0;0.0;0.0;1.0;0.0;0.0;0.0;0.0;0.0
+0.0;1145;Pedro Ortiz;Sevilla;37;1;La Liga;Espagne;es ESP;MF;21.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.071428575;1146;Giorgi Mamardashvili;Valencia;41;1;La Liga;Espagne;ge GEO;GK;21.0;42.0;0.0;0.0;3.0;0.0;42.0;0.0;0.0;0.0
+0.11764706;1147;José Luis Gayà;Valencia;41;1;La Liga;Espagne;es ESP;DF;27.0;34.0;1.0;3.0;4.0;0.0;34.0;1.9;4.0;0.11764706
+0.10526316;1148;Domingos André Ribeiro Almeida;Valencia;41;1;La Liga;Espagne;pt POR;MF;22.0;38.0;2.0;5.0;4.0;0.0;31.0;1.4;7.0;0.18421052
+0.3;1149;Mouctar Diakhaby;Valencia;41;1;La Liga;Espagne;gn GUI;DF;25.0;30.0;3.0;0.0;8.0;1.0;29.0;2.7;3.0;0.1
+0.3243243;1150;Yunus Musah;Valencia;41;1;La Liga;Espagne;us USA;MF;19.0;37.0;0.0;2.0;11.0;1.0;29.0;1.8;2.0;0.054054055
+0.17857143;1151;Thierry Correia;Valencia;41;1;La Liga;Espagne;pt POR;DF;23.0;28.0;0.0;0.0;5.0;0.0;25.0;0.3;0.0;0.0
+0.121212125;1152;Dimitri Foulquier;Valencia;41;1;La Liga;Espagne;fr FRA;DF;29.0;33.0;0.0;2.0;4.0;0.0;19.0;0.2;2.0;0.060606062
+0.32;1153;Eray Cömert;Valencia;41;1;La Liga;Espagne;ch SUI;DF;24.0;25.0;1.0;0.0;7.0;1.0;21.0;0.5;1.0;0.04
+0.04761905;1154;Cenk Özkacar;Valencia;41;1;La Liga;Espagne;tr TUR;DF;21.0;21.0;0.0;1.0;1.0;0.0;17.0;0.8;1.0;0.04761905
+0.26086956;1155;Gabriel Paulista;Valencia;41;1;La Liga;Espagne;br BRA;DF;31.0;23.0;1.0;0.0;4.0;2.0;20.0;0.7;1.0;0.04347826
+0.25;1156;Edinson Cavani;Valencia;41;1;La Liga;Espagne;uy URU;FW;35.0;28.0;7.0;2.0;7.0;0.0;23.0;6.0;9.0;0.32142857
+0.14705883;1157;Hugo Duro;Valencia;41;1;La Liga;Espagne;es ESP;FW;22.0;34.0;2.0;2.0;5.0;0.0;13.0;4.4;4.0;0.11764706
+0.07692308;1158;Nicolás González;Valencia;41;1;La Liga;Espagne;es ESP;MF;20.0;26.0;1.0;1.0;2.0;0.0;18.0;1.5;2.0;0.07692308
+0.32142857;1159;Ilaix Moriba;Valencia;41;1;La Liga;Espagne;gn GUI;MF;19.0;28.0;1.0;2.0;7.0;2.0;12.0;1.2;3.0;0.10714286
+0.0;1160;Javier Guerra;Valencia;41;1;La Liga;Espagne;es ESP;MF;19.0;10.0;1.0;0.0;0.0;0.0;6.0;0.9;1.0;0.1
+0.0;1161;Carlos Soler;Valencia;41;1;La Liga;Espagne;es ESP;MF;25.0;3.0;1.0;0.0;0.0;0.0;3.0;0.9;1.0;0.33333334
+0.0;1162;Cristhian Mosquera;Valencia;41;1;La Liga;Espagne;co COL;DF;18.0;4.0;0.0;0.0;0.0;0.0;2.0;0.2;0.0;0.0
+0.0;1163;Maxi Gómez;Valencia;41;1;La Liga;Espagne;uy URU;FW;25.0;3.0;0.0;0.0;0.0;0.0;0.0;0.2;0.0;0.0
+0.0;1164;Iago Herrerín;Valencia;41;1;La Liga;Espagne;es ESP;GK;34.0;1.0;0.0;0.0;0.0;0.0;0.0;;0.0;0.0
+1.0;1165;Ruben Lendinez;Valencia;41;1;La Liga;Espagne;es ESP;DF;19.0;1.0;0.0;0.0;1.0;0.0;0.0;;0.0;0.0
+0.13793103;1166;Jordi Masip;Real Valladolid;35;1;La Liga;Espagne;es ESP;GK;33.0;29.0;0.0;0.0;4.0;0.0;29.0;0.0;0.0;0.0
+0.32352942;1167;Javi Sánchez;Real Valladolid;35;1;La Liga;Espagne;es ESP;DF;25.0;34.0;1.0;0.0;11.0;0.0;30.0;0.7;1.0;0.029411765
+0.2820513;1168;Kike Pérez;Real Valladolid;35;1;La Liga;Espagne;es ESP;MF;25.0;39.0;2.0;3.0;11.0;0.0;30.0;2.3;5.0;0.12820514
+0.055555556;1169;Gonzalo Plata;Real Valladolid;35;1;La Liga;Espagne;ec ECU;FW;21.0;36.0;1.0;5.0;2.0;0.0;27.0;3.7;6.0;0.16666667
+0.1724138;1170;Joaquín Fernández;Real Valladolid;35;1;La Liga;Espagne;es ESP;DF;26.0;29.0;1.0;0.0;5.0;0.0;26.0;0.5;1.0;0.03448276
+0.31428573;1171;Monchu;Real Valladolid;35;1;La Liga;Espagne;es ESP;MF;22.0;35.0;3.0;2.0;11.0;0.0;25.0;2.4;5.0;0.14285715
+0.11111111;1172;Álvaro Aguado;Real Valladolid;35;1;La Liga;Espagne;es ESP;MF;26.0;36.0;1.0;2.0;4.0;0.0;20.0;1.0;3.0;0.083333336
+0.125;1173;Iván Fresneda;Real Valladolid;35;1;La Liga;Espagne;es ESP;DF;17.0;24.0;0.0;0.0;3.0;0.0;18.0;0.6;0.0;0.0
+0.41935483;1174;Roque Mesa;Real Valladolid;35;1;La Liga;Espagne;es ESP;MF;33.0;31.0;2.0;1.0;12.0;1.0;22.0;1.4;3.0;0.09677419
+0.08;1175;Jawad El Yamiq;Real Valladolid;35;1;La Liga;Espagne;ma MAR;DF;30.0;25.0;1.0;0.0;1.0;1.0;19.0;1.1;1.0;0.04
+0.125;1176;Sergio Escudero;Real Valladolid;35;1;La Liga;Espagne;es ESP;DF;32.0;24.0;2.0;1.0;3.0;0.0;18.0;1.5;3.0;0.125
+0.13043478;1177;Lucas Olaza;Real Valladolid;35;1;La Liga;Espagne;uy URU;DF;28.0;23.0;0.0;1.0;3.0;0.0;16.0;0.4;1.0;0.04347826
+0.21052632;1178;Cyle Larin;Real Valladolid;35;1;La Liga;Espagne;ca CAN;FW;27.0;19.0;8.0;3.0;4.0;0.0;16.0;7.5;11.0;0.57894737
+0.032258064;1179;Sergio León;Real Valladolid;35;1;La Liga;Espagne;es ESP;FW;33.0;31.0;8.0;1.0;0.0;1.0;15.0;3.9;9.0;0.29032257
+0.1;1180;Luis Pérez;Real Valladolid;35;1;La Liga;Espagne;es ESP;DF;27.0;20.0;0.0;1.0;2.0;0.0;16.0;0.1;1.0;0.05
+0.15;1181;Lucas Oliveira Rosa;Real Valladolid;35;1;La Liga;Espagne;br BRA;DF;22.0;20.0;0.0;2.0;3.0;0.0;14.0;0.4;2.0;0.1
+0.0;1182;Sergio Asenjo;Real Valladolid;35;1;La Liga;Espagne;es ESP;GK;33.0;12.0;0.0;0.0;0.0;0.0;12.0;0.0;0.0;0.0
+0.05882353;1183;Shon Weissman;Real Valladolid;35;1;La Liga;Espagne;il ISR;FW;26.0;17.0;2.0;0.0;1.0;0.0;8.0;2.3;2.0;0.11764706
+0.09090909;1184;Darwin Machís;Real Valladolid;35;1;La Liga;Espagne;ve VEN;FW;29.0;11.0;0.0;1.0;1.0;0.0;7.0;1.1;1.0;0.09090909
+0.11111111;1185;David Torres;Real Valladolid;35;1;La Liga;Espagne;es ESP;DF;19.0;9.0;0.0;0.0;1.0;0.0;3.0;0.5;0.0;0.0
+0.06666667;1186;Sergi Guardiola;Real Valladolid;35;1;La Liga;Espagne;es ESP;FW;31.0;15.0;0.0;0.0;1.0;0.0;8.0;1.0;0.0;0.0
+0.3;1187;Zouhair Feddal;Real Valladolid;35;1;La Liga;Espagne;ma MAR;DF;33.0;10.0;0.0;0.0;2.0;1.0;5.0;0.2;0.0;0.0
+0.16666667;1188;Mickael Malsa;Real Valladolid;35;1;La Liga;Espagne;mq MTQ;MF;26.0;6.0;0.0;0.0;1.0;0.0;1.0;0.0;0.0;0.0
+0.0;1189;Toni Villa;Real Valladolid;35;1;La Liga;Espagne;es ESP;MF;27.0;2.0;0.0;0.0;0.0;0.0;1.0;0.0;0.0;0.0
+0.0;1190;Diego Moreno;Real Valladolid;35;1;La Liga;Espagne;es ESP;DF;20.0;1.0;0.0;0.0;0.0;0.0;1.0;;0.0;0.0
+0.0;1191;Sékou Gassama;Real Valladolid;35;1;La Liga;Espagne;sn SEN;FW;27.0;1.0;0.0;0.0;0.0;0.0;0.0;0.4;0.0;0.0
+0.0;1192;Manuel Pozo;Real Valladolid;35;1;La Liga;Espagne;es ESP;FW;20.0;1.0;0.0;0.0;0.0;0.0;0.0;0.1;0.0;0.0
+0.0;1193;Roberto Arroyo;Real Valladolid;35;1;La Liga;Espagne;es ESP;MF;18.0;2.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;1194;Álvaro Aceves;Real Valladolid;35;1;La Liga;Espagne;es ESP;GK;19.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;1195;Babatunde Akinsola;Real Valladolid;35;1;La Liga;Espagne;ng NGA;FW;19.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.14583333;1196;Daniel Parejo;Villarreal;43;1;La Liga;Espagne;es ESP;MF;33.0;48.0;3.0;5.0;7.0;0.0;40.0;4.8;8.0;0.16666667
+0.2972973;1197;Pau Torres;Villarreal;43;1;La Liga;Espagne;es ESP;DF;25.0;37.0;1.0;0.0;11.0;0.0;36.0;2.4;1.0;0.027027028
+0.1;1198;Pepe Reina;Villarreal;43;1;La Liga;Espagne;es ESP;GK;39.0;30.0;0.0;0.0;3.0;0.0;30.0;0.0;0.0;0.0
+0.060606062;1199;Aïssa Mandi;Villarreal;43;1;La Liga;Espagne;dz ALG;DF;30.0;33.0;0.0;1.0;2.0;0.0;27.0;0.3;1.0;0.030303031
+0.20689656;1200;Juan Foyth;Villarreal;43;1;La Liga;Espagne;ar ARG;DF;24.0;29.0;1.0;2.0;6.0;0.0;26.0;1.1;3.0;0.10344828
+0.16666667;1201;Étienne Capoue;Villarreal;43;1;La Liga;Espagne;fr FRA;MF;34.0;36.0;6.0;2.0;6.0;0.0;23.0;2.7;8.0;0.22222222
+0.22222222;1202;Raúl Albiol;Villarreal;43;1;La Liga;Espagne;es ESP;DF;36.0;27.0;0.0;0.0;6.0;0.0;26.0;0.1;0.0;0.0
+0.25;1203;Nicolas Jackson;Villarreal;43;1;La Liga;Espagne;sn SEN;FW;21.0;36.0;13.0;5.0;8.0;1.0;19.0;10.6;18.0;0.5
+0.18518518;1204;Alfonso Pedraza;Villarreal;43;1;La Liga;Espagne;es ESP;DF;26.0;27.0;0.0;4.0;5.0;0.0;20.0;1.2;4.0;0.14814815
+0.14814815;1205;Gerard Moreno;Villarreal;43;1;La Liga;Espagne;es ESP;FW;30.0;27.0;10.0;6.0;4.0;0.0;17.0;10.2;16.0;0.5925926
+0.25;1206;Alberto Moreno;Villarreal;43;1;La Liga;Espagne;es ESP;DF;30.0;28.0;0.0;2.0;7.0;0.0;17.0;1.1;2.0;0.071428575
+0.03846154;1207;Kiko Femenía;Villarreal;43;1;La Liga;Espagne;es ESP;DF;31.0;26.0;0.0;0.0;1.0;0.0;16.0;0.1;0.0;0.0
+0.037037037;1208;Johan Mojica;Villarreal;43;1;La Liga;Espagne;co COL;DF;29.0;27.0;0.0;2.0;1.0;0.0;14.0;0.3;2.0;0.074074075
+0.1904762;1209;Jorge Cuenca;Villarreal;43;1;La Liga;Espagne;es ESP;DF;22.0;21.0;0.0;0.0;4.0;0.0;15.0;1.0;0.0;0.0
+0.16666667;1210;Manu Trigueros;Villarreal;43;1;La Liga;Espagne;es ESP;MF;30.0;30.0;1.0;2.0;4.0;1.0;14.0;0.6;3.0;0.1
+0.071428575;1211;Gerónimo Rulli;Villarreal;43;1;La Liga;Espagne;ar ARG;GK;30.0;14.0;0.0;0.0;1.0;0.0;14.0;0.0;0.0;0.0
+0.08695652;1212;Francis Coquelin;Villarreal;43;1;La Liga;Espagne;fr FRA;MF;31.0;23.0;3.0;1.0;2.0;0.0;15.0;1.1;4.0;0.17391305
+0.055555556;1213;Ramón Terrats;Villarreal;43;1;La Liga;Espagne;es ESP;MF;21.0;18.0;1.0;1.0;1.0;0.0;12.0;1.0;2.0;0.11111111
+0.15384616;1214;Manu Morlanes;Villarreal;43;1;La Liga;Espagne;es ESP;MF;23.0;13.0;0.0;0.0;1.0;1.0;11.0;0.1;0.0;0.0
+0.0;1215;Arnaut Danjuma;Villarreal;43;1;La Liga;Espagne;nl NED;FW;25.0;17.0;6.0;0.0;0.0;0.0;10.0;5.2;6.0;0.3529412
+0.0;1216;Filip Jørgensen;Villarreal;43;1;La Liga;Espagne;dk DEN;GK;20.0;6.0;0.0;0.0;0.0;0.0;6.0;0.0;0.0;0.0
+0.0;1217;Adrián de la Fuente;Villarreal;43;1;La Liga;Espagne;es ESP;DF;23.0;4.0;0.0;0.0;0.0;0.0;4.0;0.0;0.0;0.0
+0.0;1218;Diego Collado;Villarreal;43;1;La Liga;Espagne;es ESP;FW;21.0;3.0;1.0;0.0;0.0;0.0;1.0;0.0;1.0;0.33333334
+0.0;1219;Mamadou Fall;Villarreal;43;1;La Liga;Espagne;sn SEN;DF;19.0;2.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
+0.0;1220;Alberto Del Moral;Villarreal;43;1;La Liga;Espagne;es ESP;MF;22.0;1.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0
