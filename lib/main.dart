@@ -8,6 +8,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'firebase_options.dart';
 import 'firebase_options_web.dart';
 import 'admin.dart';
+import 'package:fl_chart/fl_chart.dart';
 
 const Color bgColor = Color(0xFF080D18);
 const Color cardColor = Color(0xFF111B2B);
@@ -147,22 +148,23 @@ class DashboardPage extends StatefulWidget {
 
 class _DashboardPageState extends State<DashboardPage> {
   int selectedIndex = 0;
-
-  final List<String> menuItems = [
-    'Dashboard',
-    'Players',
-    'Compare',
-    'Rankings',
-    'Profile',
-  ];
+final List<String> menuItems = [
+  'Dashboard',
+  'Players',
+  'Teams',
+  'Compare',
+  'Rankings',
+  'Profile',
+];
 
   final List<IconData> menuIcons = [
-    Icons.dashboard_rounded,
-    Icons.groups_rounded,
-    Icons.compare_arrows_rounded,
-    Icons.leaderboard_rounded,
-    Icons.person_rounded,
-  ];
+  Icons.dashboard_rounded,
+  Icons.groups_rounded,
+  Icons.sports_soccer_rounded,
+  Icons.compare_arrows_rounded,
+  Icons.leaderboard_rounded,
+  Icons.person_rounded,
+];
 
   late Future<List<Player>> playersFuture;
 
@@ -458,21 +460,24 @@ class _DashboardPageState extends State<DashboardPage> {
     Widget page;
 
     switch (selectedIndex) {
-      case 0:
-        page = _buildDashboard(players, isDesktop);
-        break;
-      case 1:
-        page = PlayersPageContent(players: players);
-        break;
-      case 2:
-        page = ComparePageContent(players: players);
-        break;
-      case 3:
-        page = RankingsPageContent(players: players);
-        break;
-      default:
-        page = _buildProfile(players);
-    }
+  case 0:
+    page = _buildDashboard(players, isDesktop);
+    break;
+  case 1:
+    page = PlayersPageContent(players: players);
+    break;
+  case 2:
+    page = TeamsPageContent(players: players);
+    break;
+  case 3:
+    page = ComparePageContent(players: players);
+    break;
+  case 4:
+    page = RankingsPageContent(players: players);
+    break;
+  default:
+    page = _buildProfile(players);
+}
 
     return SingleChildScrollView(
       padding: EdgeInsets.all(isDesktop ? 35 : 18),
@@ -683,14 +688,33 @@ class _DashboardPageState extends State<DashboardPage> {
           },
         ),
         const SizedBox(height: 30),
-        _sectionTitle('Top Scorers', 'Best goal scorers in your dataset'),
-        const SizedBox(height: 16),
-        _buildTopPlayers(topScorers),
+               _sectionTitle(
+          'Performance Analytics',
+          'Six key visualizations from your football dataset',
+        ),
+        const SizedBox(height: 20),
+
+        _buildOverviewCharts(players),
+
         const SizedBox(height: 25),
         _buildDataNote(),
       ],
     );
   }
+  Widget _buildDataNote() {
+  return const Padding(
+    padding: EdgeInsets.symmetric(vertical: 8),
+    child: Text(
+      'Data note: Missing values are not replaced by zero. '
+      'Statistics are calculated using available dataset values.',
+      style: TextStyle(
+        color: mutedColor,
+        fontSize: 11,
+        height: 1.5,
+      ),
+    ),
+  );
+}
 
   Widget _sectionTitle(String title, String subtitle) {
     return Column(
@@ -738,38 +762,495 @@ class _DashboardPageState extends State<DashboardPage> {
     );
   }
 
-  Widget _buildDataNote() {
-    return Container(
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: cyanColor.withOpacity(0.07),
-        borderRadius: BorderRadius.circular(15),
-        border: Border.all(
-          color: cyanColor.withOpacity(0.17),
+  Widget _buildTopScorersChart(List<Player> players) {
+  final topPlayers = players
+      .where((p) => p.goals != null)
+      .toList()
+    ..sort((a, b) => b.goals!.compareTo(a.goals!));
+
+  final top10 = topPlayers.take(10).toList();
+
+  if (top10.isEmpty) {
+    return const Text('No goals data available.');
+  }
+
+  final maxGoals = top10.first.goals ?? 1;
+
+  return PremiumPanel(
+    title: 'Top 10 Scorers',
+    child: SizedBox(
+      height: 340,
+      child: BarChart(
+        BarChartData(
+          maxY: maxGoals + 3,
+          alignment: BarChartAlignment.spaceAround,
+          borderData: FlBorderData(show: false),
+          gridData: FlGridData(
+            show: true,
+            drawVerticalLine: false,
+            getDrawingHorizontalLine: (value) {
+              return FlLine(
+                color: mutedColor.withOpacity(0.12),
+                strokeWidth: 1,
+              );
+            },
+          ),
+          titlesData: FlTitlesData(
+            topTitles: const AxisTitles(
+              sideTitles: SideTitles(showTitles: false),
+            ),
+            rightTitles: const AxisTitles(
+              sideTitles: SideTitles(showTitles: false),
+            ),
+            leftTitles: AxisTitles(
+              sideTitles: SideTitles(
+                showTitles: true,
+                reservedSize: 35,
+                getTitlesWidget: (value, meta) {
+                  return Text(
+                    value.toInt().toString(),
+                    style: const TextStyle(
+                      color: mutedColor,
+                      fontSize: 10,
+                    ),
+                  );
+                },
+              ),
+            ),
+            bottomTitles: AxisTitles(
+              sideTitles: SideTitles(
+                showTitles: true,
+                reservedSize: 45,
+                getTitlesWidget: (value, meta) {
+                  final index = value.toInt();
+
+                  if (index < 0 || index >= top10.length) {
+                    return const SizedBox();
+                  }
+
+                  final name = top10[index].name;
+
+                  return Padding(
+                    padding: const EdgeInsets.only(top: 10),
+                    child: Text(
+                      name.length > 9
+                          ? '${name.substring(0, 8)}...'
+                          : name,
+                      style: const TextStyle(
+                        color: mutedColor,
+                        fontSize: 9,
+                      ),
+                    ),
+                  );
+                },
+              ),
+            ),
+          ),
+          barGroups: top10.asMap().entries.map((entry) {
+            return BarChartGroupData(
+              x: entry.key,
+              barRods: [
+                BarChartRodData(
+                  toY: entry.value.goals ?? 0,
+                  width: 17,
+                  color: greenColor,
+                  borderRadius: BorderRadius.circular(5),
+                ),
+              ],
+            );
+          }).toList(),
         ),
       ),
-      child: const Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Icon(
-            Icons.info_outline_rounded,
-            color: cyanColor,
-            size: 20,
+    ),
+  );
+}
+
+Widget _buildOverviewCharts(List<Player> players) {
+  final goalsPlayers = players
+      .where((p) => p.goals != null)
+      .toList()
+    ..sort((a, b) => b.goals!.compareTo(a.goals!));
+
+  final topGoals = goalsPlayers.take(10).toList();
+
+  final positionCounts = <String, int>{};
+  final ageCounts = <String, int>{};
+  final teamCounts = <String, int>{};
+
+  for (final p in players) {
+    if (p.position != 'N/A') {
+      positionCounts[p.position] =
+          (positionCounts[p.position] ?? 0) + 1;
+    }
+
+    if (p.age != null) {
+      final age = p.age!.toInt().toString();
+      ageCounts[age] = (ageCounts[age] ?? 0) + 1;
+    }
+
+    if (p.team != 'N/A') {
+      teamCounts[p.team] = (teamCounts[p.team] ?? 0) + 1;
+    }
+  }
+
+  final topTeams = teamCounts.entries.toList()
+    ..sort((a, b) => b.value.compareTo(a.value));
+
+  final topMatches = players
+      .where((p) => p.matches != null)
+      .toList()
+    ..sort((a, b) => b.matches!.compareTo(a.matches!));
+
+  final ageEntries = ageCounts.entries.toList()
+    ..sort((a, b) => int.parse(a.key).compareTo(int.parse(b.key)));
+
+  return Column(
+    children: [
+      _buildGoalsPerPlayerChart(topGoals),
+      const SizedBox(height: 20),
+
+      _buildGoalsAssistsChart(topGoals),
+      const SizedBox(height: 20),
+
+      _buildPositionChart(positionCounts),
+      const SizedBox(height: 20),
+
+      _buildAgeChart(ageEntries),
+      const SizedBox(height: 20),
+
+      _buildTeamChart(topTeams.take(10).toList()),
+      const SizedBox(height: 20),
+
+      _buildMatchesChart(topMatches.take(10).toList()),
+    ],
+  );
+}
+
+
+  // ANALYTICS CHARTS
+
+  Widget _buildAnalyticsBarChart({
+    required String title,
+    required List<String> labels,
+    required List<double> values,
+    required Color color,
+    List<double>? secondaryValues,
+    Color secondaryColor = Colors.orange,
+  }) {
+    if (labels.isEmpty || values.isEmpty) {
+      return PremiumPanel(
+        title: title,
+        child: const Text(
+          'No data available.',
+          style: TextStyle(color: mutedColor),
+        ),
+      );
+    }
+
+    double maxValue = 1;
+
+    for (final value in values) {
+      if (value > maxValue) maxValue = value;
+    }
+
+    if (secondaryValues != null) {
+      for (final value in secondaryValues) {
+        if (value > maxValue) maxValue = value;
+      }
+    }
+
+    final groups = labels.asMap().entries.map((entry) {
+      final index = entry.key;
+
+      final rods = <BarChartRodData>[
+        BarChartRodData(
+          toY: values[index],
+          color: color,
+          width: secondaryValues == null ? 16 : 9,
+          borderRadius: BorderRadius.circular(4),
+        ),
+      ];
+
+      if (secondaryValues != null &&
+          index < secondaryValues.length) {
+        rods.add(
+          BarChartRodData(
+            toY: secondaryValues[index],
+            color: secondaryColor,
+            width: 9,
+            borderRadius: BorderRadius.circular(4),
           ),
-          SizedBox(width: 12),
-          Expanded(
-            child: Text(
-              'Les totaux utilisent les valeurs disponibles dans le fichier. '
-              'Les valeurs manquantes ne sont pas remplacées par zéro.',
-              style: TextStyle(
-                color: mutedColor,
-                fontSize: 12,
-                height: 1.5,
+        );
+      }
+
+      return BarChartGroupData(
+        x: index,
+        barsSpace: 4,
+        barRods: rods,
+      );
+    }).toList();
+
+    return PremiumPanel(
+      title: title,
+      child: Column(
+        children: [
+          if (secondaryValues != null)
+            Padding(
+              padding: const EdgeInsets.only(bottom: 15),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    width: 10,
+                    height: 10,
+                    color: color,
+                  ),
+                  const SizedBox(width: 6),
+                  const Text(
+                    'Goals',
+                    style: TextStyle(
+                      color: mutedColor,
+                      fontSize: 11,
+                    ),
+                  ),
+                  const SizedBox(width: 18),
+                  Container(
+                    width: 10,
+                    height: 10,
+                    color: secondaryColor,
+                  ),
+                  const SizedBox(width: 6),
+                  const Text(
+                    'Assists',
+                    style: TextStyle(
+                      color: mutedColor,
+                      fontSize: 11,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          SizedBox(
+            height: 280,
+            child: BarChart(
+              BarChartData(
+                maxY: maxValue * 1.2 + 1,
+                alignment: BarChartAlignment.spaceAround,
+                groupsSpace: 12,
+                borderData: FlBorderData(show: false),
+                gridData: FlGridData(
+                  show: true,
+                  drawVerticalLine: false,
+                  getDrawingHorizontalLine: (value) {
+                    return FlLine(
+                      color: mutedColor.withOpacity(0.12),
+                      strokeWidth: 1,
+                    );
+                  },
+                ),
+                titlesData: FlTitlesData(
+                  topTitles: const AxisTitles(
+                    sideTitles: SideTitles(showTitles: false),
+                  ),
+                  rightTitles: const AxisTitles(
+                    sideTitles: SideTitles(showTitles: false),
+                  ),
+                  leftTitles: AxisTitles(
+                    sideTitles: SideTitles(
+                      showTitles: true,
+                      reservedSize: 35,
+                      getTitlesWidget: (value, meta) {
+                        return Text(
+                          value.toInt().toString(),
+                          style: const TextStyle(
+                            color: mutedColor,
+                            fontSize: 10,
+                          ),
+                        );
+                      },
+                    ),
+                  ),
+                  bottomTitles: AxisTitles(
+                    sideTitles: SideTitles(
+                      showTitles: true,
+                      reservedSize: 45,
+                      getTitlesWidget: (value, meta) {
+                        final index = value.toInt();
+
+                        if (index < 0 || index >= labels.length) {
+                          return const SizedBox();
+                        }
+
+                        final label = labels[index];
+
+                        return Padding(
+                          padding: const EdgeInsets.only(top: 10),
+                          child: Text(
+                            label.length > 8
+                                ? '${label.substring(0, 7)}...'
+                                : label,
+                            style: const TextStyle(
+                              color: mutedColor,
+                              fontSize: 9,
+                            ),
+                          ),
+                        );
+                      },
+                    ),
+                  ),
+                ),
+                barGroups: groups,
               ),
             ),
           ),
         ],
       ),
+    );
+  }
+
+  // 1. Goals per Player
+
+  Widget _buildGoalsPerPlayerChart(List<Player> players) {
+    return _buildAnalyticsBarChart(
+      title: 'Goals per Player',
+      labels: players.map((p) => p.name).toList(),
+      values: players.map((p) => p.goals ?? 0).toList(),
+      color: greenColor,
+    );
+  }
+
+  // 2. Goals vs Assists
+
+  Widget _buildGoalsAssistsChart(List<Player> players) {
+    return _buildAnalyticsBarChart(
+      title: 'Goals vs Assists',
+      labels: players.map((p) => p.name).toList(),
+      values: players.map((p) => p.goals ?? 0).toList(),
+      secondaryValues: players.map((p) => p.assists ?? 0).toList(),
+      color: greenColor,
+      secondaryColor: Colors.orange,
+    );
+  }
+
+  // 3. Players per Position
+
+  Widget _buildPositionChart(Map<String, int> positionCounts) {
+    final entries = positionCounts.entries.toList();
+
+    if (entries.isEmpty) {
+      return PremiumPanel(
+        title: 'Players per Position',
+        child: const Text(
+          'No position data available.',
+          style: TextStyle(color: mutedColor),
+        ),
+      );
+    }
+
+    final colors = [
+      greenColor,
+      Colors.blue,
+      Colors.orange,
+      Colors.purple,
+      Colors.red,
+      Colors.teal,
+    ];
+
+    return PremiumPanel(
+      title: 'Players per Position',
+      child: Column(
+        children: [
+          SizedBox(
+            height: 240,
+            child: PieChart(
+              PieChartData(
+                centerSpaceRadius: 40,
+                sectionsSpace: 3,
+                sections: entries.asMap().entries.map((entry) {
+                  final index = entry.key;
+                  final item = entry.value;
+
+                  return PieChartSectionData(
+                    value: item.value.toDouble(),
+                    color: colors[index % colors.length],
+                    title: '${item.value}',
+                    radius: 85,
+                    titleStyle: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 12,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  );
+                }).toList(),
+              ),
+            ),
+          ),
+          const SizedBox(height: 15),
+          Wrap(
+            spacing: 15,
+            runSpacing: 10,
+            children: entries.asMap().entries.map((entry) {
+              final index = entry.key;
+              final item = entry.value;
+
+              return Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Container(
+                    width: 9,
+                    height: 9,
+                    decoration: BoxDecoration(
+                      color: colors[index % colors.length],
+                      shape: BoxShape.circle,
+                    ),
+                  ),
+                  const SizedBox(width: 5),
+                  Text(
+                    '${item.key}: ${item.value}',
+                    style: const TextStyle(
+                      color: mutedColor,
+                      fontSize: 11,
+                    ),
+                  ),
+                ],
+              );
+            }).toList(),
+          ),
+        ],
+      ),
+    );
+  }
+
+  // 4. Players per Age
+
+  Widget _buildAgeChart(List<MapEntry<String, int>> ageEntries) {
+    return _buildAnalyticsBarChart(
+      title: 'Players per Age',
+      labels: ageEntries.map((e) => e.key).toList(),
+      values: ageEntries.map((e) => e.value.toDouble()).toList(),
+      color: Colors.blue,
+    );
+  }
+
+  // 5. Players per Team
+
+  Widget _buildTeamChart(List<MapEntry<String, int>> teamEntries) {
+    return _buildAnalyticsBarChart(
+      title: 'Top 10 Players per Team',
+      labels: teamEntries.map((e) => e.key).toList(),
+      values: teamEntries.map((e) => e.value.toDouble()).toList(),
+      color: Colors.purple,
+    );
+  }
+
+  // 6. Matches Played per Player
+
+  Widget _buildMatchesChart(List<Player> players) {
+    return _buildAnalyticsBarChart(
+      title: 'Matches Played per Player',
+      labels: players.map((p) => p.name).toList(),
+      values: players.map((p) => p.matches ?? 0).toList(),
+      color: Colors.orange,
     );
   }
 
@@ -1478,100 +1959,163 @@ class _PlayersPageContentState extends State<PlayersPageContent> {
     );
   }
 
-  Widget _playerCard(Player player) {
-    return Container(
-      margin: const EdgeInsets.only(bottom: 13),
-      child: PremiumPanel(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
-              children: [
-                Container(
-                  width: 43,
-                  height: 43,
-                  decoration: BoxDecoration(
-                    gradient: const LinearGradient(
-                      colors: [greenColor, cyanColor],
-                    ),
-                    borderRadius: BorderRadius.circular(13),
-                  ),
-                  child: const Icon(
-                    Icons.person_rounded,
-                    color: Color(0xFF07111B),
-                  ),
-                ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        player.name,
-                        style: const TextStyle(
-                          fontSize: 15,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      const SizedBox(height: 4),
-                      Text(
-                        '${player.team} • ${player.league}',
-                        style: const TextStyle(
-                          color: mutedColor,
-                          fontSize: 11,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                Container(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 11,
-                    vertical: 7,
-                  ),
-                  decoration: BoxDecoration(
-                    color: greenColor.withOpacity(0.12),
-                    borderRadius: BorderRadius.circular(9),
-                  ),
-                  child: Text(
-                    player.position,
-                    style: const TextStyle(
-                      color: greenColor,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 12,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 18),
-            const Divider(color: Colors.white10),
-            const SizedBox(height: 13),
-            Wrap(
-              spacing: 12,
-              runSpacing: 15,
-              children: [
-                _smallStat('Goals', player.goals, greenColor),
-                _smallStat('Assists', player.assists, cyanColor),
-                _smallStat(
-                    'G+A/Match', player.goalsAssistsPerMatch, purpleColor),
-                _smallStat('Starts', player.starts, cyanColor),
-                _smallStat('Yellow', player.yellowCards, purpleColor),
-                _smallStat('Red', player.redCards, greenColor),
-                _smallStat(
-                  'Goals - xG',
-                  player.goals != null && player.xG != null
-                      ? player.efficiency
-                      : null,
-                  greenColor,
-                ),
-              ],
-            ),
-          ],
-        ),
+  
+  
+Widget _playerCard(Player player) {
+  return Container(
+    margin: const EdgeInsets.only(bottom: 10),
+    padding: const EdgeInsets.all(13),
+    decoration: BoxDecoration(
+      gradient: const LinearGradient(
+        begin: Alignment.topLeft,
+        end: Alignment.bottomRight,
+        colors: [cardLight, cardColor],
       ),
-    );
-  }
+      borderRadius: BorderRadius.circular(15),
+      border: Border.all(
+        color: Colors.white.withOpacity(0.07),
+      ),
+      boxShadow: [
+        BoxShadow(
+          color: Colors.black.withOpacity(0.12),
+          blurRadius: 10,
+          offset: const Offset(0, 4),
+        ),
+      ],
+    ),
+    child: InkWell(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (_) => PlayerDetailsPage(player: player),
+          ),
+        );
+      },
+      borderRadius: BorderRadius.circular(12),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Container(
+                width: 36,
+                height: 36,
+                decoration: BoxDecoration(
+                  gradient: const LinearGradient(
+                    colors: [greenColor, cyanColor],
+                  ),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: const Icon(
+                  Icons.person_rounded,
+                  color: Color(0xFF07111B),
+                  size: 20,
+                ),
+              ),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      player.name,
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: const TextStyle(
+                        fontSize: 13,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const SizedBox(height: 3),
+                    Text(
+                      '${player.team} • ${player.league}',
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: const TextStyle(
+                        color: mutedColor,
+                        fontSize: 10,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Container(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 9,
+                  vertical: 5,
+                ),
+                decoration: BoxDecoration(
+                  color: greenColor.withOpacity(0.12),
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: Text(
+                  player.position,
+                  style: const TextStyle(
+                    color: greenColor,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 10,
+                  ),
+                ),
+              ),
+            ],
+          ),
+
+          const SizedBox(height: 11),
+          const Divider(color: Colors.white10, height: 1),
+          const SizedBox(height: 11),
+
+          Wrap(
+            spacing: 8,
+            runSpacing: 10,
+            children: [
+              _smallStat('Goals', player.goals, greenColor),
+              _smallStat('Assists', player.assists, cyanColor),
+              _smallStat('G+A/Match', player.goalsAssistsPerMatch, purpleColor),
+              _smallStat('Starts', player.starts, cyanColor),
+              _smallStat('Yellow', player.yellowCards, purpleColor),
+              _smallStat('Red', player.redCards, greenColor),
+              _smallStat(
+                'Goals - xG',
+                player.goals != null && player.xG != null
+                    ? player.efficiency
+                    : null,
+                greenColor,
+              ),
+            ],
+          ),
+
+          const SizedBox(height: 9),
+
+          const Align(
+            alignment: Alignment.centerRight,
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  'VIEW ANALYSIS',
+                  style: TextStyle(
+                    color: greenColor,
+                    fontSize: 9,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                SizedBox(width: 4),
+                Icon(
+                  Icons.arrow_forward_rounded,
+                  color: greenColor,
+                  size: 13,
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    ),
+  );
+}
+
+
 
   Widget _smallStat(String label, double? value, Color color) {
     return SizedBox(
@@ -1601,9 +2145,795 @@ class _PlayersPageContentState extends State<PlayersPageContent> {
   }
 }
 
+class PlayerDetailsPage extends StatelessWidget {
+  final Player player;
+
+  const PlayerDetailsPage({
+    super.key,
+    required this.player,
+  });
+
+  Widget _statCard(String title, double? value, Color color) {
+    return PremiumPanel(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            title,
+            style: const TextStyle(
+              color: mutedColor,
+              fontSize: 11,
+            ),
+          ),
+          const SizedBox(height: 10),
+          Text(
+            value == null ? 'N/A' : value.toStringAsFixed(1),
+            style: TextStyle(
+              color: color,
+              fontSize: 23,
+              fontWeight: FontWeight.w900,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: bgColor,
+      appBar: AppBar(
+        backgroundColor: bgColor,
+        foregroundColor: Colors.white,
+        elevation: 0,
+        title: const Text(
+          'Player Analysis',
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
+      ),
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            PremiumPanel(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Container(
+                        width: 65,
+                        height: 65,
+                        decoration: BoxDecoration(
+                          gradient: const LinearGradient(
+                            colors: [greenColor, cyanColor],
+                          ),
+                          borderRadius: BorderRadius.circular(18),
+                        ),
+                        child: const Icon(
+                          Icons.person_rounded,
+                          size: 35,
+                          color: Color(0xFF07111B),
+                        ),
+                      ),
+                      const SizedBox(width: 15),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              player.name,
+                              style: const TextStyle(
+                                fontSize: 21,
+                                fontWeight: FontWeight.w900,
+                              ),
+                            ),
+                            const SizedBox(height: 6),
+                            Text(
+                              '${player.team} • ${player.position}',
+                              style: const TextStyle(
+                                color: mutedColor,
+                                fontSize: 12,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 20),
+                  const Divider(color: Colors.white10),
+                  const SizedBox(height: 12),
+                  Text(
+                    'League: ${player.league}',
+                    style: const TextStyle(color: mutedColor),
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    'Nation: ${player.nation}',
+                    style: const TextStyle(color: mutedColor),
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    'Age: ${player.age?.toStringAsFixed(0) ?? 'N/A'}',
+                    style: const TextStyle(color: mutedColor),
+                  ),
+                ],
+              ),
+            ),
+
+            const SizedBox(height: 25),
+
+            const Text(
+              'Performance Statistics',
+              style: TextStyle(
+                fontSize: 19,
+                fontWeight: FontWeight.w900,
+              ),
+            ),
+
+            const SizedBox(height: 15),
+
+            
+GridView.count(
+  crossAxisCount: 4,
+  shrinkWrap: true,
+  physics: const NeverScrollableScrollPhysics(),
+  crossAxisSpacing: 3,
+  mainAxisSpacing: 3,
+  childAspectRatio: 2.0,
+  children: [
+    _statCard('Goals', player.goals, greenColor),
+    _statCard('Assists', player.assists, cyanColor),
+    _statCard('Matches', player.matches, purpleColor),
+    _statCard('Starts', player.starts, cyanColor),
+    _statCard('Expected Goals (xG)', player.xG, greenColor),
+    _statCard(
+      'Goals - xG',
+      player.goals != null && player.xG != null
+          ? player.efficiency
+          : null,
+      purpleColor,
+    ),
+    _statCard('G+A / Match', player.goalsAssistsPerMatch, cyanColor),
+    _statCard('Yellow Cards', player.yellowCards, purpleColor),
+    _statCard('Red Cards', player.redCards, greenColor),
+  ],
+),
+
+
+            const SizedBox(height: 25),
+
+            PremiumPanel(
+              title: 'Discipline Analysis',
+              child: Column(
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      const Text(
+                        'Yellow Cards',
+                        style: TextStyle(color: mutedColor),
+                      ),
+                      Text(
+                        player.yellowCards?.toStringAsFixed(0) ?? 'N/A',
+                        style: const TextStyle(
+                          color: purpleColor,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 15),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      const Text(
+                        'Red Cards',
+                        style: TextStyle(color: mutedColor),
+                      ),
+                      Text(
+                        player.redCards?.toStringAsFixed(0) ?? 'N/A',
+                        style: const TextStyle(
+                          color: greenColor,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
 // ======================================================
 // COMPARE PAGE
 // ======================================================
+
+class TeamsPageContent extends StatefulWidget {
+  final List<Player> players;
+
+  const TeamsPageContent({super.key, required this.players});
+
+  @override
+  State<TeamsPageContent> createState() => _TeamsPageContentState();
+}
+
+class _TeamsPageContentState extends State<TeamsPageContent> {
+  String selectedLeague = 'All';
+  String selectedCountry = 'All';
+
+  List<String> get leagues {
+    final values = widget.players
+        .map((p) => p.league)
+        .where((v) => v.trim().isNotEmpty)
+        .toSet()
+        .toList();
+    values.sort();
+    return ['All', ...values];
+  }
+
+  List<String> get countries {
+    final values = widget.players
+        .map((p) => p.nation)
+        .where((v) => v.trim().isNotEmpty)
+        .toSet()
+        .toList();
+    values.sort();
+    return ['All', ...values];
+  }
+
+  List<Player> get filteredPlayers {
+    return widget.players.where((p) {
+      final leagueOk =
+          selectedLeague == 'All' || p.league == selectedLeague;
+      final countryOk =
+          selectedCountry == 'All' || p.nation == selectedCountry;
+      return leagueOk && countryOk;
+    }).toList();
+  }
+
+  List<_TeamsAnalysisStats> get teams {
+    final Map<String, List<Player>> grouped = {};
+
+    for (final player in filteredPlayers) {
+      final team = player.team.trim();
+
+      if (team.isEmpty || team.toLowerCase() == 'n/a') continue;
+
+      grouped.putIfAbsent(team, () => []).add(player);
+    }
+
+    return grouped.entries.map((entry) {
+      final players = entry.value;
+
+      return _TeamsAnalysisStats(
+        name: entry.key,
+        players: players.length,
+        goals: players.fold(0.0, (sum, p) => sum + (p.goals ?? 0)),
+        assists: players.fold(0.0, (sum, p) => sum + (p.assists ?? 0)),
+        xG: players.fold(0.0, (sum, p) => sum + (p.xG ?? 0)),
+        yellowCards: players.fold(
+            0.0, (sum, p) => sum + (p.yellowCards ?? 0)),
+        redCards: players.fold(
+            0.0, (sum, p) => sum + (p.redCards ?? 0)),
+      );
+    }).toList();
+  }
+
+  List<MapEntry<String, double>> get leagueGoals {
+    final Map<String, double> values = {};
+
+    for (final player in filteredPlayers) {
+      if (player.league.trim().isEmpty) continue;
+
+      values.update(
+        player.league,
+        (value) => value + (player.goals ?? 0),
+        ifAbsent: () => player.goals ?? 0,
+      );
+    }
+
+    final result = values.entries.toList()
+      ..sort((a, b) => b.value.compareTo(a.value));
+
+    return result.take(10).toList();
+  }
+
+  double get totalGoals =>
+      teams.fold(0.0, (sum, team) => sum + team.goals);
+
+  double get totalAssists =>
+      teams.fold(0.0, (sum, team) => sum + team.assists);
+
+  double get averageXg {
+    if (filteredPlayers.isEmpty) return 0;
+
+    final total = filteredPlayers.fold(
+      0.0,
+      (sum, p) => sum + (p.xG ?? 0),
+    );
+
+    return total / filteredPlayers.length;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final teamList = teams;
+
+    final topGoals = [...teamList]
+      ..sort((a, b) => b.goals.compareTo(a.goals));
+
+    final topAssists = [...teamList]
+      ..sort((a, b) => b.assists.compareTo(a.assists));
+
+    final topPlayers = [...teamList]
+      ..sort((a, b) => b.players.compareTo(a.players));
+
+    final topCards = [...teamList]
+      ..sort((a, b) =>
+          (b.yellowCards + b.redCards).compareTo(
+              a.yellowCards + a.redCards));
+
+    return SingleChildScrollView(
+      padding: const EdgeInsets.all(20),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text(
+            'Teams Analysis',
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 26,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          const SizedBox(height: 6),
+          const Text(
+            'Analyze team performance and statistics',
+            style: TextStyle(color: mutedColor, fontSize: 13),
+          ),
+          const SizedBox(height: 22),
+
+          // FILTERS
+          Wrap(
+            spacing: 15,
+            runSpacing: 12,
+            children: [
+              _buildFilter(
+                'League',
+                selectedLeague,
+                leagues,
+                (value) => setState(() => selectedLeague = value!),
+              ),
+              _buildFilter(
+                'Country',
+                selectedCountry,
+                countries,
+                (value) => setState(() => selectedCountry = value!),
+              ),
+            ],
+          ),
+
+          const SizedBox(height: 22),
+
+          // KPI CARDS
+          LayoutBuilder(
+            builder: (context, constraints) {
+              final cardWidth =
+                  (constraints.maxWidth - 16) / 2;
+
+              return Wrap(
+                spacing: 16,
+                runSpacing: 16,
+                children: [
+                  _buildKpi(
+                    'Total Teams',
+                    '${teamList.length}',
+                    Icons.groups_rounded,
+                    cyanColor,
+                    cardWidth,
+                  ),
+                  _buildKpi(
+                    'Total Goals',
+                    totalGoals.toStringAsFixed(0),
+                    Icons.sports_soccer_rounded,
+                    greenColor,
+                    cardWidth,
+                  ),
+                  _buildKpi(
+                    'Total Assists',
+                    totalAssists.toStringAsFixed(0),
+                    Icons.assistant_rounded,
+                    purpleColor,
+                    cardWidth,
+                  ),
+                  _buildKpi(
+                    'Avg xG',
+                    averageXg.toStringAsFixed(2),
+                    Icons.analytics_rounded,
+                    Colors.orangeAccent,
+                    cardWidth,
+                  ),
+                ],
+              );
+            },
+          ),
+
+          const SizedBox(height: 25),
+
+          // CHART 1
+          _TeamsBarChart(
+            title: 'Top 10 Teams by Goals',
+            data: topGoals.take(10)
+                .map((e) => MapEntry(e.name, e.goals))
+                .toList(),
+            color: greenColor,
+          ),
+
+          const SizedBox(height: 18),
+
+          // CHART 2
+          _TeamsBarChart(
+            title: 'Top 10 Teams by Assists',
+            data: topAssists.take(10)
+                .map((e) => MapEntry(e.name, e.assists))
+                .toList(),
+            color: cyanColor,
+          ),
+
+          const SizedBox(height: 18),
+
+          // CHART 3
+          _buildGoalsVsXg(topGoals.take(10).toList()),
+
+          const SizedBox(height: 18),
+
+          // CHART 4
+          _TeamsBarChart(
+            title: 'Players Distribution by Team',
+            data: topPlayers.take(10)
+                .map((e) => MapEntry(
+                    e.name, e.players.toDouble()))
+                .toList(),
+            color: purpleColor,
+          ),
+
+          const SizedBox(height: 18),
+
+          // CHART 5
+          _TeamsBarChart(
+            title: 'Teams Performance by League',
+            data: leagueGoals,
+            color: Colors.orangeAccent,
+          ),
+
+          const SizedBox(height: 18),
+
+          // CHART 6
+          _TeamsBarChart(
+            title: 'Cards Distribution by Team',
+            data: topCards.take(10)
+                .map((e) => MapEntry(
+                    e.name, e.yellowCards + e.redCards))
+                .toList(),
+            color: Colors.redAccent,
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildFilter(
+    String label,
+    String value,
+    List<String> options,
+    ValueChanged<String?> onChanged,
+  ) {
+    return SizedBox(
+      width: 220,
+      child: DropdownButtonFormField<String>(
+        value: value,
+        dropdownColor: cardColor,
+        style: const TextStyle(color: Colors.white),
+        decoration: InputDecoration(
+          labelText: label,
+          labelStyle: const TextStyle(color: mutedColor),
+          filled: true,
+          fillColor: cardColor,
+          border: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(12),
+          ),
+          enabledBorder: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(12),
+            borderSide: const BorderSide(color: cardLight),
+          ),
+        ),
+        items: options.map((option) {
+          return DropdownMenuItem(
+            value: option,
+            child: Text(
+              option,
+              overflow: TextOverflow.ellipsis,
+            ),
+          );
+        }).toList(),
+        onChanged: onChanged,
+      ),
+    );
+  }
+
+  Widget _buildKpi(
+    String title,
+    String value,
+    IconData icon,
+    Color color,
+    double width,
+  ) {
+    return Container(
+      width: width,
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: cardColor,
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: cardLight),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Icon(icon, color: color, size: 25),
+          const SizedBox(height: 12),
+          Text(
+            value,
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 23,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          const SizedBox(height: 4),
+          Text(
+            title,
+            style: const TextStyle(
+              color: mutedColor,
+              fontSize: 12,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildGoalsVsXg(List<_TeamsAnalysisStats> data) {
+    final maxValue = data.isEmpty
+        ? 1.0
+        : data.fold(
+              1.0,
+              (max, e) =>
+                  e.goals > e.xG
+                      ? (e.goals > max ? e.goals : max)
+                      : (e.xG > max ? e.xG : max),
+            );
+
+    return Container(
+      padding: const EdgeInsets.all(18),
+      decoration: BoxDecoration(
+        color: cardColor,
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: cardLight),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text(
+            'Goals vs xG',
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 17,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          const SizedBox(height: 15),
+          const Row(
+            children: [
+              Icon(Icons.circle, color: greenColor, size: 9),
+              SizedBox(width: 5),
+              Text('Goals',
+                  style: TextStyle(color: mutedColor, fontSize: 11)),
+              SizedBox(width: 15),
+              Icon(Icons.circle, color: cyanColor, size: 9),
+              SizedBox(width: 5),
+              Text('xG',
+                  style: TextStyle(color: mutedColor, fontSize: 11)),
+            ],
+          ),
+          const SizedBox(height: 16),
+          if (data.isEmpty)
+            const Text('No data available',
+                style: TextStyle(color: mutedColor))
+          else
+            ...data.map((team) {
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 14),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      team.name,
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 12,
+                      ),
+                    ),
+                    const SizedBox(height: 6),
+                    _comparisonBar(
+                        team.goals, maxValue, greenColor),
+                    const SizedBox(height: 4),
+                    _comparisonBar(
+                        team.xG, maxValue, cyanColor),
+                  ],
+                ),
+              );
+            }),
+        ],
+      ),
+    );
+  }
+
+  Widget _comparisonBar(double value, double maxValue, Color color) {
+    return Row(
+      children: [
+        Expanded(
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(8),
+            child: LinearProgressIndicator(
+              value: (value / maxValue).clamp(0.0, 1.0),
+              minHeight: 7,
+              backgroundColor: cardLight,
+              valueColor: AlwaysStoppedAnimation<Color>(color),
+            ),
+          ),
+        ),
+        const SizedBox(width: 8),
+        SizedBox(
+          width: 35,
+          child: Text(
+            value.toStringAsFixed(1),
+            style: const TextStyle(
+              color: mutedColor,
+              fontSize: 10,
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class _TeamsAnalysisStats {
+  final String name;
+  final int players;
+  final double goals;
+  final double assists;
+  final double xG;
+  final double yellowCards;
+  final double redCards;
+
+  _TeamsAnalysisStats({
+    required this.name,
+    required this.players,
+    required this.goals,
+    required this.assists,
+    required this.xG,
+    required this.yellowCards,
+    required this.redCards,
+  });
+}
+
+class _TeamsBarChart extends StatelessWidget {
+  final String title;
+  final List<MapEntry<String, double>> data;
+  final Color color;
+
+  const _TeamsBarChart({
+    required this.title,
+    required this.data,
+    required this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final maxValue = data.isEmpty
+        ? 1.0
+        : data.fold<double>(
+            1.0,
+            (max, item) => item.value > max ? item.value : max,
+          );
+
+    return Container(
+      padding: const EdgeInsets.all(18),
+      decoration: BoxDecoration(
+        color: cardColor,
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: cardLight),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            title,
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 17,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          const SizedBox(height: 18),
+          if (data.isEmpty)
+            const Text(
+              'No data available',
+              style: TextStyle(color: mutedColor),
+            )
+          else
+            ...data.map((item) {
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 13),
+                child: Row(
+                  children: [
+                    SizedBox(
+                      width: 115,
+                      child: Text(
+                        item.key,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 11,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(8),
+                        child: LinearProgressIndicator(
+                          value: (item.value / maxValue)
+                              .clamp(0.0, 1.0),
+                          minHeight: 9,
+                          backgroundColor: cardLight,
+                          valueColor:
+                              AlwaysStoppedAnimation<Color>(color),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                    SizedBox(
+                      width: 35,
+                      child: Text(
+                        item.value.toStringAsFixed(0),
+                        textAlign: TextAlign.end,
+                        style: const TextStyle(
+                          color: mutedColor,
+                          fontSize: 11,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              );
+            }),
+        ],
+      ),
+    );
+  }
+}
 
 class ComparePageContent extends StatefulWidget {
   final List<Player> players;
